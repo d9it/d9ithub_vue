@@ -21,7 +21,7 @@ body{
      padding: 20px;
      font-weight: 600;
 }
-.navbar-light .navbar-nav .nav-link.router-link-active{
+.navbar-light .navbar-nav .active .nav-link{
     color: #084ba2;
     font-weight: 700;
     border-bottom: 5px solid #084ba2;
