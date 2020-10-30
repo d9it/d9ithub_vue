@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="<%= BASE_URL %>assets/d9_images/d9ithubfavicon.png">
+		<title>D9ithub</title>
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+		
+		<!-- latest bootstrap 4 css and js-->
+		<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+			<!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+			<!-- Icon font-->
+			<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'>
+			<link rel="stylesheet" href="/assets/css/mistCarousel.css">
+			<!-- Home ourteam css-->
+			<link href="/assets/css/mislider.css" rel="stylesheet">
+			<link href="/assets/css/mislider-skin-cameo.css" rel="stylesheet">
+
+			<link rel="stylesheet" href="/assets/css/style_new.css"/>
+			<link rel="stylesheet" href="/assets/css/responsive.css"/>
+		<!-- end latest bootstrap 4 css and js-->
+
+	</head>
+	<body class="">
+		<noscript>
+			<strong>We're sorry but d9ithub doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ></a>
+		<!-- built files will be auto injected -->
+
+		<!-- jQuery library -->
+		<script src="/assets/js/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="/assets/js/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/jquery-migrate-1.1.0.js"></script>
+		<!-- jQuery library -->
+
+		<!-- start home main slider js-->
+		<script src="/assets/js/mistCarousel.js"></script>
+		<!-- end home main slider js -->
+
+		<!-- Home our team javascript-->
+		<script src="/assets/js/mislider.js"></script>
+
+		<script>
+			$(window).scroll(function() {    
+				var scroll = $(window).scrollTop();
+				//console.log(scroll);
+				if (scroll >= 50) {
+					//console.log('a');
+					$(".sticky-top").addClass("background_color");
+				} else {
+					//console.log('a');
+					$(".sticky-top").removeClass("background_color");
+				}
+			});
+		</script>
+	</body>
+</html>

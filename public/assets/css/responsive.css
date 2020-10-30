@@ -1,0 +1,194 @@
+@media (max-width: 1920px) 
+{
+
+}
+@media (max-width: 1880px)
+{
+
+}
+@media (max-width: 1787px) 
+{
+
+}
+@media (max-width: 1708px) 
+{
+
+}
+@media (max-width: 1600px) 
+{
+
+}
+@media (max-width: 1525px) 
+{
+
+    
+}
+@media (max-width: 1440px) 
+{
+
+}
+@media (max-width: 1366px) 
+{
+    .homeservice_content .text_big{font-size: 100px; line-height: 100px;}
+    .mis-slider {margin-top: 70px;}
+}
+@media (max-width: 1330px) 
+{ 
+
+}
+@media (max-width: 1200px) 
+{
+    .about_us .decor-text-1{left: auto;right: 0;}
+    .home_about_us.home_testimonial .row{ margin-right: 0px;}
+    .home_innerportfolio, .home_portfolio { height: 600px;}
+    .flex_item { height: auto;}
+    .home_abouttext {margin: 0% 8% 6% 8%;}
+    .right_about_slide { height: 450px;}
+    .mis-slider {margin-top: 50px;}
+    .home_about_us.home_testimonial .decor-text-1 {font-size: 130px;}
+    .home_ourteam .decor-text-1{left: calc(20%);font-size: 140px;line-height: normal; z-index: 0;}
+    .text_background {left: 3%;font-size: 120px;}
+    .text_big {font-size: 40px;}
+}
+@media (max-width: 1152px) 
+{
+    .homeservice_content .text_big {font-size: 90px;line-height: 90px;}
+    .homeservice_content .text_normal {font-size: 15px;line-height: 25px; min-height: 100px;}
+    .decor-text-1 { font-size: 140px;}
+    .text_big {font-size: 35px;letter-spacing:5px;}
+    .home_about_us.home_testimonial .right_about_slide { width: 80%;}
+    .home_about_us.home_testimonial .right_about_slide:before {font-size: 30px;left: 0%; top: -15%;}
+}
+@media (max-width: 1067px) 
+{
+
+}
+@media (max-width: 1028px) 
+{
+
+}
+@media (max-width: 1024px) 
+{
+    .mistify__slide-title, .mistify__info-title {font-size: 40px;}
+    .mistify__slide-description, .mistify__info-description { font-size: 18px;}
+    .mistify__arrows {left: 5%; top: 41%;}
+    .mistify__info-container {max-width: 39%;left: 6%; top: 50%;}
+    h3.devider-bottom { font-size: 30px;}
+    .home_abouttext p {font-size: 15px;font-weight: 300; letter-spacing: inherit;line-height: 24px;}
+    .homeservice_content .text_big { font-size: 80px;}
+    .footer-top .footer-box {padding: 20px 20px 20px;}
+}
+@media (max-width:980px) 
+{
+    .custom-toggler.navbar-toggler { border-color: #084ba2;  background:#084ba2;}
+    .custom-toggler .navbar-toggler-icon {  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+    .sticky-top {position: absolute;background: #ffffff; box-shadow: 0px 2px 8px rgba(0,0,0,0.2);}
+    .navbar-light .navbar-nav .nav-link {padding: 12px 10px;}
+    .navbar-nav .dropdown-menu {display: block; box-shadow: none; padding-left: 25px !important;}
+    .block-decorate-img img { margin: 0 auto 30px; display: none;width:50%;}
+    .home_abouttext {margin: 0% 1% 3% 0%; text-align: center;}
+    .right_about_slide {height: 300px;}
+    .portfolio_item_left, .portfolio_item_right { width: 100%;}
+    .portfolio_item_right { display: none;}
+    .mobile_img { display: block;width: 60%; margin: 0 auto 3%;}
+    .homeportfolio_content { width: 86%; margin-left:7%;}
+    .home_innerportfolio, .home_portfolio {height: 850px;}
+    .slider__navi {right: 10px;}
+    .home_about_us.home_testimonial .block-decorate-img { display: none;}
+    .home_about_us.home_testimonial .right_about_slide { height: 200px;}
+    .home_about_us.home_testimonial .right_about_slide:before {top: -20%;}
+    .home_about_us.home_testimonial, .home_services { height: auto;}
+    .footer-main {padding: 36% 1px 20px;}
+
+}
+@media (max-width:800px) 
+{
+
+}
+@media (max-width:768px) 
+{
+
+}
+@media (max-width:767px) 
+{
+    .mistify__dots-container { display: none;}
+    .mistify__info-container {max-width: 60%; padding: 16px 16px; background: #ffffffa8;}
+    .mistify__arrows { left: 0;}
+    .services_warpper .carousel-control-prev{ left: -40px;}
+    .services_warpper .carousel-control-next{ right: -40px;}
+    .homeservice_content .text_big { font-size: 60px; line-height: 60px;}
+    .homeservice_content .text_normal { font-size: 15px;line-height: 20px; min-height: 100px;  width: 100%;}
+    .home_innerportfolio, .home_portfolio { height: 750px;}
+    .footer-main { padding: 45% 1px 20px;}
+    .contact-box.form-box {width: 100%;} 
+    .contact-box.info-box { display: none;}
+}
+@media (max-width:736px) 
+{
+
+}
+@media (max-width:667px) 
+{
+
+}
+@media (max-width:640px) 
+{
+    .right_about_slide {height: 370px;}
+    .footer-top .footer-box{ min-height: auto}
+}
+@media (max-width:600px) 
+{
+
+}
+@media (max-width:568px) 
+{
+    .footer-main { padding: 50% 1px 20px;}
+    .home_services {padding: 24px 32px;}
+}
+@media (max-width:536px) 
+{
+
+}
+@media (max-width:480px) 
+{
+    .homeservice_content .text_big { font-size: 40px; line-height: 40px;}
+    .footer-top .footer-box {padding: 7px 20px 2px;}
+    .decor-text-1 { font-size: 90px;}
+    .mis-nav-buttons { display: none !important;}
+    .home_about_us.home_testimonial .right_about_slide {height: 260px;}
+}
+@media (max-width:414px) 
+{
+    .mistify__info-container { max-width: 100%; padding: 16px 30px; background: #ffffffa8;}
+    .right_about_slide { height: auto;}
+    .homeservice_content .text_normal { height: auto; margin-bottom: 40px;}
+    .text_big { font-size: 20px;}
+}
+@media (max-width:412px)
+{
+
+}
+@media (max-width: 384px)
+{
+
+}
+@media (max-width:375px) 
+{
+    .text_normal ul li{font-size:12px;}
+    .text_normal ul li i { width: 45px; height: 45px;font-size:20px;line-height:45px; }
+    .homeportfolio_content { width: 80%; margin-left: 7%;}
+    .mobile_img { width: 80%;}
+    .text_normal {line-height: 20px;}
+    .mis-slide {padding: 40px 0px;}
+    .footer-top .footer-box i { font-size: 20px; width: 50px; height: 50px; line-height: 50px;}
+    .footer-top .footer-box .footer-box-content { margin-left: 65px;}
+    .footer-main {padding: 60% 1px 20px;}
+}
+@media (max-width:360px) 
+{
+
+}
+@media (max-width:320px) 
+{
+
+}
