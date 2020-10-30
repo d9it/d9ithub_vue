@@ -11,31 +11,31 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <router-link to="/" v-scroll-to="'#home'" class="nav-link">Home</router-link>
+                    <ul class="navbar-nav ml-auto" id="navbarTab">
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'home'}" @click="setRouteActive('home')">
+                            <router-link to="/" id="home" v-scroll-to="'#home'" class="nav-link">Home</router-link>
                         </li>
-                        <li class="nav-item">
-                            <router-link to="/?about" v-scroll-to="'#aboutus'" class="nav-link">About Us</router-link>
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'aboutus'}" @click="setRouteActive('aboutus')">
+                            <router-link to="/#aboutus" v-scroll-to="'#aboutus'" class="nav-link">About Us</router-link>
                         </li>
-                        <li class="nav-item">
-                            <router-link to="/?ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')">
+                            <router-link to="/#ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
                         </li>
-                        <li class="nav-item dropdown">
-                            <router-link to="/?portfolio" v-scroll-to="'#portfolio'" class="nav-link dropdown-toggle" >Portfolio</router-link>
+                        <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" @click="setRouteActive('portfolio')">
+                            <router-link to="/#portfolio" v-scroll-to="'#portfolio'" class="nav-link dropdown-toggle" >Portfolio</router-link>
                             <ul class="dropdown-menu" >
-                                <li><router-link class="dropdown-item" to="/Php">Web Development</router-link></li>
-                                <li><router-link class="dropdown-item" to="/webdesign">Graphics & Wesite Design</router-link></li>
+                                <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/Php">Web Development</router-link></li>
+                                <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/webdesign">Graphics & Wesite Design</router-link></li>
                             </ul> 
                         </li>
-                        <li>
-                            <router-link to="/?ourTeam" v-scroll-to="'#ourTeam'" class="nav-link">Our Team</router-link>
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourTeam'}" @click="setRouteActive('ourTeam')">
+                            <router-link to="/#ourTeam" v-scroll-to="'#ourTeam'" class="nav-link">Our Team</router-link>
                         </li>
-                        <li class="nav-item">
-                            <router-link to="/?testimonial" v-scroll-to="'#testimonial'" class="nav-link">Testimonial</router-link>
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'testimonial'}" @click="setRouteActive('testimonial')">
+                            <router-link to="/#testimonial" v-scroll-to="'#testimonial'" class="nav-link">Testimonial</router-link>
                         </li>
-                        <li class="nav-item">
-                            <router-link to="/?contactus" v-scroll-to="'#contactus'" class="nav-link">Contact Us</router-link>
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'contactus'}" @click="setRouteActive('contactus')">
+                            <router-link to="/#contactus" v-scroll-to="'#contactus'" class="nav-link">Contact Us</router-link>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" v-scroll-to="'#ourService'"> Our Services </a>
@@ -58,12 +58,26 @@
 <script>
     export default {
         data: () => ({
-                show: false
+                show: false,
             }),
         methods: {
             falseShow () {
                 this.show = false
+            },
+            setRouteActive(route){
+                this.$v_session.set('activeRoute', route)
+                this.$store.state.activeRoute = route; 
             }
-        },            
+        },
+        mounted() {
+            if(this.$v_session.has('activeRoute')){
+                this.$store.state.activeRoute = this.$v_session.get('activeRoute')
+            }
+        },  
+        watch: {
+            '$route'(to, from) {
+                console.log(to, 'sasa')
+            }
+        }  
     };
 </script>
