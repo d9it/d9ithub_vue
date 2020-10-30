@@ -21,7 +21,7 @@ body{
      padding: 20px;
      font-weight: 600;
 }
-.navbar-light .navbar-nav .nav-link.router-link-active{
+.navbar-light .navbar-nav .active .nav-link{
     color: #084ba2;
     font-weight: 700;
     border-bottom: 5px solid #084ba2;
@@ -483,6 +483,7 @@ body{
      overflow: hidden;
      position: relative;
      padding: 70px 0px;
+     padding-bottom: 0px;
 }
  .home_ourteam .decor-text-1 {
     top: 0%;
@@ -497,7 +498,7 @@ body{
 }
 /*======================= Home Testimonail ======================*/
  .home_about_us.home_testimonial {
-     /* height: 100vh; */
+     height: 90vh;
      background: #084ba2;
      position: relative;
 }
@@ -531,7 +532,7 @@ body{
     background: url(../d9_images/our_clients.png);
     background-size: cover;
     margin-top: 0px;
-    height: 70vh;
+    height: 90vh;
     background-position: center;
     z-index: 6;
     position: relative;
@@ -547,6 +548,14 @@ body{
      margin: 0 10px;
     border-top: none;
      border-bottom: none;
+}
+.height_fixed {
+    height: 60px;
+    margin-top: -60px;
+    background: transparent;
+    z-index: -20;
+    float: left;
+    width: 100%;
 }
 /*===================== Home Cotact us ========================*/
  .home_contactus{

@@ -64,8 +64,6 @@
             falseShow () {
                 this.show = false
             }
-        }, 
-        
-            
+        },            
     };
 </script>

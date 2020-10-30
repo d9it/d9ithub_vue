@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="home_portfolio" id="portfolio">
+        <div id="portfolio" class="height_fixed"></div>
+        <div class="home_portfolio">
             <div class="portfolio_warpper">
                 <div class="home_innerportfolio EpickNgo slide_active" data-slide="1">
                     <div class="flex_item portfolio_item_left">
