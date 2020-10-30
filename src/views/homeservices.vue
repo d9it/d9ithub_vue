@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="home_services" id="ourService">
+        <div id="ourService" class="height_fixed"></div>
+        <div class="home_services">
             <div class="services_warpper">
                 <div class="container py-0">
                     <div class="homeservice_content">

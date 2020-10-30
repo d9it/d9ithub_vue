@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="home_ourteam" id="ourTeam">
+        <div id="ourTeam" class="height_fixed"></div>
+        <div class="home_ourteam">
             <div class="services_warpper">
                 <div class="container p-0">
                     <div class="homeservice_content">
