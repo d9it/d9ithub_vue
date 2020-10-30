@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="home_contactus home_ourteam" id="contactus">
+       <div id="contactus" class="height_fixed"></div>
+        <div class="home_contactus home_ourteam">
             <div class="container py-0">
                <div class="homeservice_content">
                   <p class="text_sub text-center">Contact Us</p>

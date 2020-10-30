@@ -1,8 +1,9 @@
 <template>
     <div>
-        <div class="home_about_us home_testimonial" id="testimonial">
-            <div class="row">
-                <div class="col-lg-6">
+        <div id="testimonial" class="height_fixed"></div>
+        <div class="home_about_us home_testimonial">
+            <div class="row m-0">
+                <div class="col-lg-6 p-0">
                     <div class="block-decorate-img">
                     </div>
                 </div>
