@@ -42,13 +42,13 @@
                   <div class="col-lg-4 col-md-12 footer-widget">
                      <h3 class="widget-title">Quick Links</h3>
                      <ul class="list-dash">
-                        <li><a v-scroll-to="'#aboutus'" >About Us</a></li>
-                        <li><a v-scroll-to="'#ourService'"> Our Services </a></li>
-                        <li><a v-scroll-to="'#portfolio'" >Portfolio</a></li>
-                        <li><a v-scroll-to="'#ourTeam'" >Our Team</a></li>
-                        <li><a v-scroll-to="'#testimonial'" >Testimonial</a></li>
-                        <li><a v-scroll-to="'#contactus'">Contact Us</a></li>
-                        <li><router-link to="/career">Career</router-link></li>
+                        <li @click="setRouteActive('aboutus')"><router-link to="/">About Us</router-link></li>
+                        <li @click="setRouteActive('ourService')"><router-link to="/"> Our Services </router-link></li>
+                        <li @click="setRouteActive('portfolio')"><router-link to="/">Portfolio</router-link></li>
+                        <li @click="setRouteActive('ourTeam')"><router-link to="/">Our Team</router-link></li>
+                        <li @click="setRouteActive('testimonial')"><router-link to="/">Testimonial</router-link></li>
+                        <li @click="setRouteActive('contactus')"><router-link to="/">Contact Us</router-link></li>
+                        <li @click="setRouteActive('career')"><router-link to="/career">Career</router-link></li>
                      </ul>
                   </div>
                   <div class="col-lg-4 col-md-12W footer-widget">
@@ -63,10 +63,10 @@
                      <div class="footer-social">
                         <ul>
                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                           <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                           <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li> -->
                         </ul>
                      </div>
                   </div>
@@ -99,6 +99,21 @@
         data: () => ({
             show: false
         }),
+        methods:{
+            setRouteActive(route){
+                this.$v_session.set('activeRoute', route)
+                this.$store.state.activeRoute = route;
+                this.$nextTick(()=> {
+                    setTimeout(() => {
+                        const options = {
+                            easing: 'ease-int',
+                            lazy: true,
+                        } 
+                        this.$scrollTo(`#${route}`, 200, options) 
+                    },100)
+                })
+            }
+        }
     };
     
 </script>

@@ -17,6 +17,10 @@
   opacity: 0;
   z-index: 0;
   overflow: hidden;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
 }
 .mistify__slide img {
   display: none;
