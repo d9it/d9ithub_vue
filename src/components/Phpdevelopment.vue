@@ -522,33 +522,14 @@ export default {
 			top: 0,
 			behavior: 'smooth',
 		});
-
-		this.showLoader = true
-		const self = this;
-		const events = [
-			"pagehide", "pageshow",
-			"unload", "load"
-		];
-
-		// const eventLogger = event => {
-		// 	switch (event.type) {
-		// 		case "pagehide":
-		// 		case "pageshow":
-		// 		console.log(event.type, 1);
-		// 		self.showLoader = false
-		// 		let isPersisted = event.persisted ? "persisted" : "not persisted";
-		// 		break;
-		// 		default:
-		// 		console.log(event.type, 1);
-		// 		self.showLoader = false
-		// 		break;
-		// 	}
-		// };
-		self.showLoader = false
-
-		events.forEach(eventName =>
-			window.addEventListener(eventName, eventLogger)
-		);
+		const self = this
+		document.onreadystatechange = function() { 
+			if (document.readyState !== "complete") {  
+				self.showLoader = true;
+			} else { 
+				self.showLoader = false;
+			} 
+		};
 	}
 	
 };

@@ -1,5 +1,6 @@
 <template>
 	<div class="inner_pages">
+		<LoaderComponent v-if="showLoader"></LoaderComponent>
 		<navigation></navigation>
 		<div class="breadcume our_services">
 			<div class="container">
@@ -563,21 +564,32 @@
 
 <script>
 	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+	import footerarea from '../views/footerarea'
+	import LoaderComponent from '../components/loader/loader'
 
 export default {
   components: {
 	navigation,
-	footerarea
+	footerarea,
+	LoaderComponent
   },
   data: () => ({
-    show: false
+    show: false,
+    showLoader: false
   }),
   mounted(){
 	window.scrollTo({
 		top: 0,
 		behavior: 'smooth',
 	});
+	const self = this
+	document.onreadystatechange = function() { 
+		if (document.readyState !== "complete") {  
+			self.showLoader = true;
+		} else { 
+			self.showLoader = false;
+		} 
+	};
   }
   
 };
