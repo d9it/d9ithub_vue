@@ -42,24 +42,6 @@
             show: false
         }),
         mounted(){
-            // setTimeout(()=> {
-            //     console.log(location.search,'1111')
-            //     if(location.search == ''){
-            //         this.$scrollTo('#home')
-            //     }else if(location.search == '?about'){
-            //         this.$scrollTo('#aboutus')
-            //     }else if(location.search == '?ourService'){
-            //         this.$scrollTo('#ourService')
-            //     }else if(location.search == '?portfolio'){
-            //         this.$scrollTo('#portfolio')
-            //     }else if(location.search == '?ourTeam'){
-            //         this.$scrollTo('#ourTeam')
-            //     }else if(location.search == '?testimonial'){
-            //         this.$scrollTo('#testimonial')
-            //     }else if(location.search == '?contactus'){
-            //         this.$scrollTo('#contactus')
-            //     }
-            // },500)
             setTimeout(() => {
                 this.$nextTick(() => {
                     if(location.hash){
@@ -67,6 +49,6 @@
                     }
                 })
             },500)
-        }  
+        }
     };    
 </script>

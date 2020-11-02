@@ -73,11 +73,15 @@
             if(this.$v_session.has('activeRoute')){
                 this.$store.state.activeRoute = this.$v_session.get('activeRoute')
             }
-        },  
+        },
         watch: {
             '$route'(to, from) {
-                console.log(to, 'sasa')
+                setTimeout(() => {
+                    this.$nextTick(() => {
+                        this.$scrollTo(`${to.hash}`)
+                    })
+                },500)
             }
-        }  
+        }    
     };
 </script>
