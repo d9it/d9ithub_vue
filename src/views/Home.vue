@@ -42,13 +42,13 @@
             show: false
         }),
         mounted(){
-            setTimeout(() => {
-                this.$nextTick(() => {
-                    if(location.hash){
-                        this.$scrollTo(`${location.hash}`)
-                    }
-                })
-            },500)
+            // setTimeout(() => {
+            //     this.$nextTick(() => {
+            //         if(location.hash){
+            //             this.$scrollTo(`${location.hash}`)
+            //         }
+            //     })
+            // },500)
         }
     };    
 </script>
