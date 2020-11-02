@@ -52,14 +52,14 @@
                      </ul>
                   </div>
                   <div class="col-lg-4 col-md-12W footer-widget">
-                     <h3 class="widget-title">Subscribe</h3>
-                     <div class="newsletter-introtext">Don’t miss to subscribe to our new feeds, kindly fill the form below.</div>
+                     <h3 class="widget-title">Follow Us</h3>
+                     <!-- <div class="newsletter-introtext">Don’t miss to subscribe to our new feeds, kindly fill the form below.</div>
                      <form class="newsletter-form" id="newsletter-form" action="#" method="post">
                         <div class="form-group">
                            <input class="form-control form-control-lg" id="newsletter-form-email" type="email" name="email" placeholder="Email Address" autocomplete="off">
                            <button class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
                         </div>
-                     </form>
+                     </form> -->
                      <div class="footer-social">
                         <ul>
                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
