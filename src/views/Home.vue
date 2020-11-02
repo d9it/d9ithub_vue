@@ -1,5 +1,6 @@
 <template>
     <div>
+        <LoaderComponent v-if="showLoader"></LoaderComponent>
         <div class="main_top_content">
             <navigation></navigation>
         </div>
@@ -24,6 +25,7 @@
     import HomeTestimonial from '../views/hometestimonial';
     import HomeContactus from '../views/homecontactus';
     import footerarea from '../views/footerarea'
+    import LoaderComponent from '../components/loader/loader'
 
     export default {
         components: {
@@ -35,20 +37,30 @@
             HomeOurteam,
             HomeTestimonial,
             HomeContactus,
-            footerarea
+            footerarea,
+            LoaderComponent
         },
         name: 'Home',
         data: () => ({
-            show: false
+            show: false,
+            showLoader: false
         }),
         mounted(){
-            // setTimeout(() => {
-            //     this.$nextTick(() => {
-            //         if(location.hash){
-            //             this.$scrollTo(`${location.hash}`)
-            //         }
-            //     })
-            // },500)
+            this.showLoader = true
+            const self = this;
+            const events = [
+                "onpageshow"
+            ];
+
+            // const eventLogger = event => {
+            //     if(event.type == 'onpageshow') {
+            //         self.showLoader = false
+            //     }
+            // };
+            self.showLoader = false
+            events.forEach(eventName =>
+                window.addEventListener(eventName, eventLogger)
+            );
         }
     };    
 </script>

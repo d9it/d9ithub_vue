@@ -1,5 +1,6 @@
 <template>
 	<div class="inner_pages">
+		<LoaderComponent v-if="showLoader"></LoaderComponent>
 		<navigation></navigation>
 		<div class="breadcume our_services">
 			<div class="container">
@@ -98,15 +99,18 @@
 
 <script>
 	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+	import footerarea from '../views/footerarea'
+	import LoaderComponent from '../components/loader/loader'
 
 export default {
 	components: {
 		navigation,
-		footerarea
+		footerarea,
+		LoaderComponent
 	},
 	data: () => ({
 		show: false,
+		showLoader: false,
 		portfolio: [
 			{
 				imagePath: '/assets/d9_images/point_click.jpg',
@@ -518,6 +522,33 @@ export default {
 			top: 0,
 			behavior: 'smooth',
 		});
+
+		this.showLoader = true
+		const self = this;
+		const events = [
+			"pagehide", "pageshow",
+			"unload", "load"
+		];
+
+		// const eventLogger = event => {
+		// 	switch (event.type) {
+		// 		case "pagehide":
+		// 		case "pageshow":
+		// 		console.log(event.type, 1);
+		// 		self.showLoader = false
+		// 		let isPersisted = event.persisted ? "persisted" : "not persisted";
+		// 		break;
+		// 		default:
+		// 		console.log(event.type, 1);
+		// 		self.showLoader = false
+		// 		break;
+		// 	}
+		// };
+		self.showLoader = false
+
+		events.forEach(eventName =>
+			window.addEventListener(eventName, eventLogger)
+		);
 	}
 	
 };
