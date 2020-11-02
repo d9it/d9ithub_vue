@@ -763,7 +763,7 @@ body{
     font-size:15px;
     list-style:none;
 }
- .footer-widget ul.list-dash li:hover{
+ .footer-widget ul.list-dash li a:hover {
     text-decoration:underline;
 }
  .footer-widget ul.list-dash li a{

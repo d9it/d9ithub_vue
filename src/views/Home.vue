@@ -3,7 +3,7 @@
         <div class="main_top_content">
             <navigation></navigation>
         </div>
-        <Carousel></Carousel>
+        <Carousel id="home"></Carousel>
         <HomeAbout></HomeAbout>
         <HomeServices></HomeServices>
         <HomePortfolio></HomePortfolio>
@@ -61,7 +61,11 @@
             //     }
             // },500)
             setTimeout(() => {
-                console.log(location.hash, '12121');
+                this.$nextTick(() => {
+                    if(location.hash){
+                        this.$scrollTo(`${location.hash}`)
+                    }
+                })
             },500)
         }  
     };    

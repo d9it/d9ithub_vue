@@ -113,9 +113,9 @@
   opacity: 1;
   margin-left: 60px;
 }
-.mistify__info--active .mistify__info-title {
-  -webkit-animation: slideinleft .3s;
-          animation: slideinleft .3s;
+.mistify__info--active .mistify__info-title , .mistify__info--active .mistify__info-description {
+  -webkit-animation: slideinleft 1s;
+          animation: slideinleft 1s;
 }
 .mistify__mask-container {
   position: absolute;
