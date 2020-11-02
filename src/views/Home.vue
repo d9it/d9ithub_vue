@@ -46,21 +46,14 @@
             showLoader: false
         }),
         mounted(){
-            this.showLoader = true
-            const self = this;
-            const events = [
-                "onpageshow"
-            ];
-
-            // const eventLogger = event => {
-            //     if(event.type == 'onpageshow') {
-            //         self.showLoader = false
-            //     }
-            // };
-            self.showLoader = false
-            events.forEach(eventName =>
-                window.addEventListener(eventName, eventLogger)
-            );
+            const self = this
+            document.onreadystatechange = function() { 
+                if (document.readyState !== "complete") {  
+                    self.showLoader = true;
+                } else { 
+                    self.showLoader = false;
+                } 
+            };
         }
     };    
 </script>
