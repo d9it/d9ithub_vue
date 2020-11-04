@@ -13,36 +13,36 @@
 									Web Design
 								</router-link>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<router-link class="nav-link color_white" to="/psd">
 									<img src="/assets/d9_images/psd.png" alt="" title="" height="60"><br/>
 									PSD 
 								</router-link>
-							</li>
+							</li> -->
 							<li class="nav-item active">
 								<router-link class="nav-link color_white" to="/logo">
 									<img src="/assets/d9_images/logo.png" alt="" title="" height="60"><br/>
 									Logo
 								</router-link>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<router-link class="nav-link color_white" to="/banner">
 									<img src="/assets/d9_images/banner.png" alt="" title="" height="60"><br/>
 									Banner
 								</router-link>
-							</li>
+							</li> -->
 							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/responsive">
 									<img src="/assets/d9_images/responsive.png" alt="" title="" height="60"><br/>
 									Responsive
 								</router-link>
 							</li>
-                            <li class="nav-item ">
+                            <!-- <li class="nav-item ">
 								<router-link class="nav-link color_white" to="/appdesign">
 									<img src="/assets/d9_images/mobileapp.png" alt="" title="" height="60"><br/>
 									App Design 
 								</router-link>
-							</li>							
+							</li>							 -->
 						</ul>
 					</div>
 				</div>
@@ -85,6 +85,15 @@ export default {
   data: () => ({
     show: false,
 	portfolio: [
+		{
+			imagePath: '/assets/d9_images/p_logo/logo31.png',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/logo30.png',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/logo29.png',
+		},
 		{
 			imagePath: '/assets/d9_images/p_logo/logo1.png',
 		},
