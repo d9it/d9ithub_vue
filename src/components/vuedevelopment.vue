@@ -56,18 +56,18 @@
 						<div class="col-md-4" v-for="(portfolioData, index) in portfolio" :key="index">
 							<div class="inner_shadow">
 								<div class="image_height">
-									<a href="#">
+									<a :href="portfolioData.sitelink" target="_blank">
 										<img :src="portfolioData.imagePath" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
 									<div class="text-cont">
 										<div class="bg-rotate">
-											<a href="#" target="_blank" class="info-icon ">
+											<a :href="portfolioData.sitelink" target="_blank" class="info-icon ">
 												<img src="/assets/d9_images/php.png" alt="" class="rotate-img-diag" width="40">
 											</a>
 										</div>
-										<a href="#" target="_blank">
+										<a :href="portfolioData.sitelink" target="_blank">
 											<h1>{{portfolioData.title}}</h1>
 											<p>{{portfolioData.description}}</p>
 										</a>
@@ -110,6 +110,63 @@ export default {
     show: false,
 	portfolio: [
 		{
+			sitelink: 'https://mycanvasstory.com/',
+			imagePath: '/assets/d9_images/mycanvasstory.jpg',
+			title: 'Mycanvas Story',
+			description: 'Let your`s be evergreen on the Canvas. My Canvas Story is your best destination for customized canvas prints.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'http://budgetpetcart.d9ithub.com/',
+			imagePath: '/assets/d9_images/budgetpet.jpg',
+			title: 'Budgetpet Cart',
+			description: 'Budgetpet Cart is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'http://designtool.pointclickanddesign.com/',
 			imagePath: '/assets/d9_images/point_click.jpg',
 			title: 'Point click & Design',
 			description: 'This EpickNgo site based in UAE. The site offers quality of products for peoples.',
@@ -135,8 +192,94 @@ export default {
 					technologyName: 'Bootstrap'
 				}
 			]
-		},		
+		},	
 		{
+			sitelink: 'https://learnhub360.com/',
+			imagePath: '/assets/d9_images/learnhub.jpg',
+			title: 'Axel Training Services',
+			description: 'Our main objectives is to make all our courses / training sessions more efficient and practical for a better understanding of it, providing to all our learners / candidates the knowledge and self-trust which will lead to perform their job safe, correct and efficient.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'http://workhub360.d9ithub.com/',
+			imagePath: '/assets/d9_images/workhub360.jpg',
+			title: 'Workhub360',
+			description: 'WorkHub360 is a joint venture created to help businesses grow by providing technical and administrative support as well as on demand professional advice.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'https://www.samantc.com/',
+			imagePath: '/assets/d9_images/education.jpg',
+			title: 'Sama AL Nokhba Training Center',
+			description: 'Sama AL-Nokhba training center provide essential services for the sucess of aspiring ondividuals with direct training or smart training techniques.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+			
+		{
+			sitelink: 'http://ecommerce.d9ithub.com/',
 			imagePath: '/assets/d9_images/epickgo.jpg',
 			title: 'EPICKNGO',
 			description: 'This EpickNgo site based in UAE. The site offers quality of products for peoples.',
@@ -164,6 +307,7 @@ export default {
 			]
 		},
 		{
+			sitelink: 'https://one.sprocketmedia.com/',
 			imagePath: '/assets/d9_images/onemag.jpg',
 			title: 'ONE magazine',
 			description: 'There’s a sea of marketing tools at your disposal. But how many help you promote yourself not only as an expert in your field.',

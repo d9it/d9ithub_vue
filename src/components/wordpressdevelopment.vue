@@ -56,18 +56,18 @@
 						<div class="col-md-4" v-for="(portfolioData, index) in portfolio" :key="index">
 							<div class="inner_shadow">
 								<div class="image_height">
-									<a href="#">
+									<a :href="portfolioData.sitelink" target="_blank">
 										<img :src="portfolioData.imagePath" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
 									<div class="text-cont">
 										<div class="bg-rotate">
-											<a href="#" target="_blank" class="info-icon ">
+											<a :href="portfolioData.sitelink" target="_blank" class="info-icon ">
 												<img src="/assets/d9_images/php.png" alt="" class="rotate-img-diag" width="40">
 											</a>
 										</div>
-										<a href="#" target="_blank">
+										<a :href="portfolioData.sitelink" target="_blank">
 											<h1>{{portfolioData.title}}</h1>
 											<p>{{portfolioData.description}}</p>
 										</a>
@@ -110,6 +110,7 @@ export default {
 	show: false,
 	portfolio: [
 		{
+			sitelink: 'https://www.jgrobomarketing.com/',
 			imagePath: '/assets/d9_images/jgrobo_marketing.jpg',
 			title: 'JGROBO',
 			description: 'Founded in 2014, we are industry leaders in the development of marketing automation systems.',
@@ -133,6 +134,7 @@ export default {
 			]
 		},
 		{
+			sitelink: 'https://sarapis.org/',
 			imagePath: '/assets/d9_images/sarapis.jpg',
 			title: 'SARAPIS',
 			description: 'Sarapis is a New York-state incorporated, federally designated 501.c.3 nonprofit organization.',
@@ -156,6 +158,7 @@ export default {
 			]
 		},
 		{
+			sitelink: 'http://justmydoc.com/',
 			imagePath: '/assets/d9_images/just_my_doc.jpg',
 			title: 'JUST MYDOC',
 			description: 'JustMyDoc is the Virtual Patient Medical Home platform that will revolutionize our healthcare system by lowering cost at the consumer level.',
@@ -179,6 +182,7 @@ export default {
 			]
 		},
 		{
+
 			imagePath: '/assets/d9_images/tierra_oceano.jpg',
 			title: 'TIERRA OCEANO',
 			description: 'We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.',
@@ -202,6 +206,7 @@ export default {
 			]
 		},
 		{
+			sitelink: 'http://openskies-tech.com/',
 			imagePath: '/assets/d9_images/openskies_tech.jpg',
 			title: 'OPENSKIES TECH’S',
 			description: 'Openskies Tech’s goal is to transition work process from client location to its delivery center, risk free, rapidly and seamlessly.',
@@ -271,6 +276,7 @@ export default {
 			]
 		},
 		{
+			sitelink: 'https://www.draftanimalpower.org/',
 			imagePath: '/assets/d9_images/draft_animal_power.jpg',
 			title: 'DRAFT ANIMAL POWER',
 			description: 'The goal of the Draft Animal-Power Network is to provide year-round educational and networking opportunities.',

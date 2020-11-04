@@ -56,18 +56,18 @@
 						<div class="col-md-4" v-for="(portfolioData, index) in portfolio" :key="index">
 							<div class="inner_shadow">
 								<div class="image_height">
-									<a href="#">
+									<a :href="portfolioData.sitelink" target="_blank">
 										<img :src="portfolioData.imagePath" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
 									<div class="text-cont">
 										<div class="bg-rotate">
-											<a href="#" target="_blank" class="info-icon ">
+											<a :href="portfolioData.sitelink" target="_blank" class="info-icon ">
 												<img src="/assets/d9_images/php.png" alt="" class="rotate-img-diag" width="40">
 											</a>
 										</div>
-										<a href="#" target="_blank">
+										<a :href="portfolioData.sitelink" target="_blank">
 											<h1>{{portfolioData.title}}</h1>
 											<p>{{portfolioData.description}}</p>
 										</a>
