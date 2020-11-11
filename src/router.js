@@ -39,7 +39,7 @@ export default new Router({
       component: PortfolioComponent,
     },
     {
-      path: "/404",
+      path: "*",
       name: "404page",
       component: pagenotfound,
     },

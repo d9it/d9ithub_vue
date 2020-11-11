@@ -17,7 +17,7 @@
                     <img src="/assets/d9_images/404.png" alt="" title="">
                     <h3>Oops! Something is wrong.</h3>
                     <p>we are very sorry for inconvience. it looks like you're trying to access a page that either has been deleted or never even existed.</p>
-                    <a href="/" class="btn btn_blue mt-2">Back to Home</a>
+                    <router-link @click.native="setRouteActive('home')"  to="/" v-scroll-to="'#home'" class="btn btn_blue mt-2">Back to Home</router-link>
                 </div>
             </div>
         </div>
@@ -34,20 +34,34 @@
     import footerarea from '../views/footerarea'
 
 export default {
-  components: {
-	navigation,
-	footerarea
-  },
-  data: () => ({
-    show: false
-  }),
-  mounted(){
-	window.scrollTo({
-		top: 0,
-		behavior: 'smooth',
-	});
-  }
-  
+	components: {
+		navigation,
+		footerarea
+	},
+	data: () => ({
+		show: false
+	}),
+	mounted(){
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		});
+	},
+	methods: {
+		setRouteActive(route){
+			this.$v_session.set('activeRoute', route)
+			this.$store.state.activeRoute = route;
+			this.$nextTick(()=> {
+				setTimeout(() => {
+					const options = {
+						easing: 'ease-int',
+						lazy: true,
+					} 
+					this.$scrollTo(`#${route}`, 200, options) 
+				},100)
+			})
+		}
+	}  
 };
 
 
