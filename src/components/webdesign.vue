@@ -195,7 +195,7 @@ export default {
 		{
 			imagePath: '/assets/d9_images/learnhub.jpg',
 			title: 'Axel Training Services',
-			description: 'Our main objectives is to make all our courses / training sessions more efficient and practical for a better understanding of it, providing to all our learners / candidates the knowledge and self-trust which will lead to perform their job safe, correct and efficient.',
+			description: 'We have highly qualified trainers and assessors focusing specifically on the needs of all our learners / candidates from all backgrounds.',
 			technology: [
 				{
 					className: 'fab fa-laravel',

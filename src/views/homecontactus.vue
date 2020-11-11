@@ -31,7 +31,7 @@
                                  </div>
                                  <div class="col-lg-12">
                                     <div class="form-group">
-                                       <textarea class="form-control form-message required-field" id="message" placeholder="Comments" rows="8"></textarea>
+                                       <textarea class="form-control form-message required-field" id="message" placeholder="Comments" rows="5"></textarea>
                                     </div>
                                  </div>
                                  <!-- Col 12 end-->
@@ -45,41 +45,31 @@
                         </div>
                         <div class="contact-box info-box">
                            <div class="contact-info-right">
-                              <div class="ts-contact-info"><span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3250474631736!2d72.52253786596333!3d23.01183452131643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2988041721e1%3A0x89a4e253244ed3e2!2sD9ithub%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1605087074724!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;border-radius: 12px;border: 6px solid #084ba2;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                              <!-- <div class="ts-contact-info"><span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span>
                                  <div class="ts-contact-content">
                                     <h3 class="ts-contact-title">Find Us</h3>
                                     <p>C/1102, Titanium City Center, Next To Sachin Tower, 100ft Anandnagar Road, Close to Prahladnagar, Ahmedabad</p>
                                  </div>
-                                 <!-- Contact content end-->
                               </div>
                               <div class="ts-contact-info"><span class="ts-contact-icon float-left"><i class="icon icon-phone"></i></span>
                                  <div class="ts-contact-content">
                                     <h3 class="ts-contact-title">Call Us</h3>
                                     <p>+91-756-745-6843 , +91-937-468-6975</p>
                                  </div>
-                                 <!-- Contact content end-->
                               </div>
                               <div class="ts-contact-info last"><span class="ts-contact-icon float-left"><i class="icon icon-envelope-open"></i></span>
                                  <div class="ts-contact-content">
                                     <h3 class="ts-contact-title">Mail Us</h3>
                                     <p>d9ithub@gmail.com</p>
                                  </div>
-                                 <!-- Contact content end-->
                               </div>
                               <div class="ts-contact-info last"><span class="ts-contact-icon float-left"><i class="icon icon-clock"></i></span>
                                  <div class="ts-contact-content">
                                     <h3 class="ts-contact-title">Office Time</h3>
                                     <p>9-30 AM to 7-00 PM ( Monday - Friday )</p>
                                  </div>
-                                 <!-- Contact content end-->
-                              </div>
-                              <ul class="contact-info-social-links">
-                                 <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
-                                 <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
-                                 <li><a href="#"><i class="icon icon-social-google"></i></a></li>
-                                 <li><a href="#"><i class="icon icon-social-linkedin"></i></a></li>
-                                 <li><a href="#"><i class="icon icon-social-instagram"></i></a></li>
-                              </ul>
+                              </div> -->
                            </div>
                         </div>
                      </div>
