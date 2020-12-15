@@ -20,12 +20,13 @@ import logo from "./components/logoComponent"
 import banner from "./components/bannerComponent"
 import responsive from "./components/responsiveComponent"
 import appdesign from "./components/appdesignComponent"
+import pagenotfound from "./components/404page"
 
 Vue.use(Router);
 
 export default new Router({
   mode: "history",
-  base: process.env.BASE_URL,
+  // base: process.env.BASE_URL,
   routes: [
     {
       path: "/",
@@ -36,6 +37,11 @@ export default new Router({
       path: "/portfolio",
       name: "Portfolio",
       component: PortfolioComponent,
+    },
+    {
+      path: "*",
+      name: "404page",
+      component: pagenotfound,
     },
     // {
     //   path: "/testimonial",
@@ -54,7 +60,7 @@ export default new Router({
     // },  
     {
       path: "/php",
-      name: "Php",
+      name: "php",
       component: Php,
     },
     {

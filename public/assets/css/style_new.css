@@ -161,7 +161,7 @@ body{
     line-height: inherit;
 }
  .right_about_slide {
-     height: 430px;
+     height: 310px;
 }
 /*========================= Home Portfolio Style ========================= */
  .home_portfolio{
@@ -559,6 +559,7 @@ body{
 }
 /*===================== Home Cotact us ========================*/
  .home_contactus{
+    padding-top: 40px;
     height:auto;
     padding-bottom:100px;
     float:left;
@@ -728,9 +729,17 @@ body{
     font-size:20px;
     color:#fff;
 }
- .footer-top .footer-box .footer-box-content p{
+.footer-top .footer-box .footer-box-content h3.footer_text{
+    margin: 0px;
+    font-size: 30px;
+    padding: 20px 0;
+}
+ .footer-top .footer-box .footer-box-content p,  .footer-top .footer-box .footer-box-content p a{
     margin:0;
-    font-size:14px;
+    font-size:14px; color: #fff; text-decoration: none;
+}
+.footer-top .footer-box .footer-box-content p a:hover {
+    text-decoration: underline;
 }
  .footer-main{
     background:url(../d9_images/footer_bg.png);
@@ -741,7 +750,7 @@ body{
     padding:120px 0 20px;
 }
  .footer-widget{
-    padding-bottom:40px;
+    padding-bottom:20px;
     position:relative;
     z-index:10;
     color:#fff;
@@ -862,6 +871,26 @@ body{
  .inner_page_footer .footer {
      margin-top: 100px;
 }
+.footer_contactus.footer-top{
+    position: relative;
+    top: 0px;
+}
+.footer_contactus .footer-box{
+    padding: 0px;
+    min-height: auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*======================= Above Footer ===================*/
  .call-to-action{
     padding:70px 0 100px;
@@ -987,6 +1016,31 @@ body{
  .color_white img{
     margin:10px 0px;
 }
+
+
+
+.pagenot_found {margin-top: 80px;margin-bottom: 150px;}
+.pagenot_found img {width: 100%;}
+.pagenot_found h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.pagenot_found p {
+    width: 75%;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
 /*======================== About us ======================*/
  .inner_about {
      margin-top: 40px;

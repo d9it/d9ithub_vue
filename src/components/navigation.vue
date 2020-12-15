@@ -24,7 +24,7 @@
                         <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" @click="setRouteActive('portfolio')">
                             <router-link to="/" class="nav-link dropdown-toggle" >Portfolio</router-link>
                             <ul class="dropdown-menu" >
-                                <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/Php">Web Development</router-link></li>
+                                <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/php">Web Development</router-link></li>
                                 <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/webdesign">Graphics & Wesite Design</router-link></li>
                             </ul> 
                         </li>
