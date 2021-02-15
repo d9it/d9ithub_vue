@@ -13,12 +13,12 @@
 									Web Design
 								</router-link>
 							</li>
-							<!-- <li class="nav-item">
+							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/psd">
 									<img src="/assets/d9_images/psd.png" alt="" title="" height="60"><br/>
 									PSD 
 								</router-link>
-							</li> -->
+							</li>
 							<li class="nav-item active">
 								<router-link class="nav-link color_white" to="/logo">
 									<img src="/assets/d9_images/logo.png" alt="" title="" height="60"><br/>
@@ -86,97 +86,127 @@ export default {
     show: false,
 	portfolio: [
 		{
-			imagePath: '/assets/d9_images/p_logo/logo31.png',
+			imagePath: '/assets/d9_images/p_logo/1.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo30.png',
+			imagePath: '/assets/d9_images/p_logo/2.jpg',
+		},
+		// {
+		// 	imagePath: '/assets/d9_images/p_logo/3.jpg',
+		// },
+		{
+			imagePath: '/assets/d9_images/p_logo/4.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo29.png',
+			imagePath: '/assets/d9_images/p_logo/5.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo1.png',
+			imagePath: '/assets/d9_images/p_logo/6.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo2.png',
+			imagePath: '/assets/d9_images/p_logo/7.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo3.png',
+			imagePath: '/assets/d9_images/p_logo/8.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo4.png',
+			imagePath: '/assets/d9_images/p_logo/9.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo5.png',
+			imagePath: '/assets/d9_images/p_logo/10.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo6.png',
+			imagePath: '/assets/d9_images/p_logo/11.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo7.png',
+			imagePath: '/assets/d9_images/p_logo/12.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo8.png',
+			imagePath: '/assets/d9_images/p_logo/13.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo9.png',
+			imagePath: '/assets/d9_images/p_logo/14.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo10.png',
+			imagePath: '/assets/d9_images/p_logo/15.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo11.png',
+			imagePath: '/assets/d9_images/p_logo/16.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo12.png',
+			imagePath: '/assets/d9_images/p_logo/17.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo13.png',
+			imagePath: '/assets/d9_images/p_logo/18.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo14.png',
+			imagePath: '/assets/d9_images/p_logo/19.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo15.png',
+			imagePath: '/assets/d9_images/p_logo/20.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo16.png',
+			imagePath: '/assets/d9_images/p_logo/21.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo17.png',
+			imagePath: '/assets/d9_images/p_logo/22.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo18.png',
+			imagePath: '/assets/d9_images/p_logo/23.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo19.png',
+			imagePath: '/assets/d9_images/p_logo/24.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo20.png',
+			imagePath: '/assets/d9_images/p_logo/25.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo21.png',
+			imagePath: '/assets/d9_images/p_logo/26.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo22.png',
+			imagePath: '/assets/d9_images/p_logo/27.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo23.png',
+			imagePath: '/assets/d9_images/p_logo/28.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo24.png',
+			imagePath: '/assets/d9_images/p_logo/29.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo25.png',
+			imagePath: '/assets/d9_images/p_logo/30.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo26.png',
+			imagePath: '/assets/d9_images/p_logo/31.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo27.png',
+			imagePath: '/assets/d9_images/p_logo/32.jpg',
 		},
 		{
-			imagePath: '/assets/d9_images/p_logo/logo28.png',
+			imagePath: '/assets/d9_images/p_logo/33.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/34.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/35.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/36.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/37.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/38.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/39.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/40.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/41.jpg',
 		},
 	]
   }),

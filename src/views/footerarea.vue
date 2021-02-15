@@ -43,8 +43,8 @@
                      <h3 class="widget-title">Follow Us</h3>
                      <div class="footer-social">
                         <ul>
-                           <li><a href="https://in.linkedin.com/company/d9ithub" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                           <li><a href="https://www.facebook.com/d9ithub18/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                           <li><a href="https://www.facebook.com/d9ithub18/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="https://in.linkedin.com/company/d9ithub" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                            <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                            <li><a href="#"><i class="fab fa-instagram"></i></a></li> -->
@@ -106,7 +106,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 col-md-12 text-center">
-                     <div class="copyright-info"><span>Copyright © 2020 D9ITHUB. All Rights Reserved.</span></div>
+                     <div class="copyright-info"><span>Copyright © 2021 D9ITHUB. All Rights Reserved.</span></div>
                   </div>
                </div>
                <!-- Row end-->

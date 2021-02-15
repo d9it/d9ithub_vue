@@ -13,12 +13,12 @@
 									Web Design
 								</router-link>
 							</li>
-							<!-- <li class="nav-item">
+							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/psd">
 									<img src="/assets/d9_images/psd.png" alt="" title="" height="60"><br/>
 									PSD 
 								</router-link>
-							</li> -->
+							</li>
 							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/logo">
 									<img src="/assets/d9_images/logo.png" alt="" title="" height="60"><br/>
@@ -128,7 +128,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="portfolio_inner odd_div">
+			<!-- <div class="portfolio_inner odd_div">
 				<div class="inner_responsive">
 					<div class="container">
 						<div class="col-lg-12">
@@ -166,8 +166,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="portfolio_inner even_div">
+			</div> -->
+			<!-- <div class="portfolio_inner even_div">
 				<div class="inner_responsive">
 					<div class="container">
 						<div class="col-lg-12">
@@ -205,7 +205,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="portfolio_inner odd_div">
 				<div class="inner_responsive">
 					<div class="container">
