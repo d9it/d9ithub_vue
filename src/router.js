@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import PortfolioComponent from './components/PortfolioComponent'
+// import PortfolioComponent from './components/PortfolioComponent'
 // import testimonial from "./components/testimonial"
 // import ourTeam from "./components/ourTeam"
 // import ourService from "./components/ourService"
@@ -33,31 +33,16 @@ export default new Router({
       name: "home",
       component: Home,
     },
-    {
-      path: "/portfolio",
-      name: "Portfolio",
-      component: PortfolioComponent,
-    },
+    // {
+    //   path: "/portfolio",
+    //   name: "Portfolio",
+    //   component: PortfolioComponent,
+    // },
     {
       path: "*",
       name: "404page",
       component: pagenotfound,
     },
-    // {
-    //   path: "/testimonial",
-    //   name: "Testimonial",
-    //   component: testimonial,
-    // },
-    // {
-    //   path: "/ourTeam",
-    //   name: "OurTeam",
-    //   component: ourTeam,
-    // },
-    // {
-    //   path: "/ourService",
-    //   name: "OurService",
-    //   component: ourService,
-    // },  
     {
       path: "/php",
       name: "php",
@@ -118,20 +103,10 @@ export default new Router({
       name: "appdesign",
       component: appdesign,
     },  
-    // {
-    //   path: "/aboutUs",
-    //   name: "AboutUs",
-    //   component: aboutUs,
-    // },
     {
       path: "/career",
       name: "Career",
       component: career,
     },
-    // {
-    //   path: "/contactus",
-    //   name: "contactus",
-    //   component: contactus,
-    // }
   ]
 });

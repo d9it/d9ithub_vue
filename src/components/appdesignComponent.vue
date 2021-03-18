@@ -56,18 +56,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/point_click.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>Point click & Design</h1>
 										<p>This EpickNgo site based in UAE. The site offers quality of products for peoples.</p>
 									</a>
@@ -90,18 +90,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/pifcoin.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>pifcoin</h1>
 										<p>This EpickNgo site based in UAE. The site offers quality of products for peoples.</p>
 									</a>
@@ -123,18 +123,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/epickgo.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>EPICKNGO</h1>
 										<p>This EpickNgo site based in UAE. The site offers quality of products for peoples.</p>
 									</a>
@@ -157,18 +157,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/jwm.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>jwm racing</h1>
 										<p>This EpickNgo site based in UAE. The site offers quality of products for peoples.</p>
 									</a>
@@ -190,18 +190,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/socialmedia.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>Search.rec Ninja</h1>
 										<p>This EpickNgo site based in UAE. The site offers quality of products for peoples.</p>
 									</a>
@@ -223,18 +223,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/mygov.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>MYGOV.NYC</h1>
 										<p>We believe that a path to a more effective NYC government, one that produces better and projects and services.</p>
 									</a>
@@ -256,18 +256,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/erjaan_solution.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>ERJAAN SOLUTIONS</h1>
 										<p>Leading mobile (iPhone / iOS, Android) application development companies in India offering mobile apps development services.</p>
 									</a>
@@ -289,18 +289,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/jgrobo_marketing.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>JGROBO</h1>
 										<p>Founded in 2014, we are industry leaders in the development of marketing automation systems.</p>
 									</a>
@@ -322,18 +322,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/sarapis.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>SARAPIS</h1>
 										<p>Sarapis is a New York-state incorporated, federally designated 501.c.3 nonprofit organization.</p>
 									</a>
@@ -355,18 +355,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/just_my_doc.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>JUST MYDOC</h1>
 										<p>JustMyDoc is the Virtual Patient Medical Home platform that will revolutionize our healthcare system by lowering cost at the consumer level.</p>
 									</a>
@@ -388,18 +388,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/tierra_oceano.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>TIERRA OCEANO</h1>
 										<p>We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.</p>
 									</a>
@@ -421,18 +421,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/openskies_tech.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>OPENSKIES TECH’S</h1>
 										<p>Openskies Tech’s goal is to transition work process from client location to its delivery center, risk free, rapidly and seamlessly.</p>
 									</a>
@@ -454,18 +454,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/reneissance.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>RENAISSANCE</h1>
 										<p>Renaissance Studio of Design is a New York based web design company focusing on developing dynamic and cost effective.</p>
 									</a>
@@ -488,18 +488,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/beth_clifton.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>BETH CLIFTON</h1>
 										<p>Beth serves as a Real Estate Agent at The Boulevard Company, and specializes in applying her ethics.</p>
 									</a>
@@ -522,18 +522,18 @@
 					<div class="col-md-4">
 						<div class="inner_shadow">
 							<div class="image_height">
-								<a href="#">
+								<a href="javascript:void(0)">
 									<img src="/assets/d9_images/draft_animal_power.jpg" alt="" title="" class="pro-img">
 								</a>
 							</div>
 							<div class="hover-block">
 								<div class="text-cont">
 									<div class="bg-rotate">
-										<a href="#" target="_blank" class="info-icon ">
+										<a href="javascript:void(0)" target="_blank" class="info-icon ">
 											<img src="/assets/d9_images/webdevelopment.png" alt="" class="rotate-img-diag" width="40">
 										</a>
 									</div>
-									<a href="#" target="_blank">
+									<a href="javascript:void(0)" target="_blank">
 										<h1>DRAFT ANIMAL POWER</h1>
 										<p>The goal of the Draft Animal-Power Network is to provide year-round educational and networking opportunities.</p>
 									</a>

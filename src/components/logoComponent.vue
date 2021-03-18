@@ -56,7 +56,7 @@
 						<div class="col-md-4" v-for="(portfolioData, index) in portfolio" :key="index">
 							<div class="inner_shadow">
 								<div class="image_height">
-									<a href="#">
+									<a href="javascript:void(0)">
 										<img :src="portfolioData.imagePath" alt="" title="" class="pro-img">
 									</a>
 								</div>
