@@ -14,12 +14,12 @@
 									Web Design
 								</router-link>
 							</li>
-							<!-- <li class="nav-item">
+							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/psd">
 									<img src="/assets/d9_images/psd.png" alt="" title="" height="60"><br/>
 									PSD 
 								</router-link>
-							</li> -->
+							</li>
 							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/logo">
 									<img src="/assets/d9_images/logo.png" alt="" title="" height="60"><br/>
@@ -111,33 +111,33 @@ export default {
     show: false,
     showLoader: false,
 	portfolio: [
-		{
-			imagePath: '/assets/d9_images/workhub360.jpg',
-			title: 'Workhub360',
-			description: 'WorkHub360 is a joint venture created to help businesses grow by providing technical and administrative support as well as on demand professional advice.',
-			technology: [
-				{
-					className: 'fab fa-laravel',
-					technologyName: 'Laravel'
-				},
-				{
-					className: 'fab fa-vuejs',
-					technologyName: 'Vue'
-				},
-				{
-					className: 'fab fa-html5',
-					technologyName: 'HTML 5'
-				},
-				{
-					className: 'fab fa-css3-alt',
-					technologyName: 'CSS 3'
-				},
-				{
-					className: 'fab fa-bootstrap',
-					technologyName: 'Bootstrap'
-				}
-			]
-		},
+		// {
+		// 	imagePath: '/assets/d9_images/workhub360.jpg',
+		// 	title: 'Workhub360',
+		// 	description: 'WorkHub360 is a joint venture created to help businesses grow by providing technical and administrative support as well as on demand professional advice.',
+		// 	technology: [
+		// 		{
+		// 			className: 'fab fa-laravel',
+		// 			technologyName: 'Laravel'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-vuejs',
+		// 			technologyName: 'Vue'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-html5',
+		// 			technologyName: 'HTML 5'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-css3-alt',
+		// 			technologyName: 'CSS 3'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-bootstrap',
+		// 			technologyName: 'Bootstrap'
+		// 		}
+		// 	]
+		// },
 		{
 			imagePath: '/assets/d9_images/budgetpet.jpg',
 			title: 'Budgetpet Cart',
@@ -192,33 +192,33 @@ export default {
 				}
 			]
 		},
-		{
-			imagePath: '/assets/d9_images/learnhub.jpg',
-			title: 'Axel Training Services',
-			description: 'We have highly qualified trainers and assessors focusing specifically on the needs of all our learners / candidates from all backgrounds.',
-			technology: [
-				{
-					className: 'fab fa-laravel',
-					technologyName: 'Laravel'
-				},
-				{
-					className: 'fab fa-vuejs',
-					technologyName: 'Vue'
-				},
-				{
-					className: 'fab fa-html5',
-					technologyName: 'HTML 5'
-				},
-				{
-					className: 'fab fa-css3-alt',
-					technologyName: 'CSS 3'
-				},
-				{
-					className: 'fab fa-bootstrap',
-					technologyName: 'Bootstrap'
-				}
-			]
-		},		
+		// {
+		// 	imagePath: '/assets/d9_images/learnhub.jpg',
+		// 	title: 'Axel Training Services',
+		// 	description: 'We have highly qualified trainers and assessors focusing specifically on the needs of all our learners / candidates from all backgrounds.',
+		// 	technology: [
+		// 		{
+		// 			className: 'fab fa-laravel',
+		// 			technologyName: 'Laravel'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-vuejs',
+		// 			technologyName: 'Vue'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-html5',
+		// 			technologyName: 'HTML 5'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-css3-alt',
+		// 			technologyName: 'CSS 3'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-bootstrap',
+		// 			technologyName: 'Bootstrap'
+		// 		}
+		// 	]
+		// },		
 		{
 			imagePath: '/assets/d9_images/education.jpg',
 			title: 'Sama AL Nokhba Training Center',

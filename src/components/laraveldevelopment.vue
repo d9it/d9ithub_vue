@@ -137,34 +137,34 @@ export default {
 				}
 			]
 		},
-		{
-			sitelink: 'http://workhub360.d9ithub.com/',
-			imagePath: '/assets/d9_images/workhub360.jpg',
-			title: 'Workhub360',
-			description: 'WorkHub360 is a joint venture created to help businesses grow by providing technical and administrative support as well as on demand professional advice.',
-			technology: [
-				{
-					className: 'fab fa-laravel',
-					technologyName: 'Laravel'
-				},
-				{
-					className: 'fab fa-vuejs',
-					technologyName: 'Vue'
-				},
-				{
-					className: 'fab fa-html5',
-					technologyName: 'HTML 5'
-				},
-				{
-					className: 'fab fa-css3-alt',
-					technologyName: 'CSS 3'
-				},
-				{
-					className: 'fab fa-bootstrap',
-					technologyName: 'Bootstrap'
-				}
-			]
-		},
+		// {
+		// 	sitelink: 'http://workhub360.d9ithub.com/',
+		// 	imagePath: '/assets/d9_images/workhub360.jpg',
+		// 	title: 'Workhub360',
+		// 	description: 'WorkHub360 is a joint venture created to help businesses grow by providing technical and administrative support as well as on demand professional advice.',
+		// 	technology: [
+		// 		{
+		// 			className: 'fab fa-laravel',
+		// 			technologyName: 'Laravel'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-vuejs',
+		// 			technologyName: 'Vue'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-html5',
+		// 			technologyName: 'HTML 5'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-css3-alt',
+		// 			technologyName: 'CSS 3'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-bootstrap',
+		// 			technologyName: 'Bootstrap'
+		// 		}
+		// 	]
+		// },
 		{
 			sitelink: 'https://mycanvasstory.com/',
 			imagePath: '/assets/d9_images/mycanvasstory.jpg',
@@ -193,34 +193,34 @@ export default {
 				}
 			]
 		},
-		{
-			sitelink: 'https://learnhub360.com/',
-			imagePath: '/assets/d9_images/learnhub.jpg',
-			title: 'Axel Training Services',
-			description: 'We have highly qualified trainers and assessors focusing specifically on the needs of all our learners / candidates from all backgrounds.',
-			technology: [
-				{
-					className: 'fab fa-laravel',
-					technologyName: 'Laravel'
-				},
-				{
-					className: 'fab fa-vuejs',
-					technologyName: 'Vue'
-				},
-				{
-					className: 'fab fa-html5',
-					technologyName: 'HTML 5'
-				},
-				{
-					className: 'fab fa-css3-alt',
-					technologyName: 'CSS 3'
-				},
-				{
-					className: 'fab fa-bootstrap',
-					technologyName: 'Bootstrap'
-				}
-			]
-		},
+		// {
+		// 	sitelink: 'https://learnhub360.com/',
+		// 	imagePath: '/assets/d9_images/learnhub.jpg',
+		// 	title: 'Axel Training Services',
+		// 	description: 'We have highly qualified trainers and assessors focusing specifically on the needs of all our learners / candidates from all backgrounds.',
+		// 	technology: [
+		// 		{
+		// 			className: 'fab fa-laravel',
+		// 			technologyName: 'Laravel'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-vuejs',
+		// 			technologyName: 'Vue'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-html5',
+		// 			technologyName: 'HTML 5'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-css3-alt',
+		// 			technologyName: 'CSS 3'
+		// 		},
+		// 		{
+		// 			className: 'fab fa-bootstrap',
+		// 			technologyName: 'Bootstrap'
+		// 		}
+		// 	]
+		// },
 		{
 			sitelink: 'https://www.samantc.com/',
 			imagePath: '/assets/d9_images/education.jpg',

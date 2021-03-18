@@ -403,7 +403,7 @@ body{
 }
  .homeservice_content .text_big{
     position: relative;
-     display: inline-block;
+     display: inline-block;t
      -webkit-background-clip: text;
      background-image: url(../d9_images/home_services_bg.png);
      font-size: 134px;
