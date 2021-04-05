@@ -46,8 +46,8 @@
 
 		var arrowsDom = '' +
 			'<div class="mistify__arrows">' +
-				'<a href="#" class="mistify__arrows--prev"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>' +
-				'<a href="#" class="mistify__arrows--next"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>' +
+				'<a href="javascript:void(0)" class="mistify__arrows--prev"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>' +
+				'<a href="javascript:void(0)" class="mistify__arrows--next"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>' +
 			'</div>';
 		_.props.elem.append(arrowsDom);
 
