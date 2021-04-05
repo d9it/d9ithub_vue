@@ -3,7 +3,116 @@
         <div id="portfolio" class="height_fixed"></div>
         <div class="home_portfolio">
             <div class="portfolio_warpper">
-                <div class="home_innerportfolio EpickNgo slide_active" data-slide="1">
+                <div class="home_innerportfolio budgetpet slide_active" data-slide="1">
+                    <div class="flex_item portfolio_item_left">
+                        <div class="homeportfolio_content">
+                            <p class="text_sub">Portfolio</p>
+                            <h1 class="text_big">Budgetpet Cart</h1>
+                            <img src="/assets/d9_images/mi_budgetpetcart.png" class="mobile_img" alt="" title="">
+                            <p class="text_normal">Budgetpet Cart is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!<br/></p>
+                            <p class="text_sub"><br/>Used Technology</p>
+                            <p class="text_normal">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+                                    <li class="nav-item"><i class="fab fa-vuejs"></i>Vue Js</li>
+                                    <li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+                                    <li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+                                    <li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                                </ul>
+                            </p>    
+                        </div>
+                        <p class="text_background">Portfolio</p>
+                    </div>
+                    <div class="flex_item portfolio_item_right"></div>
+                </div>
+                <div class="home_innerportfolio mycanvasstory" data-slide="2">
+                    <div class="flex_item portfolio_item_left">
+                        <div class="homeportfolio_content">
+                            <p class="text_sub">Portfolio</p>
+                            <h1 class="text_big">Mycanvas Story</h1>
+                            <img src="/assets/d9_images/mi_mycanvas.png" class="mobile_img" alt="" title="">
+                            <p class="text_normal">Let your`s be evergreen on the Canvas. My Canvas Story is your best destination for customized canvas prints.</p>
+                            <p class="text_sub"><br/>Used Technology</p>
+                            <p class="text_normal">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+                                    <li class="nav-item"><i class="fab fa-vuejs"></i>Vue Js</li>
+                                    <li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+                                    <li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+                                    <li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                                </ul>
+                            </p>    
+                        </div>
+                        <p class="text_background">Portfolio</p>
+                    </div>
+                    <div class="flex_item portfolio_item_right"></div>
+                </div>
+                <div class="home_innerportfolio samantc" data-slide="3">
+                    <div class="flex_item portfolio_item_left">
+                        <div class="homeportfolio_content">
+                            <p class="text_sub">Portfolio</p>
+                            <h1 class="text_big">Sama AL Nokhba Training Center</h1>
+                            <img src="/assets/d9_images/mi_education.png" class="mobile_img" alt="" title="">
+                            <p class="text_normal">Sama AL-Nokhba training center provide essential services for the sucess of aspiring ondividuals with direct training or smart training techniques.</p>
+                            <p class="text_sub"><br/>Used Technology</p>
+                            <p class="text_normal">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+                                    <li class="nav-item"><i class="fab fa-vuejs"></i>Vue Js</li>
+                                    <li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+                                    <li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+                                    <li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                                </ul>
+                            </p>    
+                        </div>
+                        <p class="text_background">Portfolio</p>
+                    </div>
+                    <div class="flex_item portfolio_item_right"></div>
+                </div>
+                <div class="home_innerportfolio point_click" data-slide="4">
+                    <div class="flex_item portfolio_item_left">
+                        <div class="homeportfolio_content">
+                            <p class="text_sub">Portfolio</p>
+                            <h1 class="text_big">Point click & Design</h1>
+                            <img src="/assets/d9_images/mi_budgetpetcart.png" class="mobile_img" alt="" title="">
+                            <p class="text_normal">This Point click & design site based in custome texture design. The site offers quality of products for peoples.</p>
+                            <p class="text_sub"><br/>Used Technology</p>
+                            <p class="text_normal">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+                                    <li class="nav-item"><i class="fab fa-vuejs"></i>Vue Js</li>
+                                    <li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+                                    <li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+                                    <li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                                </ul>
+                            </p>    
+                        </div>
+                        <p class="text_background">Portfolio</p>
+                    </div>
+                    <div class="flex_item portfolio_item_right"></div>
+                </div>
+                <div class="home_innerportfolio pifcoin" data-slide="5">
+                    <div class="flex_item portfolio_item_left">
+                        <div class="homeportfolio_content">
+                            <p class="text_sub">Portfolio</p>
+                            <h1 class="text_big">Pifcoin</h1>
+                            <img src="/assets/d9_images/pifcoin.png" class="mobile_img" alt="" title="">
+                            <p class="text_normal">Pifcoin is a means to track, inspire and most importantly, promote paying acts of kindness forward. The goal is to further advocate the "pay it forward" agenda by physically using a coin passed from one person to the next.</p>
+                            <p class="text_sub"><br/>Used Technology</p>
+                            <p class="text_normal">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+                                    <li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+                                    <li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+                                    <li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                                </ul>
+                            </p>    
+                        </div>
+                        <p class="text_background">Portfolio</p>
+                    </div>
+                    <div class="flex_item portfolio_item_right"></div>
+                </div>
+                <div class="home_innerportfolio EpickNgo" data-slide="6">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -25,7 +134,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio mygov_nyc animate_start" data-slide="2">
+                <div class="home_innerportfolio mygov_nyc animate_start" data-slide="7">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -52,7 +161,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio one_magazine animate_start" data-slide="3">
+                <div class="home_innerportfolio one_magazine animate_start" data-slide="8">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -75,7 +184,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio erjaan_solu animate_start" data-slide="4">
+                <div class="home_innerportfolio erjaan_solu animate_start" data-slide="9">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -96,7 +205,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio tierra_oceano animate_start" data-slide="5">
+                <div class="home_innerportfolio tierra_oceano animate_start" data-slide="10">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -117,7 +226,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio openskies_tech animate_start" data-slide="6">
+                <div class="home_innerportfolio openskies_tech animate_start" data-slide="11">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -139,7 +248,7 @@
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
 
-                <div class="home_innerportfolio reneissance" data-slide="7">
+                <div class="home_innerportfolio reneissance" data-slide="12">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -160,7 +269,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio sarapis animate_start" data-slide="8">
+                <div class="home_innerportfolio sarapis animate_start" data-slide="13">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -181,7 +290,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio just_my_doc animate_start" data-slide="9">
+                <div class="home_innerportfolio just_my_doc animate_start" data-slide="14">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -202,7 +311,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio beth_clifton animate_start" data-slide="10">
+                <div class="home_innerportfolio beth_clifton animate_start" data-slide="15">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -223,7 +332,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio jgrobo_marketing animate_start" data-slide="11">
+                <div class="home_innerportfolio jgrobo_marketing animate_start" data-slide="16">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -244,7 +353,7 @@
                     </div>
                     <div class="flex_item portfolio_item_right"></div>
                 </div>
-                <div class="home_innerportfolio draft_animal_power animate_start"  data-slide="12">
+                <div class="home_innerportfolio draft_animal_power animate_start"  data-slide="17">
                     <div class="flex_item portfolio_item_left">
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
@@ -268,18 +377,23 @@
             </div>
 
             <div class="slider__navi">
-                <a href="#" class="slide-nav active" data-slide="1">EpickNgo</a>
-                <a href="#" class="slide-nav" data-slide="2">mygov_nyc</a>
-                <a href="#" class="slide-nav" data-slide="3">one_magazine</a>
-                <a href="#" class="slide-nav" data-slide="4">erjaan_solutions</a>
-                <a href="#" class="slide-nav" data-slide="5">tierra_oceano</a>
-                <a href="#" class="slide-nav" data-slide="6">openskies_tech</a>
-                <a href="#" class="slide-nav" data-slide="7">reneissance</a>
-                <a href="#" class="slide-nav" data-slide="8">graphics</a>
-                <a href="#" class="slide-nav" data-slide="9">cms_ecommerce</a>
-                <a href="#" class="slide-nav" data-slide="10">mobile</a>
-                <a href="#" class="slide-nav" data-slide="11">enterprices</a>
-                <a href="#" class="slide-nav" data-slide="12">hire</a>
+                <a href="#" class="slide-nav active" data-slide="1">Budgetpet Cart</a>
+                <a href="#" class="slide-nav" data-slide="2">Mycanvas Story</a>
+                <a href="#" class="slide-nav" data-slide="3">Sama AL Nokhba Training Center</a>
+                <a href="#" class="slide-nav" data-slide="4">Point click & Design</a>
+                <a href="#" class="slide-nav" data-slide="5">Pifcoin</a>
+                <a href="#" class="slide-nav" data-slide="6">EpickNgo</a>
+                <a href="#" class="slide-nav" data-slide="7">mygov_nyc</a>
+                <a href="#" class="slide-nav" data-slide="8">one_magazine</a>
+                <a href="#" class="slide-nav" data-slide="9">erjaan_solutions</a>
+                <a href="#" class="slide-nav" data-slide="10">tierra_oceano</a>
+                <a href="#" class="slide-nav" data-slide="11">openskies_tech</a>
+                <a href="#" class="slide-nav" data-slide="12">reneissance</a>
+                <a href="#" class="slide-nav" data-slide="13">graphics</a>
+                <a href="#" class="slide-nav" data-slide="14">cms_ecommerce</a>
+                <a href="#" class="slide-nav" data-slide="15">mobile</a>
+                <a href="#" class="slide-nav" data-slide="16">enterprices</a>
+                <a href="#" class="slide-nav" data-slide="17">hire</a>
             </div>
         </div>
     </div>

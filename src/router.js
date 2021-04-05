@@ -6,7 +6,7 @@ import Home from "./views/Home.vue";
 // import ourTeam from "./components/ourTeam"
 // import ourService from "./components/ourService"
 // import aboutUs from "./components/aboutUs"
-import career from "./components/CareerComponent"
+// import career from "./components/CareerComponent"
 // import contactus from "./components/contactUs"
 import Php from "./components/Phpdevelopment"
 import laravel from "./components/laraveldevelopment"
@@ -103,10 +103,10 @@ export default new Router({
       name: "appdesign",
       component: appdesign,
     },  
-    {
-      path: "/career",
-      name: "Career",
-      component: career,
-    },
+    // {
+    //   path: "/career",
+    //   name: "Career",
+    //   component: career,
+    // },
   ]
 });

@@ -924,6 +924,9 @@ export default {
 		top: 0,
 		behavior: 'smooth',
 	});
+	$(document).ready(function() {
+		$('.image_height a').lightbox(); 
+	});
   }
   
 };
