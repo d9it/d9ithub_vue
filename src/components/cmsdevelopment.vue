@@ -56,7 +56,7 @@
 						<div class="col-md-4" v-for="(portfolioData, index) in portfolio" :key="index">
 							<div class="inner_shadow">
 								<div class="image_height">
-									<a :href="portfolioData.sitelink" target="_blank">
+									<a :href="portfolioData.imagePath">
 										<img :src="portfolioData.imagePath" alt="" title="" class="pro-img">
 									</a>
 								</div>
@@ -306,6 +306,9 @@ export default {
 	window.scrollTo({
 		top: 0,
 		behavior: 'smooth',
+	});
+	$(document).ready(function() {
+		$('.image_height a').lightbox(); 
 	});
   }
   

@@ -61,7 +61,7 @@
                         <li @click="setRouteActive('ourTeam')"><router-link to="/">Our Team</router-link></li>
                         <li @click="setRouteActive('testimonial')"><router-link to="/">Testimonial</router-link></li>
                         <li @click="setRouteActive('contactus')"><router-link to="/">Contact Us</router-link></li>
-                        <li @click="setRouteActive('career')"><router-link to="/career">Career</router-link></li>
+                        <!-- <li @click="setRouteActive('career')"><router-link to="/career">Career</router-link></li> -->
                      </ul>
                   </div>
                   <div class="col-lg-5 col-md-12W footer-widget">

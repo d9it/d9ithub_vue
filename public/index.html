@@ -29,6 +29,7 @@
 			<!-- Home ourteam css-->
 			<link href="/assets/css/mislider.css" rel="stylesheet">
 			<link href="/assets/css/mislider-skin-cameo.css" rel="stylesheet">
+			<link rel="stylesheet" href="/assets/css/jquery.lightbox.css">
 
 			<link rel="stylesheet" href="/assets/css/style_new.css"/>
 			<link rel="stylesheet" href="/assets/css/responsive.css"/>
@@ -116,6 +117,13 @@
 			<strong>We're sorry but d9ithub doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
 		</noscript>
 		<div id="app"></div>
+		<!-- <div class="popup_show">
+			<div class="overlay"></div>
+			<div class="img-show">
+				<span>X</span>
+				<img src="">
+			</div>
+		</div> -->
 		<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ></a>
 		<!-- built files will be auto injected -->
 
@@ -136,6 +144,8 @@
 
 		<!-- Home our team javascript-->
 		<script src="/assets/js/mislider.js"></script>
+		<script src="/assets/js/jquery.lightbox.js"></script>
+
 
 		<script>
 			$(window).scroll(function() {    
@@ -148,7 +158,8 @@
 					//console.log('a');
 					$(".sticky-top").removeClass("background_color");
 				}
-			});
+			});		
+			
 		</script>
 	</body>
 </html>

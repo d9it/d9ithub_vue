@@ -56,7 +56,7 @@
 						<div class="col-md-4" v-for="(portfolioData, index) in portfolio" :key="index">
 							<div class="inner_shadow">
 								<div class="image_height">
-									<a href="javascript:void(0)">
+									<a :href="portfolioData.imagePath">
 										<img :src="portfolioData.imagePath" alt="" title="" class="pro-img">
 									</a>
 								</div>
@@ -69,83 +69,82 @@
 		<footerarea></footerarea>	
   	</div>
 </template>
-    
-
-
 
 <script>
-	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+import navigation from '../components/navigation';	
+import footerarea from '../views/footerarea'
 
 export default {
-  components: {
-	navigation,
-	footerarea
-  },
-  data: () => ({
-	show: false,
-	portfolio: [
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_budgetpetcart.jpg',
-			title: 'Budgetpet Cart',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_mycanvasstory.jpg',
-			title: 'Mycanvas Story',
-		},
-		// {
-		// 	imagePath: '/assets/d9_images/psd_portfolio/web_workhub360.jpg',
-		// 	title: 'Workhub360',
-		// },
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_education.jpg',
-			title: 'Sama AL Nokhba Training Center',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_point_click.jpg',
-			title: 'Point click & Design',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_epick&go.jpg',
-			title: 'EPICKNGO',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_bluestarfootball.jpg',
-			title: 'Bluestar Football',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_crushwalk.jpg',
-			title: 'Cushman & Wakefield',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_searchninja.jpg',
-			title: 'Search.rec Ninja',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_mygov.jpg',
-			title: 'MYGOV.NYC',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_draftanimalpower.jpg',
-			title: 'Draft Animal Power',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_kevianagroup.jpg',
-			title: 'Keviana Group',
-		},
-		{
-			imagePath: '/assets/d9_images/psd_portfolio/web_services4.jpg',
-			title: 'Services 4',
-		},
-	]
-  }),
-  mounted(){
-	window.scrollTo({
-		top: 0,
-		behavior: 'smooth',
-	});
-  }
-  
+  	components: {
+		navigation,
+		footerarea
+  	},
+	data: () => ({
+		show: false,
+		portfolio: [
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_budgetpetcart.jpg',
+				title: 'Budgetpet Cart',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_mycanvasstory.jpg',
+				title: 'Mycanvas Story',
+			},
+			// {
+			// 	imagePath: '/assets/d9_images/psd_portfolio/web_workhub360.jpg',
+			// 	title: 'Workhub360',
+			// },
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_education.jpg',
+				title: 'Sama AL Nokhba Training Center',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_point_click.jpg',
+				title: 'Point click & Design',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_epick&go.jpg',
+				title: 'EPICKNGO',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_bluestarfootball.jpg',
+				title: 'Bluestar Football',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_crushwalk.jpg',
+				title: 'Cushman & Wakefield',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_searchninja.jpg',
+				title: 'Search.rec Ninja',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_mygov.jpg',
+				title: 'MYGOV.NYC',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_draftanimalpower.jpg',
+				title: 'Draft Animal Power',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_kevianagroup.jpg',
+				title: 'Keviana Group',
+			},
+			{
+				imagePath: '/assets/d9_images/psd_portfolio/web_services4.jpg',
+				title: 'Services 4',
+			},
+		]
+	}),
+  	mounted(){
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		});
+		$(document).ready(function() {
+			$('.image_height a').lightbox(); 
+		});
+	}
 };
 
 

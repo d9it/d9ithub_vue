@@ -343,6 +343,21 @@ body{
  .draft_animal_power .portfolio_item_right{
     background-image:url(../d9_images/draft_animal_power.jpg);
 }
+.budgetpet .portfolio_item_right{
+    background-image:url(../d9_images/budgetpet.jpg);
+}
+.mycanvasstory .portfolio_item_right{
+    background-image:url(../d9_images/mycanvasstory.jpg);
+}
+.samantc .portfolio_item_right{
+    background-image:url(../d9_images/education.jpg);
+}
+.point_click .portfolio_item_right{
+    background-image:url(../d9_images/point_click.jpg);
+}
+.pifcoin .portfolio_item_right{
+    background-image:url(../d9_images/pifcoin.jpg);
+}
  .homeportfolio_content{
     margin-left:60px;
     width:80%;
@@ -1358,3 +1373,35 @@ a.info-icon {
 .inner_responsive .icon-show li { font-weight: 600;}
 .portfolio_inner.even_div{ background: url(../d9_images/our_team_bg.jpg); background-size: cover;}
 .portfolio_inner.even_div .text-cont h1 { text-align: left;}
+
+
+
+/* 
+.popup_show{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1021;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.popup_show .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 89%);
+}
+.popup_show .img-show{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.img-show span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+} */
