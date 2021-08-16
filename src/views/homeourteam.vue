@@ -13,7 +13,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/digvijayvaghela.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/digvijayvaghela.webp" alt="" title="">
                                     <figcaption>Digvijay Vaghela</figcaption>
                                     <span>Founder / Director</span>
                                 </figure>
@@ -22,7 +22,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/dhruvpatel.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/dhruvpatel.webp" alt="" title="">
                                     <figcaption>Dhruv Patel</figcaption>
                                     <span>Co - Founder / CEO</span>
                                 </figure>
@@ -31,7 +31,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/kandarppandya.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/kandarppandya.webp" alt="" title="">
                                     <figcaption>Kandarp Pandya</figcaption>
                                     <span>Sr. Frontend / Web Developer</span>
                                 </figure>
@@ -40,7 +40,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/palaksukhadiya.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/palaksukhadiya.webp" alt="" title="">
                                     <figcaption>Palak Sukhadiya</figcaption>
                                     <span>Sr. UI/UX Designer</span>
                                 </figure>
@@ -49,7 +49,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/amitsolanki.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/amitsolanki.webp" alt="" title="">
                                     <figcaption>Amit Solanki</figcaption>
                                     <span>Sr. Laravel Developer</span>
                                 </figure>
@@ -58,7 +58,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/sandeep_singh.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/sandeep_singh.webp" alt="" title="">
                                     <figcaption>Sandeep Singh</figcaption>
                                     <span>UI/UX Developer</span>
                                 </figure>
@@ -67,7 +67,7 @@
                         <li class="mis-slide">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/Asadgovani.png" alt="" title="">
+                                    <img src="/assets/d9_images/webp/Asadgovani.webp" alt="" title="">
                                     <figcaption>Asad Govani</figcaption>
                                     <span>Sr. Mobile App Developer</span>
                                 </figure>

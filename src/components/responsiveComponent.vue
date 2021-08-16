@@ -79,7 +79,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://budgetpetcart.d9ithub.com/"  target="_blank">
-												<img src="/assets/d9_images/mi_budgetpetcart.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_budgetpetcart.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -99,7 +99,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://mycanvasstory.com/" target="_blank">
-												<img src="/assets/d9_images/mi_mycanvas.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_mycanvas.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -235,7 +235,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://www.samantc.com/" target="_blank">
-												<img src="/assets/d9_images/mi_education.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_education.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -312,7 +312,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://www.thepifcoin.com/" target="_blank">
-												<img src="/assets/d9_images/pifcoin.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/pifcoin_1.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -390,7 +390,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://one.sprocketmedia.com/" target="_blank">
-												<img src="/assets/d9_images/mi_onemag.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_onemag.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -468,7 +468,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://wegov.nyc/">
-												<img src="/assets/d9_images/mi_mygov.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_mygov.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -488,7 +488,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://ecommerce.d9ithub.com/">
-												<img src="/assets/d9_images/mi_epickgo.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_epickgo.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -545,7 +545,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="javascript:void(0);" target="_blank">
-												<img src="/assets/d9_images/mi_erjaan_solution.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_erjaan_solution.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -565,7 +565,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://sarapis.org/" target="_blank">
-												<img src="/assets/d9_images/mi_sarapis.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_sarapis.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -622,7 +622,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://www.jgrobomarketing.com/" target="_blank">
-												<img src="/assets/d9_images/mi_jgrobo_marketing.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_jgrobo_marketing.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -699,7 +699,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://www.draftanimalpower.org/" target="_blank">
-												<img src="/assets/d9_images/mi_draftanimal.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_draftanimal.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -719,7 +719,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://bethcliftonproperties.com" target="_blank">
-												<img src="/assets/d9_images/mi_beth_clifton.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_beth_clifton.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -775,7 +775,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://openskies-tech.com/" target="_blank">
-												<img src="/assets/d9_images/mi_openskies_tech.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_openskies_tech.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -795,7 +795,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="javascript:void(0);" target="_blank">
-												<img src="/assets/d9_images/mi_tierra_oceano.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_tierra_oceano.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -851,7 +851,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="javascript:void(0);" target="_blank">
-												<img src="/assets/d9_images/mi_reneissance.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_reneissance.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>

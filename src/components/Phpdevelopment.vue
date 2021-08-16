@@ -116,7 +116,7 @@ export default {
 		portfolio: [
 			{
 				sitelink: 'http://budgetpetcart.d9ithub.com/',
-				imagePath: '/assets/d9_images/budgetpet.jpg',
+				imagePath: '/assets/d9_images/webp/budgetpet.webp',
 				title: 'Budgetpet Cart',
 				description: 'Budgetpet Cart is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!',
 				technology: [
@@ -144,7 +144,7 @@ export default {
 			},
 			{
 				sitelink: 'https://mycanvasstory.com/',
-				imagePath: '/assets/d9_images/mycanvasstory.jpg',
+				imagePath: '/assets/d9_images/webp/mycanvasstory.webp',
 				title: 'Mycanvas Story',
 				description: 'Let your`s be evergreen on the Canvas. My Canvas Story is your best destination for customized canvas prints.',
 				technology: [
@@ -228,7 +228,7 @@ export default {
 			// },
 			{
 				sitelink: 'https://www.samantc.com/',
-				imagePath: '/assets/d9_images/education.jpg',
+				imagePath: '/assets/d9_images/webp/education.webp',
 				title: 'Sama AL Nokhba Training Center',
 				description: 'Sama AL-Nokhba training center provide essential services for the sucess of aspiring ondividuals with direct training or smart training techniques.',
 				technology: [
@@ -256,7 +256,7 @@ export default {
 			},
 			{
 				sitelink: 'http://designtool.pointclickanddesign.com/',
-				imagePath: '/assets/d9_images/point_click.jpg',
+				imagePath: '/assets/d9_images/webp/point_click.webp',
 				title: 'Point click & Design',
 				description: 'This Point click & design site based in custome texture design. The site offers quality of products for peoples.',
 				technology: [
@@ -284,7 +284,7 @@ export default {
 			},
 			{
 				sitelink: 'http://www.thepifcoin.com/',
-				imagePath: '/assets/d9_images/pifcoin.jpg',
+				imagePath: '/assets/d9_images/webp/pifcoin.webp',
 				title: 'pifcoin',
 				description: 'Pifcoin is a means to track, inspire and most importantly, promote paying acts of kindness forward. The goal is to further advocate the "pay it forward" agenda by physically using a coin passed from one person to the next.',
 				technology: [
@@ -308,7 +308,7 @@ export default {
 			},
 			{
 				sitelink: 'http://ecommerce.d9ithub.com/',
-				imagePath: '/assets/d9_images/epickgo.jpg',
+				imagePath: '/assets/d9_images/webp/epickgo.webp',
 				title: 'EPICKNGO',
 				description: 'This EpickNgo site based in UAE. The site offers quality of products for peoples.',
 				technology: [
@@ -336,7 +336,7 @@ export default {
 			},
 			{
 				sitelink: 'https://one.sprocketmedia.com/',
-				imagePath: '/assets/d9_images/onemag.jpg',
+				imagePath: '/assets/d9_images/webp/onemag.webp',
 				title: 'ONE magazine',
 				description: 'ONE Magazine stands firmly at this intersection. A customizable lifestyle magazine, that connects on a deeper level. it`s the perfect complement to your marketing mix.',
 				technology: [
@@ -410,7 +410,7 @@ export default {
 			},
 			{
 				sitelink: 'http://wegov.nyc/',
-				imagePath: '/assets/d9_images/mygov.jpg',
+				imagePath: '/assets/d9_images/webp/mygov.webp',
 				title: 'MYGOV.NYC',
 				description: 'We believe that a path to a more effective NYC government, one that produces better and projects and services.',
 				technology: [
@@ -433,7 +433,7 @@ export default {
 				]
 			},
 			{
-				imagePath: '/assets/d9_images/erjaan_solution.jpg',
+				imagePath: '/assets/d9_images/webp/erjaan_solution.webp',
 				title: 'ERJAAN SOLUTIONS',
 				description: 'Erjaan is a saudi company specializing in cloud smart surveys solutions aiming to help organizations in business, healthcare and education sectors to make smarter decisions to drive growth by collecting and analyzing the right data from the right sources.',
 				technology: [
@@ -457,7 +457,7 @@ export default {
 			},
 			{
 				sitelink: 'https://www.jgrobomarketing.com/',
-				imagePath: '/assets/d9_images/jgrobo_marketing.jpg',
+				imagePath: '/assets/d9_images/webp/jgrobo_marketing.webp',
 				title: 'JGROBO',
 				description: 'Founded in 2014, we are industry leaders in the development of marketing automation systems.',
 				technology: [
@@ -481,7 +481,7 @@ export default {
 			},
 			{
 				sitelink: 'https://sarapis.org/',
-				imagePath: '/assets/d9_images/sarapis.jpg',
+				imagePath: '/assets/d9_images/webp/sarapis.webp',
 				title: 'SARAPIS',
 				description: 'Sarapis is a New York-state incorporated, federally designated 501.c.3 nonprofit organization.',
 				technology: [
@@ -505,7 +505,7 @@ export default {
 			},
 			{
 				sitelink: 'http://justmydoc.com/',
-				imagePath: '/assets/d9_images/just_my_doc.jpg',
+				imagePath: '/assets/d9_images/webp/just_my_doc.webp',
 				title: 'JUST MYDOC',
 				description: 'JustMyDoc is the Virtual Patient Medical Home platform that will revolutionize our healthcare system by lowering cost at the consumer level.',
 				technology: [
@@ -528,7 +528,7 @@ export default {
 				]
 			},
 			{
-				imagePath: '/assets/d9_images/tierra_oceano.jpg',
+				imagePath: '/assets/d9_images/webp/tierra_oceano.webp',
 				title: 'TIERRA OCEANO',
 				description: 'We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.',
 				technology: [
@@ -552,7 +552,7 @@ export default {
 			},
 			{
 				sitelink: 'http://openskies-tech.com/',
-				imagePath: '/assets/d9_images/openskies_tech.jpg',
+				imagePath: '/assets/d9_images/webp/openskies_tech.webp',
 				title: 'OPENSKIES TECH’S',
 				description: 'Openskies Tech’s goal is to transition work process from client location to its delivery center, risk free, rapidly and seamlessly.',
 				technology: [
@@ -575,7 +575,7 @@ export default {
 				]
 			},
 			{
-				imagePath: '/assets/d9_images/reneissance.jpg',
+				imagePath: '/assets/d9_images/webp/reneissance.webp',
 				title: 'RENAISSANCE',
 				description: 'Renaissance Studio of Design is a New York based web design company focusing on developing dynamic and cost effective.',
 				technology: [
@@ -598,7 +598,7 @@ export default {
 				]
 			},
 			{
-				imagePath: '/assets/d9_images/beth_clifton.jpg',
+				imagePath: '/assets/d9_images/webp/beth_clifton.webp',
 				title: 'BETH CLIFTON',
 				description: 'Beth serves as a Real Estate Agent at The Boulevard Company, and specializes in applying her ethics.',
 				technology: [
@@ -622,7 +622,7 @@ export default {
 			},
 			{
 				sitelink: 'https://www.draftanimalpower.org/',
-				imagePath: '/assets/d9_images/draft_animal_power.jpg',
+				imagePath: '/assets/d9_images/webp/draft_animal_power.webp',
 				title: 'DRAFT ANIMAL POWER',
 				description: 'The goal of the Draft Animal-Power Network is to provide year-round educational and networking opportunities.',
 				technology: [

@@ -57,7 +57,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/point_click.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/point_click.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -91,7 +91,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/pifcoin.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/pifcoin.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -124,7 +124,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/epickgo.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/epickgo.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -224,7 +224,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/mygov.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/mygov.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -257,7 +257,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/erjaan_solution.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/erjaan_solution.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -290,7 +290,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/jgrobo_marketing.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/jgrobo_marketing.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -323,7 +323,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/sarapis.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/sarapis.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -356,7 +356,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/just_my_doc.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/just_my_doc.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -389,7 +389,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/tierra_oceano.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/tierra_oceano.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -422,7 +422,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/openskies_tech.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/openskies_tech.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -455,7 +455,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/reneissance.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/reneissance.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -489,7 +489,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/beth_clifton.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/beth_clifton.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
@@ -523,7 +523,7 @@
 							<div class="inner_shadow">
 								<div class="image_height">
 									<a href="javascript:void(0)">
-										<img src="/assets/d9_images/draft_animal_power.jpg" alt="" title="" class="pro-img">
+										<img src="/assets/d9_images/webp/draft_animal_power.webp" alt="" title="" class="pro-img">
 									</a>
 								</div>
 								<div class="hover-block">
