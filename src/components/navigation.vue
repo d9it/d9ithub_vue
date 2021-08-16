@@ -75,7 +75,10 @@
                         } 
                         this.$scrollTo(`#${route}`, 200, options) 
                     },100)
-                })
+                });
+                if($('.navbar-toggler').is(':visible')) {
+                    $('#navbarCollapse').removeClass('show');
+                }
             }
         },
         mounted() {

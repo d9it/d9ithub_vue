@@ -8,7 +8,7 @@
                         <div class="col-lg-1"></div>
                         <div class="col-lg-4">
                             <div class="block-decorate-img">
-                                <img src="/assets/d9_images/aboutus.png" alt="" title="">
+                                <img src="/assets/d9_images/webp/aboutus.webp" alt="" title="">
                             </div>
                         </div>
                         <div class="col-lg-7 col-12">

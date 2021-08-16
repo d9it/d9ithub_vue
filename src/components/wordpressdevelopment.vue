@@ -111,7 +111,7 @@ export default {
 	portfolio: [
 		{
 			sitelink: 'https://www.jgrobomarketing.com/',
-			imagePath: '/assets/d9_images/jgrobo_marketing.jpg',
+			imagePath: '/assets/d9_images/webp/jgrobo_marketing.webp',
 			title: 'JGROBO',
 			description: 'Founded in 2014, we are industry leaders in the development of marketing automation systems.',
 			technology: [
@@ -135,7 +135,7 @@ export default {
 		},
 		{
 			sitelink: 'https://sarapis.org/',
-			imagePath: '/assets/d9_images/sarapis.jpg',
+			imagePath: '/assets/d9_images/webp/sarapis.webp',
 			title: 'SARAPIS',
 			description: 'Sarapis is a New York-state incorporated, federally designated 501.c.3 nonprofit organization.',
 			technology: [
@@ -159,7 +159,7 @@ export default {
 		},
 		{
 			sitelink: 'http://justmydoc.com/',
-			imagePath: '/assets/d9_images/just_my_doc.jpg',
+			imagePath: '/assets/d9_images/webp/just_my_doc.webp',
 			title: 'JUST MYDOC',
 			description: 'JustMyDoc is the Virtual Patient Medical Home platform that will revolutionize our healthcare system by lowering cost at the consumer level.',
 			technology: [
@@ -183,7 +183,7 @@ export default {
 		},
 		{
 
-			imagePath: '/assets/d9_images/tierra_oceano.jpg',
+			imagePath: '/assets/d9_images/webp/tierra_oceano.webp',
 			title: 'TIERRA OCEANO',
 			description: 'We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.',
 			technology: [
@@ -207,7 +207,7 @@ export default {
 		},
 		{
 			sitelink: 'http://openskies-tech.com/',
-			imagePath: '/assets/d9_images/openskies_tech.jpg',
+			imagePath: '/assets/d9_images/webp/openskies_tech.webp',
 			title: 'OPENSKIES TECH’S',
 			description: 'Openskies Tech’s goal is to transition work process from client location to its delivery center, risk free, rapidly and seamlessly.',
 			technology: [
@@ -230,7 +230,7 @@ export default {
 			]
 		},
 		{
-			imagePath: '/assets/d9_images/reneissance.jpg',
+			imagePath: '/assets/d9_images/webp/reneissance.webp',
 			title: 'RENAISSANCE',
 			description: 'Renaissance Studio of Design is a New York based web design company focusing on developing dynamic and cost effective.',
 			technology: [
@@ -253,7 +253,7 @@ export default {
 			]
 		},
 		{
-			imagePath: '/assets/d9_images/beth_clifton.jpg',
+			imagePath: '/assets/d9_images/webp/beth_clifton.webp',
 			title: 'BETH CLIFTON',
 			description: 'Beth serves as a Real Estate Agent at The Boulevard Company, and specializes in applying her ethics.',
 			technology: [
@@ -277,7 +277,7 @@ export default {
 		},
 		{
 			sitelink: 'https://www.draftanimalpower.org/',
-			imagePath: '/assets/d9_images/draft_animal_power.jpg',
+			imagePath: '/assets/d9_images/webp/draft_animal_power.webp',
 			title: 'DRAFT ANIMAL POWER',
 			description: 'The goal of the Draft Animal-Power Network is to provide year-round educational and networking opportunities.',
 			technology: [

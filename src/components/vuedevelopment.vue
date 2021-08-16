@@ -111,7 +111,7 @@ export default {
 	portfolio: [
 		{
 			sitelink: 'https://mycanvasstory.com/',
-			imagePath: '/assets/d9_images/mycanvasstory.jpg',
+			imagePath: '/assets/d9_images/webp/mycanvasstory.webp',
 			title: 'Mycanvas Story',
 			description: 'Let your`s be evergreen on the Canvas. My Canvas Story is your best destination for customized canvas prints.',
 			technology: [
@@ -139,7 +139,7 @@ export default {
 		},
 		{
 			sitelink: 'http://budgetpetcart.d9ithub.com/',
-			imagePath: '/assets/d9_images/budgetpet.jpg',
+			imagePath: '/assets/d9_images/webp/budgetpet.webp',
 			title: 'Budgetpet Cart',
 			description: 'Budgetpet Cart is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!',
 			technology: [
@@ -167,7 +167,7 @@ export default {
 		},
 		{
 			sitelink: 'http://designtool.pointclickanddesign.com/',
-			imagePath: '/assets/d9_images/point_click.jpg',
+			imagePath: '/assets/d9_images/webp/point_click.webp',
 			title: 'Point click & Design',
 			description: 'This EpickNgo site based in UAE. The site offers quality of products for peoples.',
 			technology: [
@@ -251,7 +251,7 @@ export default {
 		// },
 		{
 			sitelink: 'https://www.samantc.com/',
-			imagePath: '/assets/d9_images/education.jpg',
+			imagePath: '/assets/d9_images/webp/education.webp',
 			title: 'Sama AL Nokhba Training Center',
 			description: 'Sama AL-Nokhba training center provide essential services for the sucess of aspiring ondividuals with direct training or smart training techniques.',
 			technology: [
@@ -280,7 +280,7 @@ export default {
 			
 		{
 			sitelink: 'http://ecommerce.d9ithub.com/',
-			imagePath: '/assets/d9_images/epickgo.jpg',
+			imagePath: '/assets/d9_images/webp/epickgo.webp',
 			title: 'EPICKNGO',
 			description: 'This EpickNgo site based in UAE. The site offers quality of products for peoples.',
 			technology: [
@@ -308,7 +308,7 @@ export default {
 		},
 		{
 			sitelink: 'https://one.sprocketmedia.com/',
-			imagePath: '/assets/d9_images/onemag.jpg',
+			imagePath: '/assets/d9_images/webp/onemag.webp',
 			title: 'ONE magazine',
 			description: 'There’s a sea of marketing tools at your disposal. But how many help you promote yourself not only as an expert in your field.',
 			technology: [

@@ -308,55 +308,55 @@ body{
     opacity:1;
 }
  .EpickNgo .portfolio_item_right{
-    background-image:url(../d9_images/epickgo.jpg);
+    background-image:url(../d9_images/webp/epickgo.webp);
 }
  .mygov_nyc .portfolio_item_right{
-    background-image:url(../d9_images/mygov.jpg);
+    background-image:url(../d9_images/webp/mygov.webp);
 }
  .one_magazine .portfolio_item_right{
-    background-image:url(../d9_images/onemag.jpg);
+    background-image:url(../d9_images/webp/onemag.webp);
 }
  .erjaan_solu .portfolio_item_right{
-    background-image:url(../d9_images/erjaan_solution.jpg);
+    background-image:url(../d9_images/webp/erjaan_solution.webp);
 }
  .tierra_oceano .portfolio_item_right{
-    background-image:url(../d9_images/tierra_oceano.jpg);
+    background-image:url(../d9_images/webp/tierra_oceano.webp);
 }
  .openskies_tech .portfolio_item_right{
-    background-image:url(../d9_images/openskies_tech.jpg);
+    background-image:url(../d9_images/webp/openskies_tech.webp);
 }
  .reneissance .portfolio_item_right{
-    background-image:url(../d9_images/reneissance.jpg);
+    background-image:url(../d9_images/webp/reneissance.webp);
 }
  .sarapis .portfolio_item_right{
-    background-image:url(../d9_images/sarapis.jpg);
+    background-image:url(../d9_images/webp/sarapis.webp);
 }
  .just_my_doc .portfolio_item_right{
-    background-image:url(../d9_images/just_my_doc.jpg);
+    background-image:url(../d9_images/webp/just_my_doc.webp);
 }
  .beth_clifton .portfolio_item_right{
-    background-image:url(../d9_images/beth_clifton.jpg);
+    background-image:url(../d9_images/webp/beth_clifton.webp);
 }
  .jgrobo_marketing .portfolio_item_right{
-    background-image:url(../d9_images/jgrobo_marketing.jpg);
+    background-image:url(../d9_images/webp/jgrobo_marketing.webp);
 }
  .draft_animal_power .portfolio_item_right{
-    background-image:url(../d9_images/draft_animal_power.jpg);
+    background-image:url(../d9_images/webp/draft_animal_power.webp);
 }
 .budgetpet .portfolio_item_right{
-    background-image:url(../d9_images/budgetpet.jpg);
+    background-image:url(../d9_images/webp/budgetpet.webp);
 }
 .mycanvasstory .portfolio_item_right{
-    background-image:url(../d9_images/mycanvasstory.jpg);
+    background-image:url(../d9_images/webp/mycanvasstory.webp);
 }
 .samantc .portfolio_item_right{
-    background-image:url(../d9_images/education.jpg);
+    background-image:url(../d9_images/webp/education.webp);
 }
 .point_click .portfolio_item_right{
-    background-image:url(../d9_images/point_click.jpg);
+    background-image:url(../d9_images/webp/point_click.webp);
 }
 .pifcoin .portfolio_item_right{
-    background-image:url(../d9_images/pifcoin.jpg);
+    background-image:url(../d9_images/webp/pifcoin.webp);
 }
  .homeportfolio_content{
     margin-left:60px;
@@ -420,7 +420,7 @@ body{
     position: relative;
      display: inline-block;
      -webkit-background-clip: text;
-     background-image: url(../d9_images/home_services_bg.png);
+     background-image: url(../d9_images/webp/home_services_bg.webp);
      font-size: 134px;
      font-weight: 800;
      text-transform: uppercase;
@@ -544,7 +544,7 @@ body{
      color: #084ba2;
 }
  .home_about_us.home_testimonial .block-decorate-img{
-    background: url(../d9_images/our_clients.png);
+    background: url(../d9_images/webp/our_clients.webp);
     background-size: cover;
     margin-top: 0px;
     height: 90vh;
@@ -580,7 +580,7 @@ body{
     float:left;
     width:100%;
     position:relative;
-    background:url(../d9_images/contact_bg.png);
+    background:url(../d9_images/webp/contact_bg.webp);
     background-size:cover;
     background-position:bottom;
 }
@@ -628,7 +628,7 @@ body{
     width:50%;
 }
  .contact-box.info-box{
-    background:url(../d9_images/contact_bg.png);
+    background:url(../d9_images/webp/contact_bg.webp);
     background-size:cover;
     background-position:center;
     position:relative;
