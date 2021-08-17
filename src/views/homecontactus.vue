@@ -45,7 +45,7 @@
                         </div>
                         <div class="contact-box info-box">
                            <div class="contact-info-right">
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3250474631736!2d72.52253786596333!3d23.01183452131643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2988041721e1%3A0x89a4e253244ed3e2!2sD9ithub%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1605087074724!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;border-radius: 12px;border: 6px solid #084ba2;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                              <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3250474631736!2d72.52253786596333!3d23.01183452131643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2988041721e1%3A0x89a4e253244ed3e2!2sD9ithub%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1605087074724!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;border-radius: 12px;border: 6px solid #084ba2;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                               <!-- <div class="ts-contact-info"><span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span>
                                  <div class="ts-contact-content">
                                     <h3 class="ts-contact-title">Find Us</h3>

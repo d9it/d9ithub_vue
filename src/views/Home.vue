@@ -24,6 +24,7 @@
     import HomeOurteam from '../views/homeourteam';
     import HomeTestimonial from '../views/hometestimonial';
     import HomeContactus from '../views/homecontactus';
+    // const navigation = () => import("../components/navigation.vue");
     import footerarea from '../views/footerarea'
     import LoaderComponent from '../components/loader/loader'
 
