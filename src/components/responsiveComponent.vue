@@ -332,7 +332,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="javascript:void(0);">
-												<img src="/assets/d9_images/jwm.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/jwm.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
