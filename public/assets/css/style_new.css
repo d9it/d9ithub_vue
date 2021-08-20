@@ -757,7 +757,7 @@ body{
     text-decoration: underline;
 }
  .footer-main{
-    background:url(../d9_images/footer_bg.png);
+    background:url(../d9_images/webp/footer_bg.webp);
     background-size:cover;
     background-position:100%;
     color:#8c93a5;

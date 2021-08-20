@@ -642,7 +642,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://justmydoc.com/" target="_blank">
-												<img src="/assets/d9_images/mi_just_my_doc.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_just_my_doc.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>

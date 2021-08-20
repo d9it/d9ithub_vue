@@ -4,7 +4,7 @@ import VueScrollTo from 'vue-scrollto'
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import 'animate.css';
+// import 'animate.css';
 import V_Session from 'v-session';
 // import VueParticles from 'vue-particles'
 // import './plugins/vuetify'

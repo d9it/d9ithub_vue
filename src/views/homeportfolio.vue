@@ -295,7 +295,7 @@
                         <div class="homeportfolio_content">
                             <p class="text_sub">Portfolio</p>
                             <h1 class="text_big">JUST MYDOC</h1>
-                            <img src="/assets/d9_images/mi_just_my_doc.png" class="mobile_img" alt="" title="">
+                            <img src="/assets/d9_images/webp/mi_just_my_doc.webp" class="mobile_img" alt="" title="">
                             <p class="text_normal">JustMyDoc is the Virtual Patient Medical Home platform that will revolutionize our healthcare system by lowering cost at the consumer level.</p>
                             <p class="text_normal">The growth of self-insured health plans is fast and furious. Which makes JustMyDoc the ideal, long-term solution to help control and even lower these costs at the employer level.</p>
                             <p class="text_normal">
