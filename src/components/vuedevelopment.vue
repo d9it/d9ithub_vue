@@ -64,7 +64,7 @@
 									<div class="text-cont">
 										<div class="bg-rotate">
 											<a :href="portfolioData.sitelink" target="_blank" class="info-icon ">
-												<img src="/assets/d9_images/php.png" alt="" class="rotate-img-diag" width="40">
+												<img src="/assets/d9_images/vue.png" alt="" class="rotate-img-diag" width="40">
 											</a>
 										</div>
 										<a :href="portfolioData.sitelink" target="_blank">
@@ -94,12 +94,9 @@
   	</div>
 </template>
     
-
-
-
 <script>
-	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+	import navigation from '../components/common/navigation';	
+    import footerarea from '../components/common/footerarea'
 
 export default {
   components: {
@@ -109,6 +106,148 @@ export default {
   data: () => ({
     show: false,
 	portfolio: [
+		
+		{
+			sitelink: 'http://budgetpetcart.d9ithub.com/',
+			imagePath: '/assets/d9_images/webp/clicknomic.webp',
+			title: 'Clicknomic',
+			description: 'clicknomic is an automated marketing reporting tool created to help marketers save hours of work and create their reports in the blink of an eye.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'http://budgetpetcart.d9ithub.com/',
+			imagePath: '/assets/d9_images/webp/nightingalepass.webp',
+			title: 'Nightingale Pass',
+			description: 'The Nightingale Pass, developed with the NHS in mind.Nurses must repeat the lengthy process every time they move roles. It makes no sense.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'http://budgetpetcart.d9ithub.com/',
+			imagePath: '/assets/d9_images/webp/preety_pins.webp',
+			title: 'Pretty Pins Wizard',
+			description: 'Pretty Pins Wizard site based in custome texture design. The site offers quality of products for peoples.',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		{
+			sitelink: 'http://budgetpetcart.d9ithub.com/',
+			imagePath: '/assets/d9_images/webp/canadapet.webp',
+			title: 'CanadaPet Vet',
+			description: 'CanadaPet Vet is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
+		
+		{
+			sitelink: 'http://budgetpetcart.d9ithub.com/',
+			imagePath: '/assets/d9_images/webp/budgetpetmall.webp',
+			title: 'Budgetpet Mall',
+			description: 'Budgetpet Cart is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!',
+			technology: [
+				{
+					className: 'fab fa-laravel',
+					technologyName: 'Laravel'
+				},
+				{
+					className: 'fab fa-vuejs',
+					technologyName: 'Vue'
+				},
+				{
+					className: 'fab fa-html5',
+					technologyName: 'HTML 5'
+				},
+				{
+					className: 'fab fa-css3-alt',
+					technologyName: 'CSS 3'
+				},
+				{
+					className: 'fab fa-bootstrap',
+					technologyName: 'Bootstrap'
+				}
+			]
+		},
 		{
 			sitelink: 'https://mycanvasstory.com/',
 			imagePath: '/assets/d9_images/webp/mycanvasstory.webp',

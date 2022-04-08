@@ -4,7 +4,7 @@
         <div class="home_ourteam">
             <div class="services_warpper">
                 <div class="container p-0">
-                    <div class="homeservice_content">
+                    <div class="homeservice_content text-center">
                         <p class="text_sub">Our Strength</p>
                     </div>
                 </div>
@@ -14,7 +14,7 @@
                             <a class="mis-container">
                                 <figure>
                                     <img src="/assets/d9_images/webp/digvijayvaghela.webp" alt="" title="">
-                                    <figcaption>Digvijay Vaghela</figcaption>
+                                    <figcaption>Digvijaysinh Vaghela</figcaption>
                                     <span>Founder / Director</span>
                                 </figure>
                             </a>

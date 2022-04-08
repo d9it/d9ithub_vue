@@ -6,11 +6,11 @@
             Here we use it to create a stylish bar behind slides */
         margin-top: 138px;
         height: 80px;
-        background-color: #00306e;
+        background-color: #134d98;
     }
         .mis-slider li a {
             text-decoration: none;
-            color: #00306e !important;
+            color: #134d98 !important;
             font-size: 20px;
             font-weight: 700;
             display: block;

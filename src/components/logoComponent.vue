@@ -74,8 +74,8 @@
 
 
 <script>
-	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+	import navigation from '../components/common/navigation';	
+    import footerarea from '../components/common/footerarea'
 
 export default {
   components: {
@@ -85,6 +85,24 @@ export default {
   data: () => ({
     show: false,
 	portfolio: [
+		{
+			imagePath: '/assets/d9_images/p_logo/beach_partners.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/bridportevents.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/budgetpetmall.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/canadapetvet.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/learnhub360.jpg',
+		},
+		{
+			imagePath: '/assets/d9_images/p_logo/nyberrite.jpg',
+		},
 		{
 			imagePath: '/assets/d9_images/p_logo/1.jpg',
 		},
@@ -178,9 +196,7 @@ export default {
 		{
 			imagePath: '/assets/d9_images/p_logo/31.jpg',
 		},
-		{
-			imagePath: '/assets/d9_images/p_logo/32.jpg',
-		},
+		
 		{
 			imagePath: '/assets/d9_images/p_logo/33.jpg',
 		},

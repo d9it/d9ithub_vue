@@ -44,23 +44,20 @@
 .mistify__slide-title,
 .mistify__info-title {
   margin: 0;
-  color: #1269b7;
-  font-size: 5.5rem;
+  color: #3ab2f1;
+  font-size: 5rem;
   opacity: 1;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Titillium Web', sans-serif !important;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 600;
 }
 .mistify__slide-description,
 .mistify__info-description {
   margin: 0;
   color: #000;
-  font-size: 20px;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-size: 16px;
   margin-top: 20px;
-  font-weight: 600;
-  letter-spacing: 0px;
+  font-weight: 400;
 }
 .mistify__info-more {
   display: inline-block;
@@ -68,7 +65,6 @@
   margin: 10px 0 0 0;
   color: #000;
   font-size: 2.4rem;
-  font-family: 'Titillium Web', sans-serif !important;
   opacity: 0;
   -webkit-transition: .3s;
           transition: .3s;
@@ -181,24 +177,24 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
-  color: #0b71a3;
+  color: #074493;
   -webkit-transition: .2s;
           transition: .2s;
   font-size: 25px;
-  /* background: #0b71a3; */
+  /* background: #074493; */
   border-radius: 50px;
   margin-bottom: 10px;
 }
 .mistify__arrows .mistify__arrows--prev:hover,
 .mistify__arrows .mistify__arrows--prev.mistify__arrows--active {
-  color: #0b71a3;
+  color: #074493;
   -webkit-transform: translateY(-10%);
       -ms-transform: translateY(-10%);
           transform: translateY(-10%);
 }
 .mistify__arrows .mistify__arrows--next:hover,
 .mistify__arrows .mistify__arrows--next.mistify__arrows--active {
-  color: #0b71a3;
+  color: #074493;
   -webkit-transform: translateY(10%);
       -ms-transform: translateY(10%);
           transform: translateY(10%);
@@ -215,7 +211,7 @@
   z-index: 5;
   text-align: right;
   padding: 15px 20px;
-  background: #00306e;
+  background: #3ab2f1;
   border-radius: 30px 0 0 0;
 }
 .mistify__dots-container--hover .mistify__dots--active {
@@ -272,7 +268,6 @@
   -webkit-transition: .5s;
           transition: .5s;
   color: #0760fe;
-  font-family: 'Titillium Web', sans-serif !important;
 }
 .mistify__dots--active {
   padding-right: 0px;
@@ -288,7 +283,7 @@
   .mistify__slide-title,
   .mistify__info-title {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 @media (max-width: 767px) {
@@ -338,13 +333,13 @@
     margin-left: 0;
   }
   .mistify__arrows .mistify__arrows--prev:hover {
-    color: #0b71a3;
+    color: #074493;
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
   }
   .mistify__arrows .mistify__arrows--next:hover {
-    color: #0b71a3;
+    color: #074493;
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);

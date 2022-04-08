@@ -4,7 +4,7 @@
         <div class="main_top_content">
             <navigation></navigation>
         </div>
-        <Carousel id="home"></Carousel>
+        <SliderComponent id="home"></SliderComponent>
         <HomeAbout></HomeAbout>
         <HomeServices></HomeServices>
         <HomePortfolio></HomePortfolio>
@@ -30,15 +30,15 @@
 
     export default {
         components: {
-            navigation: () => import("../components/navigation.vue"),
-            Carousel: () => import("../components/carousel.vue"),
+            navigation: () => import("../components/common/navigation.vue"),
+            SliderComponent: () => import("../views/slider.vue"),
             HomeAbout: () => import("../views/homeabout.vue"),
             HomeServices: () => import("../views/homeservices.vue"),
             HomePortfolio: () => import("../views/homeportfolio.vue"),
             HomeOurteam: () => import("../views/homeourteam.vue"),
             HomeTestimonial: () => import("../views/hometestimonial.vue"),
             HomeContactus: () => import("../views/homecontactus.vue"),
-            footerarea: () => import("../views/footerarea.vue"),
+            footerarea: () => import("../components/common/footerarea.vue"),
             LoaderComponent: () => import("../components/loader/loader.vue")
         },
         name: 'Home',
@@ -47,6 +47,10 @@
             showLoader: false
         }),
         mounted(){
+            window.scrollTo({
+				top: 0,
+				behavior: 'smooth',
+			});
             const self = this
             document.onreadystatechange = function() { 
                 if (document.readyState !== "complete") {  

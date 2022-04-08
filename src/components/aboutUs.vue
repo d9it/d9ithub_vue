@@ -2,7 +2,7 @@
 	<div class="inner_pages">
 		<navigation></navigation>
 		<!-- START Breadcume area -->
-		<div class="breadcume">
+		<div class="breadcume our_services innerall">
 			<div class="container">
 				<div class="breadcume_inner">
 					<div class="breadcume_title">
@@ -20,8 +20,8 @@
 					</div>
 					<div class="col-md-6">
 						<div class="right_about_slide home_abouttext">
-							<h3 class="devider-bottom">What We Do</h3>
-							<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum tincidunt sem. Nulla ipsum lorem, interdum vel tincidunt sit amet, aliquam sit amet lectus. Mauris eu tincidunt sapien.</p>
+							<h3 class="devider-bottom">Who We Are?</h3>
+							<p class="mt-3">We are team of people who are dedicated, experienced and motivated for providing best quality products. We believe in 100% customer satisfaction and we always try to provide excellent quality products to the customers over the world. It does not matter which country the client belongs to, we have clients around the globe.</p>
 						</div>
 					</div>
 				</div>
@@ -30,8 +30,8 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="right_about_slide home_abouttext">
-							<h3 class="devider-bottom">Who We Are?</h3>
-							<p class="mt-3">We Are Reputed and Recognized for developing robust mobile apps.</p>
+							<h3 class="devider-bottom">What We Do?</h3>
+							<p class="mt-3">We love creating easy to use, effective and beautiful websites and specialize in responsive web design, HTML5 & Mobile applications. D9ithub has expertise on the forefront of new and progressive technologies. We have a great and loyal client base, some of which we have been working with for over 3 years! We don’t really advertise and most of our work is from referrals or repeat business.</p>
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -46,8 +46,8 @@
 					</div>
 					<div class="col-md-6">
 						<div class="right_about_slide home_abouttext">
-							<h3 class="devider-bottom">Why D9ithub</h3>
-							<p class="mt-3">D9ithub specializes in Web Applications, Mobile Application, Framework, Open source & E-Commerce Development. Also, we have possessed expertise in Web designing, Logo designing, Brand Identity Design, Digital Marketing, Software Testing and much more. You name the digital service, we have it. We do not only provide the service but our after- service approach is something that will keep you tied-up with us for a longer period of time .</p>
+							<h3 class="devider-bottom">Why D9ithub?</h3>
+							<p class="mt-3">D9ithub specializes in Web Applications, Mobile Application, Framework, Open source & E-Commerce Development. Also, we have possessed expertise in Web designing, Logo designing, Brand Identity Design, Digital Marketing, Software Testing and much more. You name the digital service, we have it. We do not only provide the service but our after- service approach is something that will keep you tied-up with us for a longer period of time.</p>
 						</div>
 					</div>
 				</div>
@@ -57,24 +57,19 @@
 					<div class="col-md-6">
 						<div class="right_about_slide home_abouttext">
 							<h3 class="devider-bottom">D9ithub Growth</h3>
-							<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum tincidunt sem. Nulla ipsum lorem, interdum vel tincidunt sit amet, aliquam sit amet lectus. Mauris eu tincidunt sapien.</p>
 						</div>
-					</div>
-					<div class="col-md-6">
-						<img src="/assets/d9_images/d9_growth.jpg" alt="" title="">
 					</div>
 				</div>
 			</div>
 		</div>
-		<AboveFooter></AboveFooter>
 		<footerarea></footerarea>
 	</div>
 </template>
 
 <script>
-	import navigation from "../components/navigation"
-	import footerarea from '../views/footerarea'
-	import AboveFooter from '../views/abovefooter'
+	import navigation from "../components/common/navigation"
+	import footerarea from '../components/common/footerarea'
+	import AboveFooter from '../components/common/abovefooter'
 	export default {
 		components: {
 			navigation,
@@ -84,6 +79,12 @@
 		data: () => ({
             show: false
         }),
+		mounted(){
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth',
+			});
+		}
     };
 </script>
 
