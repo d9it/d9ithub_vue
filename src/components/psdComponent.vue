@@ -71,8 +71,8 @@
 </template>
 
 <script>
-import navigation from '../components/navigation';	
-import footerarea from '../views/footerarea'
+import navigation from '../components/common/navigation';	
+import footerarea from '../components/common/footerarea'
 
 export default {
   	components: {

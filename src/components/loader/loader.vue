@@ -2,7 +2,7 @@
     <div class="loader_main">
         <div id="container" class="loader_center">
             <div class="item">
-                <img src="/assets/d9_images/d9ithublogo.png" />
+                <img src="/assets/d9_images/d9ithubfavicon.png" />
             </div>
             <div class="orbit-spinner">
               <div class="orbit"></div>

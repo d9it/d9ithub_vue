@@ -69,15 +69,15 @@
 			text-indent: 100%; /* Replace text */
             overflow: hidden;
             white-space: nowrap;
-			border: 1px solid #00306e;
+			border: 1px solid #1870ba;
 			border-radius: 7px; /* Make items round */
 			opacity: .3;
-            -webkit-box-shadow: inset 0 0 2px #00306e;
-            box-shadow: inset 0 0 2px 2px #00306e;
+            -webkit-box-shadow: inset 0 0 2px #1870ba;
+            box-shadow: inset 0 0 2px 2px #1870ba;
             margin: 0 3px;
 		}
 			.mis-nav-list li.mis-current a, .mis-nav-list li a:hover {
-				background: #00306e;opacity: 1;
+				background: #1870ba;opacity: 1;
 			}
 
     .mis-nav-buttons {

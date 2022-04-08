@@ -64,7 +64,7 @@
 									<div class="text-cont">
 										<div class="bg-rotate">
 											<a :href="portfolioData.sitelink" target="_blank" class="info-icon ">
-												<img src="/assets/d9_images/php.png" alt="" class="rotate-img-diag" width="40">
+												<img src="/assets/d9_images/mobile_development.png" alt="" class="rotate-img-diag" width="40">
 											</a>
 										</div>
 										<a :href="portfolioData.sitelink" target="_blank">
@@ -93,13 +93,10 @@
   	<footerarea></footerarea>	
   	</div>
 </template>
-    
-
-
-
+ 
 <script>
-	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+	import navigation from '../components/common/navigation';	
+    import footerarea from '../components/common/footerarea'
 
 export default {
   components: {

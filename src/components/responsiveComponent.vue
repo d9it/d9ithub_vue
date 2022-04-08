@@ -58,10 +58,166 @@
 								<div class="col-lg-1"></div>
 								<div class="col-md-5">
 									<div class="text-cont">
-										<a href="http://budgetpetcart.d9ithub.com/"  target="_blank">
-											<h1>Budgetpet Cart</h1>
+										<a href="https://design.nightingalepass.co.uk"  target="_blank">
+											<h1>Nightingale Pass</h1>
 										</a>
-										<p>Budgetpet Cart is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!</p>
+										<p>Welcome to the Nightingale Pass, the universal compliance passport which allows agency nurses to be flexible, be in control of their own compliance details and get into the workforce quicker. </p>
+									</div>
+									<div class="bg1-icon">
+										<div class="icon-show">
+											<ul class="nav nav-pills nav-justified mt-3">
+												<li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+												<li class="nav-item"><i class="fab fa-vuejs"></i>Vue</li>
+												<li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+												<li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+												<li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="inner_shadow">
+										<div class="image_height">
+											<a href="https://design.nightingalepass.co.uk/"  target="_blank">
+												<img src="/assets/d9_images/webp/mi_nightanglepass.webp" alt="" title="" class="pro-img">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio_inner even_div">
+				<div class="inner_responsive">
+					<div class="container">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-lg-5">
+									<div class="inner_shadow">
+										<div class="image_height">
+											<a href="https://ipm.clicknomics.io/" target="_blank">
+												<img src="/assets/d9_images/webp/mi_clicknomic.webp" alt="" title="" class="pro-img">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="text-cont">
+										<a href="https://ipm.clicknomics.io/" target="_blank">
+											<h1>Clicknomics</h1>
+										</a>
+										<p>clicknomic is an automated marketing reporting tool created to help marketers save hours of work and create their reports in the blink of an eye.</p>
+									</div>
+									<div class="bg1-icon">
+										<div class="icon-show">
+											<ul class="nav nav-pills nav-justified mt-3">
+												<li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+												<li class="nav-item"><i class="fab fa-vuejs"></i>Vue</li>
+												<li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+												<li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+												<li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio_inner odd_div">
+				<div class="inner_responsive">
+					<div class="container">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-md-5">
+									<div class="text-cont">
+										<a href="http://designtool.prettypinswizard.com/"  target="_blank">
+											<h1>Pretty Pins Wizard</h1>
+										</a>
+										<p>Let your`s be evergreen on the Canvas. My Canvas Story is your best destination for customized canvas prints.</p>
+									</div>
+									<div class="bg1-icon">
+										<div class="icon-show">
+											<ul class="nav nav-pills nav-justified mt-3">
+												<li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+												<li class="nav-item"><i class="fab fa-vuejs"></i>Vue</li>
+												<li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+												<li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+												<li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="inner_shadow">
+										<div class="image_height">
+											<a href="http://designtool.prettypinswizard.com/"  target="_blank">
+												<img src="/assets/d9_images/webp/mi_prettypins.webp" alt="" title="" class="pro-img">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio_inner even_div">
+				<div class="inner_responsive">
+					<div class="container">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-lg-5">
+									<div class="inner_shadow">
+										<div class="image_height">
+											<a href="http://canadapetvet.com/" target="_blank">
+												<img src="/assets/d9_images/webp/mi_canadapetvet.webp" alt="" title="" class="pro-img">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="text-cont">
+										<a href="http://canadapetvet.com/" target="_blank">
+											<h1>Canadapet Vet</h1>
+										</a>
+										<p>Canadapet Vet is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!</p>
+									</div>
+									<div class="bg1-icon">
+										<div class="icon-show">
+											<ul class="nav nav-pills nav-justified mt-3">
+												<li class="nav-item"><i class="fab fa-laravel"></i>Laravel</li>
+												<li class="nav-item"><i class="fab fa-vuejs"></i>Vue</li>
+												<li class="nav-item"><i class="fab fa-html5"></i>HTML 5</li>
+												<li class="nav-item"><i class="fab fa-css3-alt"></i>CSS 3</li>
+												<li class="nav-item"><i class="fab fa-bootstrap"></i>Bootstrap</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio_inner odd_div">
+				<div class="inner_responsive">
+					<div class="container">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-md-5">
+									<div class="text-cont">
+										<a href="http://budgetpetcart.d9ithub.com/"  target="_blank">
+											<h1>Budgetpet Mall</h1>
+										</a>
+										<p>Budgetpet Mall is dedicated to supplying quality pet care products at affordable prices. We care and are dedicated to providing best pet care, always!</p>
 									</div>
 									<div class="bg1-icon">
 										<div class="icon-show">
@@ -79,7 +235,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://budgetpetcart.d9ithub.com/"  target="_blank">
-												<img src="/assets/d9_images/webp/mi_budgetpetcart.webp" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_budgetpetmall.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -908,8 +1064,8 @@
 
 
 <script>
-	import navigation from '../components/navigation';	
-    import footerarea from '../views/footerarea'
+	import navigation from '../components/common/navigation';	
+    import footerarea from '../components/common/footerarea'
 
 export default {
   components: {

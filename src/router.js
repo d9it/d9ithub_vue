@@ -2,12 +2,12 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 // import PortfolioComponent from './components/PortfolioComponent'
+import aboutus from "./components/aboutUs"
+import ourService from "./components/ourService"
+import ourTeam from "./components/ourTeam"
 // import testimonial from "./components/testimonial"
-// import ourTeam from "./components/ourTeam"
-// import ourService from "./components/ourService"
-// import aboutUs from "./components/aboutUs"
+import contactus from "./components/contactUs"
 // import career from "./components/CareerComponent"
-// import contactus from "./components/contactUs"
 //<!-------------- for  lazy routes component !--------------------------------->
 // import Php from "./components/Phpdevelopment"
 // import laravel from "./components/laraveldevelopment"
@@ -34,10 +34,35 @@ export default new Router({
       name: "home",
       component: Home,
     },
+    {
+      path: "/aboutus",
+      name: "aboutus",
+      component: aboutus,
+    },
+    {
+      path: "/ourService",
+      name: "ourService",
+      component: ourService,
+    },
+    {
+      path: "/ourteam",
+      name: "ourteam",
+      component: ourTeam,
+    },
     // {
-    //   path: "/portfolio",
-    //   name: "Portfolio",
-    //   component: PortfolioComponent,
+    //   path: "/testimonial",
+    //   name: "testimonial",
+    //   component: testimonial,
+    // },
+    {
+      path: "/contactus",
+      name: "contactus",
+      component: contactus,
+    },
+    // {
+    //   path: "/career",
+    //   name: "career",
+    //   component: career,
     // },
     {
       path: "*",

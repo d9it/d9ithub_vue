@@ -87,11 +87,10 @@
 	</div>
 </template>
 
-
 <script>
-	import navigation from "../components/navigation"
-	import footerarea from '../views/footerarea'
-	import AboveFooter from '../views/abovefooter'
+	import navigation from "../components/common/navigation"
+	import footerarea from '../components/common/footerarea'
+	import AboveFooter from '../components/common/abovefooter'
 	export default {
 		components: {
 			navigation,
