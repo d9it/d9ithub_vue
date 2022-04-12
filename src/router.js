@@ -5,9 +5,9 @@ import Home from "./views/Home.vue";
 import aboutus from "./components/aboutUs"
 import ourService from "./components/ourService"
 import ourTeam from "./components/ourTeam"
-// import testimonial from "./components/testimonial"
+import testimonial from "./components/testimonial"
 import contactus from "./components/contactUs"
-// import career from "./components/CareerComponent"
+import career from "./components/CareerComponent"
 //<!-------------- for  lazy routes component !--------------------------------->
 // import Php from "./components/Phpdevelopment"
 // import laravel from "./components/laraveldevelopment"
@@ -49,21 +49,21 @@ export default new Router({
       name: "ourteam",
       component: ourTeam,
     },
-    // {
-    //   path: "/testimonial",
-    //   name: "testimonial",
-    //   component: testimonial,
-    // },
+    {
+      path: "/testimonial",
+      name: "testimonial",
+      component: testimonial,
+    },
     {
       path: "/contactus",
       name: "contactus",
       component: contactus,
     },
-    // {
-    //   path: "/career",
-    //   name: "career",
-    //   component: career,
-    // },
+    {
+      path: "/career",
+      name: "career",
+      component: career,
+    },
     {
       path: "*",
       name: "404page",

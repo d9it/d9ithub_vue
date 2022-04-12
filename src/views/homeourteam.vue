@@ -1,6 +1,5 @@
 <template>
     <div>
-        <div id="ourTeam" class="height_fixed"></div>
         <div class="home_ourteam">
             <div class="services_warpper">
                 <div class="container p-0">
@@ -60,7 +59,7 @@
                                 <figure>
                                     <img src="/assets/d9_images/webp/sandeep_singh.webp" alt="" title="">
                                     <figcaption>Sandeep Singh</figcaption>
-                                    <span>UI/UX Developer</span>
+                                    <span>Sr. UI/UX Developer</span>
                                 </figure>
                             </a>
                         </li>
