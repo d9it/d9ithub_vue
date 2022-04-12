@@ -25,8 +25,15 @@
                         <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'home'}" @click="setRouteActive('home')">
                             <router-link to="/" id="home" class="nav-link">Home</router-link>
                         </li>
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'aboutus'}" @click="setRouteActive('aboutus')">
-                            <router-link to="/" class="nav-link">About Us</router-link>
+                        <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'aboutus'}" @click="setRouteActive('aboutus')">
+                            <router-link to="/aboutus" class="nav-link">About Us</router-link>
+                        </li> -->
+                        <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'aboutus'}" >
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" >About Us</a>
+                            <ul class="dropdown-menu" >
+                                <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/aboutus">About D9ithub</router-link></li>
+                                <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/ourteam">Our Team</router-link></li>
+                            </ul> 
                         </li>
                         <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')">
                             <router-link to="/ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
@@ -34,16 +41,37 @@
                         <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" >
                             <a href="javascript:void(0)" class="nav-link dropdown-toggle" >Portfolio</a>
                             <ul class="dropdown-menu" >
-                                <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/php">Web Development</router-link></li>
-                                <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/webdesign">Graphics & Wesite Design</router-link></li>
+                                <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" @click="setRouteActive('portfolio')">
+                                    <router-link class="dropdown-item dropdown-toggle" to="/php">Web Development</router-link>
+                                    <ul class="dropdown-menu" >
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/php">PHP</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/laravel">Laravel</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/vue">Vue</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/wordpress">Wordpress</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/ecommerce">Ecommerce</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/mobile">Mobile app</router-link></li>
+                                    </ul>
+                                </li>
+                                <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" @click="setRouteActive('portfolio')">
+                                    <router-link class="dropdown-item dropdown-toggle" to="/webdesign">Graphics & Wesite Design</router-link>
+                                    <ul class="dropdown-menu" >
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/webdesign">Web Design</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/psd">PSD</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/logo">Logo</router-link></li>
+                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/responsive">Responsive</router-link></li>
+                                    </ul>
+                                </li>
                             </ul> 
                         </li>
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourTeam'}" @click="setRouteActive('ourTeam')">
+                        <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourTeam'}" @click="setRouteActive('ourTeam')">
                             <router-link to="/ourteam" class="nav-link">Our Team</router-link>
-                        </li>
+                        </li> -->
                         <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'testimonial'}" @click="setRouteActive('testimonial')">
-                            <router-link to="/" class="nav-link">Testimonial</router-link>
+                            <router-link to="/testimonial" class="nav-link">Testimonial</router-link>
                         </li>
+                        <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'career'}" @click="setRouteActive('career')">
+                            <router-link to="/career" class="nav-link">Career</router-link>
+                        </li> -->
                         <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'contactus'}" @click="setRouteActive('contactus')">
                             <router-link to="/contactus" class="nav-link">Contact Us</router-link>
                         </li>

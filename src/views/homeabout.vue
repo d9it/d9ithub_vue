@@ -1,6 +1,5 @@
 <template>
     <div>
-        <div id="aboutus" class="height_fixed"></div>
         <div class="home_about_us">
             <div class="container p-0">
                 <div class="row">

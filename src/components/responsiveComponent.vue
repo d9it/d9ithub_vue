@@ -56,7 +56,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://design.nightingalepass.co.uk"  target="_blank">
 											<h1>Nightingale Pass</h1>
@@ -104,7 +104,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://ipm.clicknomics.io/" target="_blank">
 											<h1>Clicknomics</h1>
@@ -134,7 +134,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://designtool.prettypinswizard.com/"  target="_blank">
 											<h1>Pretty Pins Wizard</h1>
@@ -182,7 +182,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://canadapetvet.com/" target="_blank">
 											<h1>Canadapet Vet</h1>
@@ -212,7 +212,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://budgetpetcart.d9ithub.com/"  target="_blank">
 											<h1>Budgetpet Mall</h1>
@@ -260,7 +260,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://mycanvasstory.com/" target="_blank">
 											<h1>Mycanvas Story</h1>
@@ -290,7 +290,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://learnhub360.com/" target="_blank">
 											<h1>Axel Training Services</h1>
@@ -338,7 +338,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://workhub360.d9ithub.com/" target="_blank">
 											<h1>Workhub360</h1>
@@ -368,7 +368,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://www.samantc.com/" target="_blank">
 											<h1>Sama AL Nokhba Training Center</h1>
@@ -416,7 +416,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://designtool.pointclickanddesign.com/" target="_blank">
 											<h1>Point click & Design</h1>
@@ -446,7 +446,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://www.thepifcoin.com/" target="_blank">
 											<h1>Pifcoin</h1>
@@ -493,7 +493,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="javascript:void(0);">
 											<h1>JWM RACING</h1>
@@ -522,7 +522,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://one.sprocketmedia.com/" target="_blank">
 											<h1>ONE magazine</h1>
@@ -571,7 +571,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="javascript:void(0);">
 											<h1>Search.rec Ninja</h1>
@@ -600,7 +600,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://wegov.nyc/" target="_blank">
 											<h1>WeGOV.NYC</h1>
@@ -649,7 +649,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://ecommerce.d9ithub.com/" target="_blank">
 											<h1>EPICKNGO</h1>
@@ -679,7 +679,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="javascript:void(0);" target="_blank">
 											<h1>ERJAAN SOLUTIONS</h1>
@@ -726,7 +726,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://sarapis.org/" target="_blank">
 											<h1>SARAPIS</h1>
@@ -756,7 +756,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://www.jgrobomarketing.com/" target="_blank">
 											<h1>JGROBO</h1>
@@ -803,7 +803,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://justmydoc.com/" target="_blank">
 											<h1>JUST MYDOC</h1>
@@ -832,7 +832,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="https://www.draftanimalpower.org/" target="_blank">
 											<h1>DRAFT ANIMAL POWER</h1>
@@ -880,7 +880,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://bethcliftonproperties.com" target="_blank">
 											<h1>BETH CLIFTON</h1>
@@ -909,7 +909,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="http://openskies-tech.com/" target="_blank">
 											<h1>OPENSKIES TECH’S</h1>
@@ -956,7 +956,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="javascript:void(0);" target="_blank">
 											<h1>TIERRA OCEANO</h1>
@@ -985,7 +985,7 @@
 						<div class="col-lg-12">
 							<div class="row">
 								<div class="col-lg-1"></div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="javascript:void(0);" target="_blank">
 											<h1>RENAISSANCE</h1>
@@ -1032,7 +1032,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-5">
+								<div class="col-lg-5">
 									<div class="text-cont">
 										<a href="javascript:void(0);" target="_blank">
 											<h1>Khayal dave</h1>

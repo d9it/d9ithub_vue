@@ -73,7 +73,7 @@
 							<img src="/assets/d9_images/webp/sandeep_singh.webp" alt="" title="">
 							<div class="detail_bg">
 								<h3>Sandeep Singh</h3>
-								<p>UI/UX Developer</p>
+								<p>Sr. UI/UX Developer</p>
 							</div>
 						</div>
 					</div>
