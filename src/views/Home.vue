@@ -1,10 +1,10 @@
 <template>
     <div>
         <LoaderComponent v-if="showLoader"></LoaderComponent>
-        <div class="main_top_content">
-            <navigation></navigation>
-        </div>
-        <SliderComponent id="home"></SliderComponent>
+        <div class="main_top_content" id="home">            
+            <navigation></navigation>            
+        </div>        
+        <SliderComponent></SliderComponent>
         <HomeAbout></HomeAbout>
         <HomeServices></HomeServices>
         <HomePortfolio></HomePortfolio>
@@ -59,6 +59,7 @@
                     self.showLoader = false;
                 } 
             };
+
         }
     };    
 </script>

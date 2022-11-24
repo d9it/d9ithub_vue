@@ -35,12 +35,12 @@
                   <div class="col-lg-3 col-md-12 footer-widget">
                      <h3 class="widget-title">Quick Links</h3>
                      <ul class="list-dash">
-                        <li @click="setRouteActive('aboutus')"><router-link to="/">About Us</router-link></li>
-                        <li @click="setRouteActive('ourService')"><router-link to="/">Our Services </router-link></li>
-                        <li @click="setRouteActive('portfolio')"><router-link to="/">Portfolio</router-link></li>
-                        <li @click="setRouteActive('ourTeam')"><router-link to="/">Our Team</router-link></li>
-                        <li @click="setRouteActive('testimonial')"><router-link to="/">Testimonial</router-link></li>
-                        <li @click="setRouteActive('contactus')"><router-link to="/">Contact Us</router-link></li>
+                        <li @click="setRouteActive('aboutus')"><router-link to="/aboutus">About Us</router-link></li>
+                        <li @click="setRouteActive('ourService')"><router-link to="/ourService">Our Services </router-link></li>
+                        <li @click="setRouteActive('portfolio')"><router-link to="/php">Portfolio</router-link></li>
+                        <li @click="setRouteActive('ourTeam')"><router-link to="/ourteam">Our Team</router-link></li>
+                        <li @click="setRouteActive('testimonial')"><router-link to="/testimonial">Testimonial</router-link></li>
+                        <li @click="setRouteActive('contactus')"><router-link to="/contactus">Contact Us</router-link></li>
                         <!-- <li @click="setRouteActive('career')"><router-link to="/career">Career</router-link></li> -->
                      </ul>
                   </div>

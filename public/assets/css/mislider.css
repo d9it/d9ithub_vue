@@ -81,7 +81,7 @@
 			}
 
     .mis-nav-buttons {
-        display: block;
+        display: none !important;
         position: absolute;
         height: 0;
         top: -40%;
@@ -118,3 +118,6 @@
             .mis-nav-buttons a.mis-next:after {
                 content: "\f054"; /* right single angle quote */
             }
+.mis-slide.mis-current li img{
+    animation: pulse 0.4s ease infinite alternate;
+}

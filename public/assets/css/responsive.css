@@ -21,6 +21,12 @@
 @media (max-width: 1525px) 
 {
     .container {max-width: 97%;}
+    .services_warpper .carousel-control-next, .portfolio_warpper .carousel-control-next {right: 0px;}
+    .services_warpper .carousel-control-prev, .portfolio_warpper .carousel-control-prev{left: 0px;}
+    .home_mainslider .carousel-control-prev {left: 20px;top: 80%;font-size: 30px;}
+    .home_mainslider .carousel-control-next {right: auto;left: 70px;top: 80%;font-size: 30px;}
+    .portfolio_item_right img{max-width: 80%;margin: 30px auto;}
+    .portfolio_item_right {text-align: center;}
 }
 @media (max-width: 1440px) 
 {
@@ -37,6 +43,8 @@
     .hover-block .text-cont{padding: 38px 10px 15px;}
     .text-cont h1{font-size: 20px;padding: 15px 0 0px;}
     .home_ourteam .text_sub{display: inline-block;}
+    .home_mainslider .carousel-control-prev {top: 90%;}
+    .home_mainslider .carousel-control-next {top: 90%;}
 }
 @media (max-width: 1330px) 
 { 
@@ -96,7 +104,9 @@
 {
     .custom-toggler.navbar-toggler { border-color: #084ba2;  background:#084ba2;}
     .custom-toggler .navbar-toggler-icon {  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
-    .navbar-light .navbar-nav .nav-link {padding: 12px 10px;}
+    .navbar-light .navbar-nav .nav-link {padding: 6px 10px;}
+    .dropdown-item {padding: 4px 11px;}
+    .navbar-nav .dropdown-menu .dropdown-menu{padding: 0px;}
     .navbar-nav .dropdown-menu {display: block; box-shadow: none; padding-left: 25px !important;}
     .home_abouttext {margin: 0% 1% 3% 0%; text-align: center;}
     .right_about_slide {height: 235px;}
@@ -163,6 +173,19 @@
     .dropdown-item{padding: 5px 3px;font-weight: 600;}
     .bradcume_nav{display: none;}
     .breadcume.our_services, .breadcume_inner {height: 180px;}
+    .home_mainslider .carousel-control-prev {
+        top: 100%;
+        position: relative;
+        left: 45%;
+        display: inline-block;
+    }
+    .home_mainslider .carousel-control-next {
+        top: 100%;
+        position: relative;
+        left: 45%;
+            display: inline-block;
+    }
+
 }
 @media (max-width:736px) 
 {

@@ -3,7 +3,7 @@
 		<div class="home_contactus">
 			<div class="container py-0">
 				<div class="homeservice_content">
-					<p class="text_sub text-center">Contact Us</p>
+					<p class="text_sub text-center" data-aos="zoom-in" data-aos-duration="1000">Contact Us</p>
 				</div>
 				<div class="contact-wrapper row">
 					<div class="col-md-6">
@@ -13,23 +13,23 @@
 						<form class="contact-form" >
 							<div class="row">
 								<div class="col-lg-12">
-									<div class="form-group">
+									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1000">
 										<input class="form-control" id="name" name="name" placeholder="Your Name" type="text" required="">
 									</div>
 								</div>
 								<!-- Col end-->
 								<div class="col-lg-12">
-									<div class="form-group">
+									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1200">
 										<input class="form-control " id="Email" name="Email" placeholder="Email" type="text" required="">
 									</div>
 								</div>
 								<div class="col-lg-12">
-									<div class="form-group">
+									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1400">
 										<input class="form-control" id="Phone" name="Phone" placeholder="Phone Number" type="text" required="">
 									</div>
 								</div>
 								<div class="col-lg-12">
-									<div class="form-group">
+									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1600">
 										<textarea class="form-control form-message required-field" id="message" placeholder="Comments" rows="5"></textarea>
 									</div>
 								</div>
