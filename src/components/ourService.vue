@@ -6,7 +6,7 @@
 			<div class="container">
 				<div class="breadcume_inner">
 					<div class="breadcume_title">
-						<h1>Our Services</h1>
+						<h1 data-aos="zoom-in" data-aos-duration="1200">Our Services</h1>
 						<!-- <ul class="nav justify-content-center nav-justified">
 							<li class="nav-item">
 								<router-link class="nav-link color_white" to="/ourService/webdevelopment">
@@ -54,7 +54,7 @@
 				<!-- <h2>Our Services</h2> -->
 				<div class="row">
 					<div class="col-md-4">
-						<div class="inner_services">
+						<div class="inner_services" data-aos="fade-right" data-aos-duration="1000">
 							<img src="/assets/d9_images/webservices.png" alt="" title="">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
@@ -67,7 +67,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="inner_services">
+						<div class="inner_services" data-aos="zoom-out" data-aos-duration="1000">
 							<img src="/assets/d9_images/mobileservices.png" alt="" title="">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
@@ -80,8 +80,8 @@
 						</div>
 					</div>					
 					<div class="col-md-4">
-						<div class="inner_services">
-							<img src="/assets/d9_images/ecommerceservices.png" alt="" title="">
+						<div class="inner_services" data-aos="fade-left" data-aos-duration="1000">
+							<img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fab fa-opencart"></i>
@@ -95,7 +95,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<div class="inner_services">
+						<div class="inner_services" data-aos="fade-right" data-aos-duration="1000">
 							<img src="/assets/d9_images/graphicservices.png" alt="" title="">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
@@ -108,7 +108,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="inner_services">
+						<div class="inner_services" data-aos="zoom-out" data-aos-duration="1000">
 							<img src="/assets/d9_images/enterprice_solution.png" alt="" title="">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
@@ -121,8 +121,8 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="inner_services">
-							<img src="/assets/d9_images/hireservices.png" alt="" title="">
+						<div class="inner_services" data-aos="fade-left" data-aos-duration="1000">
+							<img src="/assets/d9_images/hireservices.png" alt="" title="" >
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-users"></i>

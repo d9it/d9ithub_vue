@@ -36,10 +36,92 @@ a:focus, a:hover{text-decoration:none;}
 .home_mainslider .carousel-control-next {width: 60px;height: 60px;border-radius: 0px;right: 20px;top: 50%;color: #054392;opacity: 1;font-size: 40px;}
 .homeslider_text {height: 500px;display: table;vertical-align: middle;}
 .innerslider_text{height: 100%;vertical-align: middle;display: table-cell;}
-.homeslider_img img{width: 100%;}
-.btn_link {color: #FFF;padding: 12px 30px;margin-top: 20px;border-radius: 5px;font-size: 16px;background-color: #054392;border: 1px solid #086ad7;display: inline-block;}
+.homeslider_img{
+    animation-name: flo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.homeslider_img img{
+    width: 100%;
+}
+.btn_link {color: #FFF;padding: 12px 30px;margin-top: 20px;border-radius: 5px;font-size: 16px;background-color: #054392;border: 1px solid #086ad7;display: inline-block;position: relative;}
 .btn_link:hover {color: #054392;padding: 12px 30px;margin-top: 20px;border-radius: 5px;font-size: 16px;background-color: #ffffff;border: 1px solid #086ad7;display: inline-block;}
-
+.btn_link:before{
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.btn_link:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 0.2s;
+    border-radius: 5px;
+}
+.btn_link:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+  }
+  .blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  .blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+  }
+  .blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #0505A9;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+  }
+  
+  .blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s;
+  }
+  .blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+  }
+  .blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+  }
+  .blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+  }
+  .btn_link:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+  }
+  
+  
 
 /*========================= Home About Us ========================= */
 .home_about_us {float: left;width: 100%;background: #054392;color: #fff;padding: 90px 0;position: relative;}
@@ -120,7 +202,7 @@ h3.devider-bottom {position: relative;padding-bottom: 10px;text-transform: capit
 .contact-box.info-box:after{position:absolute;top:0;left:0;width:100%;height:100%;content:"";background:#134d98;z-index:-1;}
 .inner_contact {padding: 20px;text-align: center;border: 1px solid #8ab6da;border-radius: 10px;margin: 25px 0;transition: all 0.5s;}
 .inner_contact:hover{margin-top: 4px;box-shadow: 0px 0px 21px rgb(5 67 146 / 31%);border: 1px solid #ffffff;transition: all 0.5s;}
-.ts-contact-info .ts-contact-icon{font-size: 45px;color: #2154cf;display: block;width: 100%;text-shadow: 1px 2px #8ab6daab;}
+.ts-contact-info .ts-contact-icon{font-size: 45px;color: #2154cf;display: block;width: 100%;text-shadow: 1px 2px #8ab6daab; animation: 1s wiggle ease infinite;}
 
 
 /*===================== Footer area =======================*/
@@ -199,7 +281,7 @@ h3.devider-bottom {position: relative;padding-bottom: 10px;text-transform: capit
 
 /*======================== About us ======================*/
 .inner_about { margin-top: 40px;margin-bottom: 30px; display: inline-block;}
-.inner_about img { width: 100%;}
+.inner_about img { width: 100%;animation: flo 5s ease infinite;}
 .inner_about h3.devider-bottom {color: #000; margin-top: 45px; display: block;}
 .inner_about .right_about_slide { height: auto;}
 
@@ -301,3 +383,50 @@ a.info-icon {position: absolute;left: 0;top: auto!important;margin: auto;width: 
     text-align: right;
     display: block;
 }
+.contact-wrapper img
+{
+    -webkit-animation: pulse 0.4s ease infinite alternate;
+    animation: pulse 0.4s ease infinite alternate;
+}
+
+
+
+/*========================= animation css =========================*/
+
+@keyframes flo{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.98);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes wiggle {
+    0% {
+        transform: rotate(-3deg);
+    }
+    20% {
+        transform: rotate(20deg);
+    }
+    40% {
+        transform: rotate(-15deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    90% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+

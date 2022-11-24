@@ -9,11 +9,11 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0" >
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0" >                     
             <div class="container p-0">
-                <router-link class="navbar-brand text-center" @click.native="setRouteActive('home')"  to="/" v-scroll-to="'#home'">
+                <router-link class="navbar-brand text-center" @click.native="setRouteActive('home')"  to="/">
                     <img src="/assets/d9_images/d9ithublogo.png" alt="" class="fixed_header">
-                    <span>A caring eye for your software solutions</span>
+                    <span>A caring eye for your software solutions</span>                    
                 </router-link>
 
                 <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"  data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto" id="navbarTab">
                         <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'home'}" @click="setRouteActive('home')">
-                            <router-link to="/" id="home" class="nav-link">Home</router-link>
+                            <router-link to="/" class="nav-link">Home</router-link>
                         </li>
                         <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'aboutus'}" @click="setRouteActive('aboutus')">
                             <router-link to="/aboutus" class="nav-link">About Us</router-link>
@@ -100,7 +100,7 @@
                             easing: 'ease-int',
                             lazy: true,
                         } 
-                        this.$scrollTo(`#${route}`, 200, options) 
+                        this.$scrollTo(`#${route}`, 0, options) 
                     },100)
                 });
                 if($('.navbar-toggler').is(':visible')) {
@@ -115,7 +115,7 @@
                     easing: 'ease-int',
                     lazy: true,
                 } 
-                this.$scrollTo(`#${this.$store.state.activeRoute}`, 200, options)
+                this.$scrollTo(`#${this.$store.state.activeRoute}`, 0, options)
             }
         }  
     };

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0-rc.1",
+    "aos": "^2.3.4",
     "core-js": "^2.6.5",
     "v-session": "^1.0.4",
     "vue": "^2.6.10",

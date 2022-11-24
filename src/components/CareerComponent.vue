@@ -2,11 +2,11 @@
   	<div class="inner_pages">
 		<navigation></navigation>
 		<!-- START Breadcume area -->
-		<div class="breadcume career">
+		<div class="breadcume our_services innerall">
 			<div class="container">
 				<div class="breadcume_inner">
 					<div class="breadcume_title">
-						<h1>Career</h1>
+						<h1 data-aos="zoom-in" data-aos-duration="1200">Career</h1>
 					</div>
 				</div>
 			</div>
