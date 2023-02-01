@@ -95,6 +95,15 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/kinjaljain.webp" alt="" title="">
+							<div class="detail_bg">
+								<h3>Kinjal Jain</h3>
+								<p>Jr. Frontend/React Js Developer</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
