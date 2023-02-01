@@ -80,7 +80,16 @@
                                     <span>UI/UX Designer</span>
                                 </figure>
                             </a>
-                        </li>                        
+                        </li>   
+                        <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
+                            <a class="mis-container">
+                                <figure>
+                                    <img src="/assets/d9_images/webp/kinjaljain.webp" alt="" title="">
+                                    <figcaption>Kinjal Jain</figcaption>
+                                    <span>Jr. Frontend/React Js Developer</span>
+                                </figure>
+                            </a>
+                        </li>                      
                     </ol>
                 </div>
             </div>
