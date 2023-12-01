@@ -53,7 +53,7 @@
 			<div class="container">
 				<!-- <h2>Our Services</h2> -->
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="inner_services" data-aos="fade-right" data-aos-duration="1000">
 							<img src="/assets/d9_images/webservices.png" alt="" title="">
 							<div class="ts-service-content">
@@ -66,7 +66,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="inner_services" data-aos="zoom-out" data-aos-duration="1000">
 							<img src="/assets/d9_images/mobileservices.png" alt="" title="">
 							<div class="ts-service-content">
@@ -79,7 +79,7 @@
 							</div>
 						</div>
 					</div>					
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="inner_services" data-aos="fade-left" data-aos-duration="1000">
 							<img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
 							<div class="ts-service-content">
@@ -94,7 +94,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="inner_services" data-aos="fade-right" data-aos-duration="1000">
 							<img src="/assets/d9_images/graphicservices.png" alt="" title="">
 							<div class="ts-service-content">
@@ -107,7 +107,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="inner_services" data-aos="zoom-out" data-aos-duration="1000">
 							<img src="/assets/d9_images/enterprice_solution.png" alt="" title="">
 							<div class="ts-service-content">
@@ -120,7 +120,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="inner_services" data-aos="fade-left" data-aos-duration="1000">
 							<img src="/assets/d9_images/hireservices.png" alt="" title="" >
 							<div class="ts-service-content">
@@ -129,6 +129,47 @@
 								</span>
 								<h3 class="service-title">Hire Dedicated Resources</h3>
 								<p>Choose from flexi-hiring models that are guided by proven methodologies and quick turnaround to deliver extraordinary business solution.</p>
+								<!-- <p><router-link class="link-more" to="/ourService/hireDedicatedResource">Read More <i class="fas fa-long-arrow-alt-right"></i></router-link></p> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 mb-5">
+						<div class="inner_services" data-aos="fade-right" data-aos-duration="1000">
+							<img src="/assets/d9_images/seo_optimization.png" alt="" title="">
+							<div class="ts-service-content">
+								<span class="ts-service-icon">
+									<i class="fas fa-search-location"></i>
+								</span>
+								<h3 class="service-title">Search Engine Optimization</h3>
+								<p>Search engine optimization to step-up your business grow and gain traffic and visibility to get worlwide popularity, relations and clients.</p>
+								<!-- <p><router-link class="link-more" to="/ourService/webdesign">Read More <i class="fas fa-long-arrow-alt-right"></i></router-link></p> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-5">
+						<div class="inner_services" data-aos="zoom-out" data-aos-duration="1000">
+							<img src="/assets/d9_images/digital_marketing.png" alt="" title="">
+							<div class="ts-service-content">
+								<span class="ts-service-icon">
+									<i class="fas fa-bullhorn"></i>
+								</span>
+								<h3 class="service-title">Digital Marketing</h3>
+								<p>Do in-depth analysis to represent the brand and products and services in a clear way by focus on features of the product.</p>
+								<!-- <p><router-link class="link-more" to="/ourService/enterpriseSolution">Read More <i class="fas fa-long-arrow-alt-right"></i></router-link></p> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-5">
+						<div class="inner_services" data-aos="fade-left" data-aos-duration="1000">
+							<img src="/assets/d9_images/social_media.png" alt="" title="" >
+							<div class="ts-service-content">
+								<span class="ts-service-icon">
+									<i class="fas fa-desktop"></i>
+								</span>
+								<h3 class="service-title">Social Media Marketing</h3>
+								<p>Create online brand and services awareness and increase traffic by engaging people and learn more about audience's personal, geographic and demographic information</p>
 								<!-- <p><router-link class="link-more" to="/ourService/hireDedicatedResource">Read More <i class="fas fa-long-arrow-alt-right"></i></router-link></p> -->
 							</div>
 						</div>

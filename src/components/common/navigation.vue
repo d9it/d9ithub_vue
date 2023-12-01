@@ -35,7 +35,7 @@
                                 <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/ourteam">Our Team</router-link></li>
                             </ul> 
                         </li>
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')">
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
                             <router-link to="/ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
                         </li>
                         <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" >
@@ -78,6 +78,72 @@
                     </ul>
                 </div>
             </div>
+            <div :class="{'dropdrown_content_large': true, 'expand': expand}"  @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
+                <div class="container px-0 py-4">
+                    <div class="row">
+                        <div class="col-3">
+                            <h5>Search Engine Optimization</h5>
+                            <ul>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h5>Search Engine Optimization</h5>
+                            <ul>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h5>Search Engine Optimization</h5>
+                            <ul>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Keywords Analysis</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Web Application</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <div class="dropdown_slider">
+                                <div class="dropdown_slider_content">
+                                    <div>
+            							<img src="/assets/d9_images/social_media.png" alt="" title="" >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </nav>
     </div>
 </template>
@@ -86,6 +152,7 @@
     export default {
         data: () => ({
                 show: false,
+                expand: false,
             }),
         methods: {
             falseShow () {
@@ -106,6 +173,12 @@
                 if($('.navbar-toggler').is(':visible')) {
                     $('#navbarCollapse').removeClass('show');
                 }
+            },
+            exapndDropdown() {
+                this.expand = true;
+            },
+            closeDropdown() {
+                this.expand = false;
             }
         },
         mounted() {

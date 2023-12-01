@@ -50,7 +50,7 @@
 								<span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span>
 								<div class="ts-contact-content">
 									<h3 class="ts-contact-title">Find Us</h3>
-									<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Satellite, Ahmedabad, Gujarat 380015</p>
+									<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
 								</div>
 							</div>
 						</div>

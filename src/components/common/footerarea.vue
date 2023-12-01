@@ -17,8 +17,9 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-4 col-md-12 footer-widget footer-about">
-                     <h3 class="widget-title">About D9ithub</h3>
-                     <p>D9ithub is a global web development, mobile development and software solution provider in Ahmedabad, India. D9ithub having a art of off source development center in india which provides a high quality and reasonable cost with effective solution for their worldwide clients.</p>
+                     <!-- <h3 class="widget-title">About D9ithub</h3>
+                     <p>D9ithub is a global web development, mobile development and software solution provider in Ahmedabad, India. D9ithub having a art of off source development center in india which provides a high quality and reasonable cost with effective solution for their worldwide clients.</p> -->
+                    <img src="/assets/d9_images/d9ithublogo_white.png" alt="" class="footer_logo">
                      <h3 class="widget-title">Follow Us</h3>
                      <div class="footer-social">
                         <ul>
@@ -28,11 +29,18 @@
                            <li>
                               <a href="https://in.linkedin.com/company/d9ithub" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                            </li>
+                           <li>
+                              <a href="https://www.upwork.com/agencies/893775696471093248/" target="_blank">
+                                 <div>
+                                    <img src="/assets/d9_images/upwork.svg" alt="">
+                                 </div>
+                              </a>
+                           </li>
                         </ul>
                      </div>
                   </div>
                   <!-- About us end-->
-                  <div class="col-lg-3 col-md-12 footer-widget">
+                  <div class="col-lg-2 col-md-12 footer-widget">
                      <h3 class="widget-title">Quick Links</h3>
                      <ul class="list-dash">
                         <li @click="setRouteActive('aboutus')"><router-link to="/aboutus">About Us</router-link></li>
@@ -44,13 +52,16 @@
                         <!-- <li @click="setRouteActive('career')"><router-link to="/career">Career</router-link></li> -->
                      </ul>
                   </div>
-                  <div class="col-lg-5 col-md-12W footer-widget">
+                  <div class="col-lg-6 col-md-12W footer-widget">
                      <div class="footer-top footer_contactus" style="position: relative;top: 0;">
                         <div class="footer-box">
                            <i class="icon icon-location-pin"></i>
                            <div class="footer-box-content">
-                              <h3>Head Office</h3>
-                              <p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Satellite, Ahmedabad, Gujarat 380015</p>
+                              <h3>Visit Us</h3>
+                              <div class="footer_address_section">
+                                 <p>Head Office: &nbsp; C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
+                                 <p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
+                              </div>
                            </div>
                         </div>
                         <div class="footer-box">
@@ -77,7 +88,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 col-md-12 text-center">
-                     <div class="copyright-info"><span>Copyright © 2022 D9ITHUB. All Rights Reserved.</span></div>
+                     <div class="copyright-info"><span>Copyright © 2023 D9ITHUB. All Rights Reserved.</span></div>
                   </div>
                </div>
             </div>

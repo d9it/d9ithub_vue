@@ -100,6 +100,10 @@
     .inner_about h3.devider-bottom{margin-top: 10px !important;}
     .home_abouttext {margin: 0% 0% 5% 0%;}
 }
+@media (max-width:991px) 
+{
+    .footer-widget ul.list-dash li {width: 50%;}
+}
 @media (max-width:980px) 
 {
     .custom-toggler.navbar-toggler { border-color: #084ba2;  background:#084ba2;}
@@ -186,6 +190,8 @@
             display: inline-block;
     }
 
+    .inner_contact_location {margin: 25px 0 25px;}
+
 }
 @media (max-width:736px) 
 {
@@ -198,6 +204,8 @@
 @media (max-width:640px) 
 {
     .footer-top .footer-box{ min-height: auto}
+    .footer_address_section{flex-direction: column;}
+    .footer_address_section p:first-child{border-right: none;padding-right: 0;padding-bottom: 10px; border-bottom: 1px dashed rgba(255, 255, 255, 0.4);}
 }
 @media (max-width:600px) 
 {
@@ -240,6 +248,11 @@
     .block-decorate-img img {max-width: 100% !important;}
     .block-decorate-img img {max-width: 100% !important;}
     .right_about_slide {height: 270px;}
+
+    .inner_contact_location {flex-direction: column;}
+    .inner_contact_location .ts-contact-content {width: 100%;}
+    .inner_contact_location .location_map {width: 100%;height: 150px;}
+    .inner_contact_location .location_map iframe{height: 152px;}
 }
 @media (max-width:414px) 
 {
@@ -278,10 +291,11 @@
     .top_header{display: none;}
     .sec_title h2{font-size: 24px;}
     .contact-box {padding: 20px;}
-    .inner_contact{margin-bottom: 0px;}
+    .inner_contact, .inner_contact_location{margin-bottom: 0px;}
     .footer-top .footer-box .footer-box-content h3.footer_text{padding: 0px;}
     .ts-contact-title{font-size: 25px;}
     .home_contactus{padding: 40px 0px 90px;}
+    .service_content{padding: 60px 0px 90px;}
     .footer-main {padding: 11% 1px 20px;}
     .home_testimonial .testimonial_content {padding: 20px;}
     .testimonial_section .sec_title {margin-bottom: 35px;}   
