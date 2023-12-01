@@ -79,6 +79,15 @@
 					</div>
 					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
 						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/chetan_singhal.webp" alt="" title="">
+							<div class="detail_bg">
+								<h3>Chetan Singhal</h3>
+								<p>Sr. Laravel & Backend Developer</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
 							<img src="/assets/d9_images/webp/hardik_chaniyara.webp" alt="" title="">
 							<div class="detail_bg">
 								<h3>Hardik Chaniyara</h3>
@@ -101,6 +110,15 @@
 							<div class="detail_bg">
 								<h3>Kinjal Jain</h3>
 								<p>Jr. Frontend/React Js Developer</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/maulik_dobariya.webp" alt="" title="">
+							<div class="detail_bg">
+								<h3>Maulik Dobariya</h3>
+								<p>Laravel & API Expert</p>
 							</div>
 						</div>
 					</div>
