@@ -66,6 +66,15 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
+                                    <img src="/assets/d9_images/webp/chetan_singhal.webp" alt="" title="">
+                                    <figcaption>Chetan Singhal</figcaption>
+                                    <span>Sr. Laravel & Backend Developer</span>
+                                </figure>
+                            </a>
+                        </li> 
+                        <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
+                            <a class="mis-container">
+                                <figure>
                                     <img src="/assets/d9_images/webp/hardik_chaniyara.webp" alt="" title="">
                                     <figcaption>Hardik Chaniyara</figcaption>
                                     <span>React Js Developer</span>
@@ -89,7 +98,16 @@
                                     <span>Jr. Frontend/React Js Developer</span>
                                 </figure>
                             </a>
-                        </li>                      
+                        </li>                          
+                        <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
+                            <a class="mis-container">
+                                <figure>
+                                    <img src="/assets/d9_images/webp/maulik_dobariya.webp" alt="" title="">
+                                    <figcaption>Maulik Dobariya</figcaption>
+                                    <span>Laravel & API Expert</span>
+                                </figure>
+                            </a>
+                        </li>                     
                     </ol>
                 </div>
             </div>
