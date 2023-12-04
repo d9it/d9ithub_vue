@@ -94,7 +94,7 @@
 							</div>
 						</div>
 					</div> -->
-					<div class="col-md-6 col-lg-6">
+					<div class="col-md-6 col-lg-4">
 						<div class="inner_contact">
 							<div class="ts-contact-info">
 								<span class="ts-contact-icon float-left"><i class="icon icon-phone"></i></span>
@@ -105,13 +105,33 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-6">
+					<div class="col-md-6 col-lg-4">
 						<div class="inner_contact">
 							<div class="ts-contact-info last">
 								<span class="ts-contact-icon float-left"><i class="icon icon-envelope-open"></i></span>
 								<div class="ts-contact-content">
 									<h3 class="ts-contact-title">Mail Us</h3>
 									<p>hr@d9ithub.com <br/>d9ithub@gmail.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="inner_contact last">
+							<div class="ts-contact-info last">
+								<span class="ts-contact-icon float-left"><i class="icon icon-social-google"></i></span>
+								<div class="ts-contact-content">
+									<h3 class="ts-contact-title">Google Review</h3>
+									<p>
+										<router-link to="" class="text-dark">4.5 | 15 Reviews</router-link>
+									</p>
+									<div class="google-reviews d-flex justify-content-center align-items-center">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
 								</div>
 							</div>
 						</div>

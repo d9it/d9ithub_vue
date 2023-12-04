@@ -35,8 +35,127 @@
                                 <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/ourteam">Our Team</router-link></li>
                             </ul> 
                         </li>
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
+                        <li :class="{'nav-item d-block hide-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
                             <router-link to="/ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
+                        </li>
+                        <!-- show at small screen -->
+                        <li :class="{'nav-item d-none show-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="collapseDropdown">
+                            <router-link to="/ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
+                            <div :class="{'dropdrown_content_large': true, 'expand': collapsed}">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5>Search Engine Optimization</h5>
+                                            <ul>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5>Search Engine Optimization</h5>
+                                            <ul>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <h5>Search Engine Optimization</h5>
+                                            <ul>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Keywords Analysis</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Web Application</router-link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pt-3" style="border-top: 2px solid rgba(128, 128, 128, 0.216);">
+                                        <div class="we-deal-with w-100 d-flex align-items-start justify-content-between flex-wrap">
+                                            <h4>We Deal With Services</h4>
+                                            <router-link to="/ourService" class="under mt-1">View All</router-link>
+                                        </div>
+                                        <div class="dropdown_slider">
+                                            <div class="dropdown_slider_content">
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/webservices.png" alt="" title="" >
+                                                    </div>
+                                                    <p>Web Development</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/mobileservices.png" alt="" title="" >
+                                                    </div>
+                                                    <p>Mobile Development</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
+                                                    </div>
+                                                    <p>CMS & Ecomm.</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/graphicservices.png" alt="" title="" >
+                                                    </div>
+                                                    <p>Grapics & Web Design</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/enterprice_solution.png" alt="" title="" >
+                                                    </div>
+                                                    <p>Enterprise Solution</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/seo_optimization.png" alt="" title="" >
+                                                    </div>
+                                                    <p>SEO</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/digital_marketing.png" alt="" title="" >
+                                                    </div>
+                                                    <p>Digital Marketing</p>
+                                                </div>
+                                                <div class="dropdown_slider_item">
+                                                    <div>
+                                                        <img src="/assets/d9_images/social_media.png" alt="" title="" >
+                                                    </div>
+                                                    <p>Social Media Marketing</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
                         </li>
                         <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" >
                             <a href="javascript:void(0)" class="nav-link dropdown-toggle" >Portfolio</a>
@@ -78,67 +197,129 @@
                     </ul>
                 </div>
             </div>
+            <!-- show at large screen -->
             <div :class="{'dropdrown_content_large': true, 'expand': expand}"  @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
-                <div class="container px-0 py-4">
+                <div class="container px-0">
                     <div class="row">
-                        <div class="col-3">
-                            <h5>Search Engine Optimization</h5>
-                            <ul>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
-                                </li>
-                            </ul>
+                        <div class="col-7 py-4" style="border-right: 3px solid rgba(128, 128, 128, 0.216);">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h5>Search Engine Optimization</h5>
+                                    <ul>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h5>Search Engine Optimization</h5>
+                                    <ul>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h5>Search Engine Optimization</h5>
+                                    <ul>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Keywords Analysis</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Web Application</router-link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-3">
-                            <h5>Search Engine Optimization</h5>
-                            <ul>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-3">
-                            <h5>Search Engine Optimization</h5>
-                            <ul>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Keywords Analysis</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
-                                </li>
-                                <li>
-                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Web Application</router-link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-3">
+                        <div class="col-5 py-4 pl-4">
+                            <div class="w-100 d-flex align-items-start justify-content-between">
+                                <h4>We Deal With Services</h4>
+                                <router-link to="/ourService" class="under mt-1">View All</router-link>
+                            </div>
                             <div class="dropdown_slider">
                                 <div class="dropdown_slider_content">
-                                    <div>
-            							<img src="/assets/d9_images/social_media.png" alt="" title="" >
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/webservices.png" alt="" title="" >
+                                        </div>
+                                        <p>Web Development</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/mobileservices.png" alt="" title="" >
+                                        </div>
+                                        <p>Mobile Development</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
+                                        </div>
+                                        <p>CMS & Ecomm.</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/graphicservices.png" alt="" title="" >
+                                        </div>
+                                        <p>Grapics & Web Design</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/enterprice_solution.png" alt="" title="" >
+                                        </div>
+                                        <p>Enterprise Solution</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/seo_optimization.png" alt="" title="" >
+                                        </div>
+                                        <p>SEO</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/digital_marketing.png" alt="" title="" >
+                                        </div>
+                                        <p>Digital Marketing</p>
+                                    </div>
+                                    <div class="dropdown_slider_item">
+                                        <div>
+                                            <img src="/assets/d9_images/social_media.png" alt="" title="" >
+                                        </div>
+                                        <p>Social Media Marketing</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="d-flex align-items-start">  
+                                <button class="slider-aerrows" @click.prevent="scrollLeftSide">
+                                    <i class="fas fa-angle-left"></i>
+                                </button>
+                                <button class="slider-aerrows" @click.prevent="scrollRightSide">
+                                    <i class="fas fa-angle-right"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -153,6 +334,7 @@
         data: () => ({
                 show: false,
                 expand: false,
+                collapsed: false,
             }),
         methods: {
             falseShow () {
@@ -175,10 +357,23 @@
                 }
             },
             exapndDropdown() {
+                this.collapsed = false;
                 this.expand = true;
             },
             closeDropdown() {
                 this.expand = false;
+            },
+            collapseDropdown() {
+                this.expand = false;
+                this.collapsed = !this.collapsed;
+            },
+            scrollLeftSide() {
+                document.getElementsByClassName('dropdown_slider')[0].scrollLeft -= 100;
+                document.getElementsByClassName('dropdown_slider')[1].scrollLeft -= 100;
+            },
+            scrollRightSide() {
+                document.getElementsByClassName('dropdown_slider')[0].scrollLeft += 100;
+                document.getElementsByClassName('dropdown_slider')[1].scrollLeft += 100;
             }
         },
         mounted() {

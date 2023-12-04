@@ -120,6 +120,58 @@ a:focus, a:hover{text-decoration:none;}
   .btn_link:hover .blob-btn__blob {
     transform: translateZ(0) scale(1.7);
   }
+
+  /* navigation - services dropdown */
+  .dropdown_slider {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  .dropdown_slider::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .dropdown_slider_content {
+    display: flex;
+    align-items: start;
+    flex-wrap: nowrap;
+  }
+  .dropdown_slider_content p {
+    font-weight: 600;
+    margin: 10px 0 0 !important;
+    line-height: 16px;
+    white-space: wrap;
+  }
+  .dropdown_slider_item {
+      margin: 0 20px 0 0;
+      padding-bottom: 15px;
+  }
+  .dropdown_slider_item div {
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-left: 2px solid #0505A9;
+    border-top: 2px solid #0505A9;
+  }
+  .slider-aerrows {
+    color: #0505A9;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+  }
+  .slider-aerrows:hover {
+    border-color: #0505A9;
+    background-color: #0505a9;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  .slider-aerrows:focus, .slider-aerrows:active {
+    outline: none;
+  }
   
   
 
@@ -401,8 +453,12 @@ a.info-icon {position: absolute;left: 0;top: auto!important;margin: auto;width: 
 .inner_contact_location .ts-contact-content h3 {margin-bottom: 0;}
 .inner_contact_location .location_map {width: 50%;height: 300px;}
 .inner_contact_location .location_map iframe{width: 100%;height: 302px;}
+.google-reviews{color: orange;font-size: 18px;margin-bottom: 4px;}
 
 /* ================= navigation large dropdown content ================= */
+.collapse.navbar-collapse {
+    width: 100%;
+}
 .dropdrown_content_large {
     position: absolute;
     top: 100%;
@@ -419,12 +475,24 @@ a.info-icon {position: absolute;left: 0;top: auto!important;margin: auto;width: 
     transform: scale(1, 1);
     transition: all 0.4s ease;
 }
-.dropdrown_content_large h3 {
-    font-weight: 900;
+.dropdrown_content_large h4 {
+    font-weight: 700;
+    font-size: 1.25rem !important;
+    margin-bottom: 15px !important;
 }
 .dropdrown_content_large h5 {
+    position: relative;
     font-weight: 700;
     margin-bottom: 15px !important;
+}
+.dropdrown_content_large h5::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #0505A9;
+    top: 0;
+    left: -10px;
 }
 .dropdrown_content_large ul {
     list-style: none;
@@ -442,6 +510,24 @@ a.info-icon {position: absolute;left: 0;top: auto!important;margin: auto;width: 
 .dropdrown_content_large ul li a i {
     margin-right: 5px;
 }
+
+/* ======================== all service page ===================== */
+.web_dev_service h3, .service_inner_pages_card h2 {font-size: 38px !important;font-weight: 800;}
+.review_services {background-color: #054392;}
+.review_service_item {padding: 20px 8px;border-right: 1px solid rgba(255, 255, 255, 0.2);}
+.review_service_item.last {border: none;}
+.review_service_item h4, .review_service_item h2 {color: white;font-weight: 900 !important;}
+.service_inner_pages_card_item {border: 1px solid #054392;padding: 20px 30px;border-radius: 15px; margin-bottom: 20px;position: sticky;background-color: white;}
+.services_left_side {position: sticky;top: 80px;}
+.service_inner_pages_card_item:nth-child(1) {top: 80px;}
+.service_inner_pages_card_item:nth-child(2) {top: 140px;}
+.service_inner_pages_card_item:nth-child(3) {top: 200px;}
+.service_inner_pages_card_item:nth-child(4) {top: 260px;}
+.service_inner_pages_card_item:nth-child(5) {top: 320px;}
+.service_inner_pages_card_item:nth-child(6) {top: 380px;}
+.service_inner_pages_card_item:nth-child(7) {top: 440px;}
+.service_inner_pages_card_item h3 {font-weight: 700 !important;color: #054392;position: relative;}
+.service_inner_pages_card_item h3::before {content: "";height: 100%;width: 4px;background-color: #054392;left: -30px;top: 0;position: absolute;}
 
 
 
