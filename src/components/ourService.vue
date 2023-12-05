@@ -55,7 +55,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/webDevelopment" class="inner_services d-block" data-aos="fade-right" data-aos-duration="1000">
-							<img src="/assets/d9_images/webservices.png" alt="" title="">
+							<img src="/assets/d9_images/webservices.png" alt="img">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-cogs"></i>
@@ -68,7 +68,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/mobileDevelopment" class="inner_services d-block" data-aos="zoom-out" data-aos-duration="1000">
-							<img src="/assets/d9_images/mobileservices.png" alt="" title="">
+							<img src="/assets/d9_images/mobileservices.png" alt="img">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-mobile-alt"></i>
@@ -81,7 +81,7 @@
 					</div>					
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/cmsAndEcomDevelopment" class="inner_services d-block" data-aos="fade-left" data-aos-duration="1000">
-							<img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
+							<img src="/assets/d9_images/ecommerceservices.png" alt="img" >
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fab fa-opencart"></i>
@@ -94,7 +94,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/graphicsAndWebDesign" class="inner_services d-block" data-aos="fade-right" data-aos-duration="1000">
-							<img src="/assets/d9_images/graphicservices.png" alt="" title="">
+							<img src="/assets/d9_images/graphicservices.png" alt="img">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-palette"></i>
@@ -107,7 +107,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/enterpriseSolutions" class="inner_services d-block" data-aos="zoom-out" data-aos-duration="1000">
-							<img src="/assets/d9_images/enterprice_solution.png" alt="" title="">
+							<img src="/assets/d9_images/enterprice_solution.png" alt="img">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="far fa-lightbulb"></i>
@@ -120,7 +120,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/hireDedicatedResources" class="inner_services d-block" data-aos="fade-left" data-aos-duration="1000">
-							<img src="/assets/d9_images/hireservices.png" alt="" title="" >
+							<img src="/assets/d9_images/hireservices.png" alt="img" >
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-users"></i>
@@ -133,7 +133,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/searchEngineOptimization" class="inner_services d-block" data-aos="fade-right" data-aos-duration="1000">
-							<img src="/assets/d9_images/seo_optimization.png" alt="" title="">
+							<img src="/assets/d9_images/seo_optimization.png" alt="img">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-search-location"></i>
@@ -146,7 +146,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/digitalMarketing" class="inner_services d-block" data-aos="zoom-out" data-aos-duration="1000">
-							<img src="/assets/d9_images/digital_marketing.png" alt="" title="">
+							<img src="/assets/d9_images/digital_marketing.png" alt="img">
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-bullhorn"></i>
@@ -159,7 +159,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 mb-5">
 						<router-link to="/ourService/socialMediaMarketing" class="inner_services d-block" data-aos="fade-left" data-aos-duration="1000">
-							<img src="/assets/d9_images/social_media.png" alt="" title="" >
+							<img src="/assets/d9_images/social_media.png" alt="img" >
 							<div class="ts-service-content">
 								<span class="ts-service-icon">
 									<i class="fas fa-desktop"></i>
