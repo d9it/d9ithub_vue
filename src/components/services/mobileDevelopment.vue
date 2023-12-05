@@ -22,7 +22,7 @@
                             <router-link to="/contactus" class="btn btn_link mt-2" type="submit">Let's Connect</router-link>
 						</div>
 					</div>
-					<div class="col-md-6 col-12 text-center"  data-aos="zoom-in" data-aos-duration="1200">
+					<div class="col-md-6 col-12 text-center pt-4"  data-aos="zoom-in" data-aos-duration="1200">
 						<img src="/assets/d9_images/who_we_are.png" alt="" title="" class="img-fluid">
 					</div>
 				</div>

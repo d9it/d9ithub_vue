@@ -71,7 +71,7 @@
 						<div class="inner_contact_location">
 							<div class="ts-contact-content">
 								<h3 class="ts-contact-title">Find Us</h3>
-								<p>Office</p>
+								<p>Branch Office</p>
 								<hr>
 								<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
 							</div>
@@ -123,7 +123,7 @@
 								<div class="ts-contact-content">
 									<h3 class="ts-contact-title">Google Review</h3>
 									<p>
-										<router-link to="" class="text-dark">4.5 | 15 Reviews</router-link>
+										<a href="https://www.google.com/search?q=d9ithub+google+review&sca_esv=587945461&rlz=1C1YTUH_enIN1082IN1082&sxsrf=AM9HkKkJNfjhvuknkakwvZlEKVZcouGuWA%3A1701766069930&ei=teNuZbSwOMXPseMP1-ia0AI&ved=0ahUKEwj03trQ9PeCAxXFZ2wGHVe0BioQ4dUDCBA&uact=5&oq=d9ithub+google+review&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWQ5aXRodWIgZ29vZ2xlIHJldmlldzIFECEYoAFIoyVQFVj5I3ABeACQAQCYAcIBoAG-EKoBBDAuMTO4AQPIAQD4AQHCAgIQJsICBxAhGKABGAriAwQYASBBiAYB&sclient=gws-wiz-serp#" target="_blank" class="text-dark">4.5 | 15 Reviews</a>
 									</p>
 									<div class="google-reviews d-flex justify-content-center align-items-center">
 										<i class="fas fa-star"></i>

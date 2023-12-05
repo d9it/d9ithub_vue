@@ -58,10 +58,9 @@
                            <i class="icon icon-location-pin"></i>
                            <div class="footer-box-content">
                               <h3>Visit Us</h3>
-                              <div class="footer_address_section">
-                                 <p>Head Office: &nbsp; C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
-                                 <p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
-                              </div>
+                              <p>Head Office: &nbsp; C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
+                              <hr class="footer_address_divider my-2">
+                              <p>Branch Office: &nbsp; C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
                            </div>
                         </div>
                         <div class="footer-box">

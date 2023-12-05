@@ -15,6 +15,9 @@ import cmsAndEcomDevelopment from "./components/services/cmsAndEcomDevelopment"
 import graphicsAndWebDesign from "./components/services/graphicsAndWebDesign"
 import enterpriseSolutions from "./components/services/enterpriseSolutions"
 import hireDedicatedResources from "./components/services/hireDedicatedResources"
+import searchEngineOptimization from "./components/services/searchEngineOptimization"
+import digitalMarketing from "./components/services/digitalMarketing"
+import socialMediaMarketing from "./components/services/socialMediaMarketing"
 //<!-------------- for  lazy routes component !--------------------------------->
 // import Php from "./components/Phpdevelopment"
 // import laravel from "./components/laraveldevelopment"
@@ -95,6 +98,21 @@ export default new Router({
       path: "/ourService/enterpriseSolutions",
       name: "webDevelopment",
       component: enterpriseSolutions,
+    },
+    {
+      path: "/ourService/searchEngineOptimization",
+      name: "webDevelopment",
+      component: searchEngineOptimization,
+    },
+    {
+      path: "/ourService/digitalMarketing",
+      name: "webDevelopment",
+      component: digitalMarketing,
+    },
+    {
+      path: "/ourService/socialMediaMarketing",
+      name: "webDevelopment",
+      component: socialMediaMarketing,
     },
     {
       path: "/career",

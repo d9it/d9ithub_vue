@@ -35,63 +35,57 @@
                                 <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/ourteam">Our Team</router-link></li>
                             </ul> 
                         </li>
-                        <li :class="{'nav-item d-block hide-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="setRouteActive('ourService')" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
-                            <router-link to="/ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
+                        <li :class="{'nav-item d-block hide-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">  <!-- @click="setRouteActive('ourService')" -->
+                            <router-link to="" class="nav-link dropdown-toggle" v-scroll-to="'#ourService'">Our Services</router-link>
                         </li>
                         <!-- show at small screen -->
                         <li :class="{'nav-item d-none show-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="collapseDropdown">
-                            <router-link to="/ourService" class="nav-link" v-scroll-to="'#ourService'"> Our Services </router-link>
+                            <router-link to="" class="nav-link dropdown-toggle" v-scroll-to="'#ourService'">Our Services</router-link>
                             <div :class="{'dropdrown_content_large': true, 'expand': collapsed}">
                                 <div>
                                     <div class="row">
                                         <div class="col-md-4 col-sm-6">
-                                            <h5>Search Engine Optimization</h5>
+                                            <h5>Development Services</h5>
                                             <ul>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                                    <router-link to="/ourService/webDevelopment" class="nav-link"><i class="fas fa-cogs"></i> Web Development</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                                    <router-link to="/ourService/mobileDevelopment" class="nav-link"><i class="fas fa-mobile-alt"></i> Mobile Development</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                                    <router-link to="/ourService/cmsAndEcomDevelopment" class="nav-link"><i class="fab fa-opencart"></i> CMS & Ecommerce Development</router-link>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <h5>Search Engine Optimization</h5>
+                                            <h5>Designing & Other Services</h5>
                                             <ul>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                                    <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-palette"></i> Graphics Design</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                                    <router-link to="/ourService/enterpriseSolutions" class="nav-link"><i class="far fa-lightbulb"></i> Enterprise Solutions</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-globe-africa"></i> Website Design</router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link to="/ourService/hireDedicatedResources" class="nav-link"><i class="fas fa-users"></i> Hire Dedicated Resources</router-link>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4 col-sm-6">
-                                            <h5>Search Engine Optimization</h5>
+                                            <h5>Marketing Services</h5>
                                             <ul>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                                    <router-link to="/ourService/searchEngineOptimization" class="nav-link"><i class="fas fa-search-location"></i> Search Engine Optimization</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                                    <router-link to="/ourService/digitalMarketing" class="nav-link"><i class="fas fa-bullhorn"></i> Digital Marketing</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Keywords Analysis</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Web Application</router-link>
+                                                    <router-link to="/ourService/socialMediaMarketing" class="nav-link"><i class="fas fa-desktop"></i> Social Media Marketing</router-link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -99,7 +93,9 @@
                                     <div class="pt-3" style="border-top: 2px solid rgba(128, 128, 128, 0.216);">
                                         <div class="we-deal-with w-100 d-flex align-items-start justify-content-between flex-wrap">
                                             <h4>We Deal With Services</h4>
-                                            <router-link to="/ourService" class="under mt-1">View All</router-link>
+                                            <div @click="setRouteActive('ourService')">
+                                                <router-link to="/ourService" class="under mt-1">View All</router-link>
+                                            </div>
                                         </div>
                                         <div class="dropdown_slider">
                                             <div class="dropdown_slider_content">
@@ -204,53 +200,47 @@
                         <div class="col-7 py-4" style="border-right: 3px solid rgba(128, 128, 128, 0.216);">
                             <div class="row">
                                 <div class="col-4">
-                                    <h5>Search Engine Optimization</h5>
+                                    <h5>Development Services</h5>
                                     <ul>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                            <router-link to="/ourService/webDevelopment" class="nav-link"><i class="fas fa-cogs"></i> Web Development</router-link>
                                         </li>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                            <router-link to="/ourService/mobileDevelopment" class="nav-link"><i class="fas fa-mobile-alt"></i> Mobile Development</router-link>
                                         </li>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
+                                            <router-link to="/ourService/cmsAndEcomDevelopment" class="nav-link"><i class="fab fa-opencart"></i> CMS & Ecommerce Development</router-link>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-4">
-                                    <h5>Search Engine Optimization</h5>
+                                    <h5>Designing & Other Services</h5>
                                     <ul>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                            <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-palette"></i> Graphics Design</router-link>
                                         </li>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                            <router-link to="/ourService/enterpriseSolutions" class="nav-link"><i class="far fa-lightbulb"></i> Enterprise Solutions</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-globe-africa"></i> Website Design</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link to="/ourService/hireDedicatedResources" class="nav-link"><i class="fas fa-users"></i> Hire Dedicated Resources</router-link>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-4">
-                                    <h5>Search Engine Optimization</h5>
+                                    <h5>Marketing Services</h5>
                                     <ul>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Local Search Engine Optimization</router-link>
+                                            <router-link to="/ourService/searchEngineOptimization" class="nav-link"><i class="fas fa-search-location"></i> Search Engine Optimization</router-link>
                                         </li>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Digital Marketing</router-link>
+                                            <router-link to="/ourService/digitalMarketing" class="nav-link"><i class="fas fa-bullhorn"></i> Digital Marketing</router-link>
                                         </li>
                                         <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> SEO Strategy</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Keywords Analysis</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Compititive Rank Building</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="" class="nav-link"><i class="fas fa-globe-africa"></i> Web Application</router-link>
+                                            <router-link to="/ourService/socialMediaMarketing" class="nav-link"><i class="fas fa-desktop"></i> Social Media Marketing</router-link>
                                         </li>
                                     </ul>
                                 </div>
@@ -259,7 +249,9 @@
                         <div class="col-5 py-4 pl-4">
                             <div class="w-100 d-flex align-items-start justify-content-between">
                                 <h4>We Deal With Services</h4>
-                                <router-link to="/ourService" class="under mt-1">View All</router-link>
+                                <div @click="setRouteActive('ourService')">
+                                    <router-link to="/ourService" class="under mt-1">View All</router-link>
+                                </div>
                             </div>
                             <div class="dropdown_slider">
                                 <div class="dropdown_slider_content">
@@ -341,6 +333,7 @@
                 this.show = false
             },
             setRouteActive(route){
+                console.log(route, '-route-');
                 this.$v_session.set('activeRoute', route)
                 this.$store.state.activeRoute = route;
                 this.$nextTick(()=> {

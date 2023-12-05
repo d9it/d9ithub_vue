@@ -102,12 +102,15 @@
 
     .services_left_side {top: 20px;}
     .service_inner_pages_card_item:nth-child(1) {top: 20px;}
-    .service_inner_pages_card_item:nth-child(2) {top: 80px;}
-    .service_inner_pages_card_item:nth-child(3) {top: 140px;}
-    .service_inner_pages_card_item:nth-child(4) {top: 200px;}
-    .service_inner_pages_card_item:nth-child(5) {top: 260px;}
-    .service_inner_pages_card_item:nth-child(6) {top: 320px;}
-    .service_inner_pages_card_item:nth-child(7) {top: 370px;}
+    .service_inner_pages_card_item:nth-child(2) {top: 70px;}
+    .service_inner_pages_card_item:nth-child(3) {top: 120px;}
+    .service_inner_pages_card_item:nth-child(4) {top: 170px;}
+    .service_inner_pages_card_item:nth-child(5) {top: 220px;}
+    .service_inner_pages_card_item:nth-child(6) {top: 270px;}
+    .service_inner_pages_card_item:nth-child(7) {top: 320px;}
+    .service_inner_pages_card_item:nth-child(8) {top: 370px;}
+    .service_inner_pages_card_item:nth-child(9) {top: 420px;}
+    .service_inner_pages_card_item:nth-child(10) {top: 470px;}
 }
 @media (max-width:991px) 
 {
@@ -222,8 +225,6 @@
 @media (max-width:640px) 
 {
     .footer-top .footer-box{ min-height: auto}
-    .footer_address_section{flex-direction: column;}
-    .footer_address_section p:first-child{border-right: none;padding-right: 0;padding-bottom: 10px; border-bottom: 1px dashed rgba(255, 255, 255, 0.4);}
 }
 @media (max-width:600px) 
 {
@@ -271,6 +272,18 @@
     .inner_contact_location .ts-contact-content {width: 100%;}
     .inner_contact_location .location_map {width: 100%;height: 150px;}
     .inner_contact_location .location_map iframe{height: 152px;}
+
+    .services_left_side {top: 0px;}
+    .service_inner_pages_card_item:nth-child(1) {top: 0px;}
+    .service_inner_pages_card_item:nth-child(2) {top: 50px;}
+    .service_inner_pages_card_item:nth-child(3) {top: 100px;}
+    .service_inner_pages_card_item:nth-child(4) {top: 150px;}
+    .service_inner_pages_card_item:nth-child(5) {top: 200px;}
+    .service_inner_pages_card_item:nth-child(6) {top: 250px;}
+    .service_inner_pages_card_item:nth-child(7) {top: 300px;}
+    .service_inner_pages_card_item:nth-child(8) {top: 350px;}
+    .service_inner_pages_card_item:nth-child(9) {top: 400px;}
+    .service_inner_pages_card_item:nth-child(10) {top: 450px;}
 }
 @media (max-width:414px) 
 {

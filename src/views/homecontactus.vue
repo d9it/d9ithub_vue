@@ -43,19 +43,31 @@
 						<!-- Form end-->
 					</div>
 				</div> 
-				<div class="row">
-					<div class="col-md-4 col-lg-4">
+				<div class="row home_contact_us_section">
+					<div class="col-sm-6 col-lg-3">
 						<div class="inner_contact">
 							<div class="ts-contact-info">
 								<span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span>
 								<div class="ts-contact-content">
-									<h3 class="ts-contact-title">Find Us</h3>
+									<h3 class="ts-contact-title">Head Office</h3>
 									<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-4">
+					<div class="col-sm-6 col-lg-3">
+						<div class="inner_contact">
+							<div class="ts-contact-info">
+								<!-- <span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span> -->
+								<span class="ts-contact-icon float-left"><i class="icon icon-briefcase"></i></span>
+								<div class="ts-contact-content">
+									<h3 class="ts-contact-title">Branch Office</h3>
+									<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
 						<div class="inner_contact">
 							<div class="ts-contact-info">
 								<span class="ts-contact-icon float-left"><i class="icon icon-phone"></i></span>
@@ -66,7 +78,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-4">
+					<div class="col-sm-6 col-lg-3">
 						<div class="inner_contact">
 							<div class="ts-contact-info last">
 								<span class="ts-contact-icon float-left"><i class="icon icon-envelope-open"></i></span>

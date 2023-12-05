@@ -23,7 +23,7 @@
                             <router-link to="/contactus" class="btn btn_link mt-2" type="submit">Let's Connect</router-link>
 						</div>
 					</div>
-					<div class="col-md-6 col-12 text-center"  data-aos="zoom-in" data-aos-duration="1200">
+					<div class="col-md-6 col-12 text-center pt-4"  data-aos="zoom-in" data-aos-duration="1200">
 						<img src="/assets/d9_images/what_we_do.png" alt="" title="" class="img-fluid">
 					</div>
 				</div>
@@ -127,7 +127,6 @@
         methods: {
             counter() {
                 $(window).scroll(() => {
-                    console.log($(window).scrollTop());
                     if ($(window).scrollTop() >= 200) {                        
                         const clearProject = setInterval(() => {
                             this.projects != 40 ? this.projects += 1 : clearInterval(clearProject);
