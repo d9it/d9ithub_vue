@@ -52,19 +52,49 @@
 						<!-- Form end-->
 					</div>
 				</div> 
+
 				<div class="row">
-					<div class="col-md-4 col-lg-4">
+					<div class="col-md-6 col-lg-6">
+						<div class="inner_contact_location">
+							<div class="ts-contact-content">
+								<h3 class="ts-contact-title">Find Us</h3>
+								<p>Head Office</p>
+								<hr>
+								<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
+							</div>
+							<div class="location_map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3672.045378429286!2d72.53756100000001!3d23.022106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4bb3cc06ab9bedd!2sStratum%20%40%20Venus%20Grounds!5e0!3m2!1sen!2sin!4v1649320982409!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6">
+						<div class="inner_contact_location">
+							<div class="ts-contact-content">
+								<h3 class="ts-contact-title">Find Us</h3>
+								<p>Branch Office</p>
+								<hr>
+								<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
+							</div>
+							<div class="location_map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3672.045378429286!2d72.53756100000001!3d23.022106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4bb3cc06ab9bedd!2sStratum%20%40%20Venus%20Grounds!5e0!3m2!1sen!2sin!4v1649320982409!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</div> 
+
+				<div class="row">
+					<!-- <div class="col-md-4 col-lg-4">
 						<div class="inner_contact">
 							<div class="ts-contact-info">
 								<span class="ts-contact-icon float-left"><i class="icon icon-location-pin"></i></span>
 								<div class="ts-contact-content">
 									<h3 class="ts-contact-title">Find Us</h3>
-									<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Satellite, Ahmedabad, Gujarat 380015</p>
+									<p>C-1204, A-Wing, STRATUM at Venus Grounds Nr. Jhansi ki Rani statue, Nehru Nagar, Ahmedabad, Gujarat 380015</p>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-lg-4">
+					</div> -->
+					<div class="col-md-6 col-lg-4">
 						<div class="inner_contact">
 							<div class="ts-contact-info">
 								<span class="ts-contact-icon float-left"><i class="icon icon-phone"></i></span>
@@ -75,7 +105,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-4">
+					<div class="col-md-6 col-lg-4">
 						<div class="inner_contact">
 							<div class="ts-contact-info last">
 								<span class="ts-contact-icon float-left"><i class="icon icon-envelope-open"></i></span>
@@ -86,12 +116,32 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="inner_contact last">
+							<div class="ts-contact-info last">
+								<span class="ts-contact-icon float-left"><i class="icon icon-social-google"></i></span>
+								<div class="ts-contact-content">
+									<h3 class="ts-contact-title">Google Review</h3>
+									<p>
+										<a href="https://www.google.com/search?q=d9ithub+google+review&sca_esv=587945461&rlz=1C1YTUH_enIN1082IN1082&sxsrf=AM9HkKkJNfjhvuknkakwvZlEKVZcouGuWA%3A1701766069930&ei=teNuZbSwOMXPseMP1-ia0AI&ved=0ahUKEwj03trQ9PeCAxXFZ2wGHVe0BioQ4dUDCBA&uact=5&oq=d9ithub+google+review&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWQ5aXRodWIgZ29vZ2xlIHJldmlldzIFECEYoAFIoyVQFVj5I3ABeACQAQCYAcIBoAG-EKoBBDAuMTO4AQPIAQD4AQHCAgIQJsICBxAhGKABGAriAwQYASBBiAYB&sclient=gws-wiz-serp#" target="_blank" class="text-dark">4.5 | 15 Reviews</a>
+									</p>
+									<div class="google-reviews d-flex justify-content-center align-items-center">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>  
 			</div>
 		</div>
-		<div class="contact_map">
+		<!-- <div class="contact_map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3672.045378429286!2d72.53756100000001!3d23.022106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4bb3cc06ab9bedd!2sStratum%20%40%20Venus%20Grounds!5e0!3m2!1sen!2sin!4v1649320982409!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
+		</div> -->
 		<footerarea></footerarea>
 	</div>
 </template>
