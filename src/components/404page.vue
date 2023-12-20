@@ -14,7 +14,7 @@
         <div class="container py-0">
             <div class="pagenot_found">
                 <div class="col-md-7 m-auto text-center">
-                    <img src="/assets/d9_images/404.png" alt="" title="">
+                    <img src="/assets/d9_images/webp/404.webp" alt="" title="">
                     <h3>Oops! Something is wrong.</h3>
                     <p>we are very sorry for inconvience. it looks like you're trying to access a page that either has been deleted or never even existed.</p>
                     <router-link @click.native="setRouteActive('home')"  to="/" v-scroll-to="'#home'" class="btn btn_blue mt-2">Back to Home</router-link>

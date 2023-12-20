@@ -8,6 +8,16 @@ import ourTeam from "./components/ourTeam"
 import testimonial from "./components/testimonial"
 import contactus from "./components/contactUs"
 import career from "./components/CareerComponent"
+// all services pages
+import webDevelopment from "./components/services/webDevelopment"
+import mobileDevelopment from "./components/services/mobileDevelopment"
+import cmsAndEcomDevelopment from "./components/services/cmsAndEcomDevelopment"
+import graphicsAndWebDesign from "./components/services/graphicsAndWebDesign"
+import enterpriseSolutions from "./components/services/enterpriseSolutions"
+import hireDedicatedResources from "./components/services/hireDedicatedResources"
+import searchEngineOptimization from "./components/services/searchEngineOptimization"
+import digitalMarketing from "./components/services/digitalMarketing"
+import socialMediaMarketing from "./components/services/socialMediaMarketing"
 //<!-------------- for  lazy routes component !--------------------------------->
 // import Php from "./components/Phpdevelopment"
 // import laravel from "./components/laraveldevelopment"
@@ -58,6 +68,51 @@ export default new Router({
       path: "/contactus",
       name: "contactus",
       component: contactus,
+    },
+    {
+      path: "/ourService/webDevelopment",
+      name: "webDevelopment",
+      component: webDevelopment,
+    },
+    {
+      path: "/ourService/mobileDevelopment",
+      name: "webDevelopment",
+      component: mobileDevelopment,
+    },
+    {
+      path: "/ourService/cmsAndEcomDevelopment",
+      name: "webDevelopment",
+      component: cmsAndEcomDevelopment,
+    },
+    {
+      path: "/ourService/hireDedicatedResources",
+      name: "webDevelopment",
+      component: hireDedicatedResources,
+    },
+    {
+      path: "/ourService/graphicsAndWebDesign",
+      name: "webDevelopment",
+      component: graphicsAndWebDesign,
+    },
+    {
+      path: "/ourService/enterpriseSolutions",
+      name: "webDevelopment",
+      component: enterpriseSolutions,
+    },
+    {
+      path: "/ourService/searchEngineOptimization",
+      name: "webDevelopment",
+      component: searchEngineOptimization,
+    },
+    {
+      path: "/ourService/digitalMarketing",
+      name: "webDevelopment",
+      component: digitalMarketing,
+    },
+    {
+      path: "/ourService/socialMediaMarketing",
+      name: "webDevelopment",
+      component: socialMediaMarketing,
     },
     {
       path: "/career",

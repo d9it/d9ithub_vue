@@ -79,7 +79,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://design.nightingalepass.co.uk/"  target="_blank">
-												<img src="/assets/d9_images/webp/mi_nightanglepass.webp" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_nightanglepass.webp" alt="img" width="100%" height="auto" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -99,7 +99,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="https://ipm.clicknomics.io/" target="_blank">
-												<img src="/assets/d9_images/webp/mi_clicknomic.webp" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/mi_clicknomic.webp" alt="img" width="100%" height="auto" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -411,7 +411,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="http://designtool.pointclickanddesign.com/" target="_blank">
-												<img src="/assets/d9_images/point_click.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/webp/point_click2.webp" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>
@@ -1027,7 +1027,7 @@
 									<div class="inner_shadow">
 										<div class="image_height">
 											<a href="javascript:void(0);" target="_blank">
-												<img src="/assets/d9_images/mi_khayaldave.png" alt="" title="" class="pro-img">
+												<img src="/assets/d9_images/khayaldave.jpg" alt="" title="" class="pro-img">
 											</a>
 										</div>
 									</div>

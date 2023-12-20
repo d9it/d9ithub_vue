@@ -11,7 +11,7 @@
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-md-6 portfolio_item_right">
-                                        <img src="/assets/d9_images/webp/mi_nightanglepass.webp" alt="" title="" data-aos="zoom-in-left" data-aos-duration="1500">
+                                        <img src="/assets/d9_images/webp/mi_nightanglepass.webp" alt="img" width="100%" height="auto" data-aos="zoom-in-left" data-aos-duration="1500">
                                     </div>
                                     <div class="col-md-6 portfolio_item_left">
                                         <div class="homeportfolio_content">
@@ -34,7 +34,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6 portfolio_item_right">
-                                        <img src="/assets/d9_images/webp/mi_clicknomic.webp" alt="" title="">
+                                        <img src="/assets/d9_images/webp/mi_clicknomic.webp" alt="img" width="100%" height="auto">
                                     </div>
                                     <div class="col-md-6 portfolio_item_left">
                                         <div class="homeportfolio_content">
@@ -172,7 +172,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6 portfolio_item_right">
-                                        <img src="/assets/d9_images/point_click.png" alt="" title="">
+                                        <img src="/assets/d9_images/webp/point_click2.webp" alt="" title="">
                                     </div>
                                     <div class="col-md-6 portfolio_item_left">
                                         <div class="homeportfolio_content">
@@ -215,10 +215,10 @@
                                 </div> 
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls" data-slide="prev">
                             <i class="fas fa-long-arrow-alt-left"></i>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls" data-slide="next">
                             <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>

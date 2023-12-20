@@ -69,15 +69,15 @@
                             </div>                                        
                         </div>
 
-                        <a class="carousel-control-prev" href="#client" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#client" data-slide="prev">
                             <i class="fas fa-long-arrow-alt-left"></i>
                         </a>
-                        <a class="carousel-control-next" href="#client" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#client" data-slide="next">
                             <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
                     <div class="thumb_layer paroller">
-                        <figure class="image"><img src="/assets/d9_images/testimonial_bg.png" alt=""></figure>
+                        <figure class="image"><img src="/assets/d9_images/webp/testimonial_bg.webp" alt="img" width="100%" height="auto"></figure>
                     </div>
                 </div>
             </section>
