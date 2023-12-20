@@ -12,7 +12,7 @@
         <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0" >                     
             <div class="container p-0">
                 <router-link class="navbar-brand text-center" @click.native="setRouteActive('home')"  to="/">
-                    <img src="/assets/d9_images/d9ithublogo.png" alt="" class="fixed_header">
+                    <img src="/assets/d9_images/d9ithublogo.png" alt="img" width="100%" height="auto" class="fixed_header">
                     <span>A caring eye for your software solutions</span>                    
                 </router-link>
 
@@ -101,49 +101,49 @@
                                             <div class="dropdown_slider_content">
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/webservices.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/webservices.png" alt="img">
                                                     </div>
                                                     <p>Web Development</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/mobileservices.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/mobileservices.png" alt="img">
                                                     </div>
                                                     <p>Mobile Development</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/ecommerceservices.png" alt="img">
                                                     </div>
                                                     <p>CMS & Ecomm.</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/graphicservices.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/graphicservices.png" alt="img">
                                                     </div>
                                                     <p>Grapics & Web Design</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/enterprice_solution.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/enterprice_solution.png" alt="img">
                                                     </div>
                                                     <p>Enterprise Solution</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/seo_optimization.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/seo_optimization.png" alt="img">
                                                     </div>
                                                     <p>SEO</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/digital_marketing.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/digital_marketing.png" alt="img">
                                                     </div>
                                                     <p>Digital Marketing</p>
                                                 </div>
                                                 <div class="dropdown_slider_item">
                                                     <div>
-                                                        <img src="/assets/d9_images/social_media.png" alt="" title="" >
+                                                        <img src="/assets/d9_images/social_media.png" alt="img">
                                                     </div>
                                                     <p>Social Media Marketing</p>
                                                 </div>
@@ -257,49 +257,49 @@
                                 <div class="dropdown_slider_content">
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/webservices.png" alt="" title="" >
+                                            <img src="/assets/d9_images/webservices.png" alt="img">
                                         </div>
                                         <p>Web Development</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/mobileservices.png" alt="" title="" >
+                                            <img src="/assets/d9_images/mobileservices.png" alt="img">
                                         </div>
                                         <p>Mobile Development</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/ecommerceservices.png" alt="" title="" >
+                                            <img src="/assets/d9_images/ecommerceservices.png" alt="img">
                                         </div>
                                         <p>CMS & Ecomm.</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/graphicservices.png" alt="" title="" >
+                                            <img src="/assets/d9_images/graphicservices.png" alt="img">
                                         </div>
                                         <p>Grapics & Web Design</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/enterprice_solution.png" alt="" title="" >
+                                            <img src="/assets/d9_images/enterprice_solution.png" alt="img">
                                         </div>
                                         <p>Enterprise Solution</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/seo_optimization.png" alt="" title="" >
+                                            <img src="/assets/d9_images/seo_optimization.png" alt="img">
                                         </div>
                                         <p>SEO</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/digital_marketing.png" alt="" title="" >
+                                            <img src="/assets/d9_images/digital_marketing.png" alt="img">
                                         </div>
                                         <p>Digital Marketing</p>
                                     </div>
                                     <div class="dropdown_slider_item">
                                         <div>
-                                            <img src="/assets/d9_images/social_media.png" alt="" title="" >
+                                            <img src="/assets/d9_images/social_media.png" alt="img">
                                         </div>
                                         <p>Social Media Marketing</p>
                                     </div>

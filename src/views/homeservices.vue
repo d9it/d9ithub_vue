@@ -78,10 +78,10 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
                             <i class="fas fa-long-arrow-alt-left"></i>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
                             <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>

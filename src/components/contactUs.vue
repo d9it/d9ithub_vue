@@ -16,7 +16,7 @@
 			<div class="container">
 				<div class="contact-wrapper row">
 					<div class="col-md-6">
-						<img src="/assets/d9_images/contactus.png" alt="" title="" style="max-width:100%">
+						<img src="/assets/d9_images/webp/contactus.webp" alt="img" width="100%" height="auto" style="max-width:100%">
 					</div>
 					<div class="contact-box col-md-6 form-box">
 						<form class="contact-form" >
