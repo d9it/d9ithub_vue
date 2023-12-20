@@ -19,7 +19,7 @@
                   <div class="col-lg-4 col-md-12 footer-widget footer-about">
                      <!-- <h3 class="widget-title">About D9ithub</h3>
                      <p>D9ithub is a global web development, mobile development and software solution provider in Ahmedabad, India. D9ithub having a art of off source development center in india which provides a high quality and reasonable cost with effective solution for their worldwide clients.</p> -->
-                    <img src="/assets/d9_images/d9ithublogo_white.png" alt="" class="footer_logo">
+                    <img src="/assets/d9_images/d9ithublogo_white.png" alt="img" width="100%" height="auto" class="footer_logo">
                      <h3 class="widget-title">Follow Us</h3>
                      <div class="footer-social">
                         <ul>
@@ -32,7 +32,7 @@
                            <li>
                               <a href="https://www.upwork.com/agencies/893775696471093248/" target="_blank">
                                  <div>
-                                    <img src="/assets/d9_images/upwork.svg" alt="">
+                                    <img src="/assets/d9_images/upwork.svg" alt="icon">
                                  </div>
                               </a>
                            </li>

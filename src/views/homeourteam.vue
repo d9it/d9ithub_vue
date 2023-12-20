@@ -12,7 +12,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/digvijayvaghela.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/digvijayvaghela.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Digvijaysinh Vaghela</figcaption>
                                     <span>Managing Director</span>
                                 </figure>
@@ -21,7 +21,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/dhruvpatel.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/dhruvpatel.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Dhruv Patel</figcaption>
                                     <span>CEO</span>
                                 </figure>
@@ -30,7 +30,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/palaksukhadiya.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/palaksukhadiya.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Palak Sukhadiya</figcaption>
                                     <span>Web & Graphics Designer</span>
                                 </figure>
@@ -39,7 +39,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/amitsolanki.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/amitsolanki.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Amit Solanki</figcaption>
                                     <span>Sr. Laravel & AWS Developer</span>
                                 </figure>
@@ -48,7 +48,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/sandeep_singh.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/sandeep_singh.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Sandeep Singh</figcaption>
                                     <span>Full Stack & DevOps Developer</span>
                                 </figure>
@@ -57,7 +57,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/tulsi_vanod.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/tulsi_vanod.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Tulsi Vanol</figcaption>
                                     <span>Java & Mobile App Developer</span>
                                 </figure>
@@ -66,7 +66,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/chetan_singhal.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/chetan_singhal.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Chetan Singhal</figcaption>
                                     <span>Sr. Laravel & Backend Developer</span>
                                 </figure>
@@ -75,7 +75,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/hardik_chaniyara.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/hardik_chaniyara.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Hardik Chaniyara</figcaption>
                                     <span>React Js Developer</span>
                                 </figure>
@@ -84,7 +84,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/jagrut_rabadiya.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/jagrut_rabadiya.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Jagrut Rabadiya</figcaption>
                                     <span>UI/UX Designer</span>
                                 </figure>
@@ -93,7 +93,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/kinjaljain.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/kinjaljain.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Kinjal Jain</figcaption>
                                     <span>Jr. Frontend/React Js Developer</span>
                                 </figure>
@@ -102,7 +102,7 @@
                         <li class="mis-slide" data-aos="flip-left" data-aos-duration="1500">
                             <a class="mis-container">
                                 <figure>
-                                    <img src="/assets/d9_images/webp/maulik_dobariya.webp" alt="" title="">
+                                    <img src="/assets/d9_images/webp/maulik_dobariya.webp" alt="img" width="100%" height="auto">
                                     <figcaption>Maulik Dobariya</figcaption>
                                     <span>Laravel & API Expert</span>
                                 </figure>

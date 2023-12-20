@@ -24,7 +24,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/web_development.png" alt="" title="" >
+									<img src="/assets/d9_images/webp/web_development.webp" alt="img" width="100%" height="auto">
 								</div>
 							</div> 
 						</div>
@@ -47,7 +47,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/ecommerce_cms.png" alt="" title="">
+									<img src="/assets/d9_images/webp/ecommerce_cms.webp" alt="img" width="100%" height="auto">
 								</div>
 							</div> 
 						</div>
@@ -139,16 +139,16 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/enterprise_solition.png" alt="" title="">
+									<img src="/assets/d9_images/webp/enterprise_solition.webp" alt="" title="">
 								</div>
 							</div> 
 						</div>
 					</div>
 				</div>
-				<a class="carousel-control-prev" href="#homecarouselslider" role="button" data-slide="prev">
+				<a class="carousel-control-prev" href="#homecarouselslider" data-slide="prev">
 					<i class="fas fa-long-arrow-alt-left"></i>
 				</a>
-				<a class="carousel-control-next" href="#homecarouselslider" role="button" data-slide="next">
+				<a class="carousel-control-next" href="#homecarouselslider" data-slide="next">
 					<i class="fas fa-long-arrow-alt-right"></i>
 				</a>
 			</div>
