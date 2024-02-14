@@ -3,10 +3,10 @@
         <div class="home_about_us">
             <div class="container p-0">
                 <div class="row">
-                    <div class="col-md-1 col-lg-1"></div>
+                    <div class="col-md-1 col-lg-1"><h2>&nbsp;</h2></div>
                     <div class="col-lg-5 col-md-5">
                         <div class="block-decorate-img" style="position:relative;z-index:2" data-aos="zoom-out-right" data-aos-duration="1000">
-                            <img src="/assets/d9_images/webp/aboutus.webp" alt="img" width="100%" height="auto" style="max-width:100%;width:auto">
+                            <img src="/assets/d9_images/who_we_are.webp" alt="" title="" height="auto" style="max-width:100%;width:auto">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">

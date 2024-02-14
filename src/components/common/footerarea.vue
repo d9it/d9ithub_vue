@@ -4,10 +4,30 @@
          <div class="footer-top">
             <div class="container">
                <div class="footer-top-bg row">
-                  <div class="col-lg-12 footer-box text-center">
-                     <div class="footer-box-content m-0">
-                        <h3 class="footer_text">Top Developers & Designers Agency(45 hours / week) - Website & Mobile Application Development</h3>
-                     </div>
+                  <div class="footer-box text-center top_review">
+                     <a class="client_review" href="https://www.facebook.com/d9ithub18/" aria-label="facebook link" target="_blank">
+                        <img src="/assets/d9_images/facebook.png" alt="img" width="100%" height="auto">
+                     </a>
+                  </div>
+                  <div class="footer-box text-center top_review">
+                     <a class="client_review" href="https://in.linkedin.com/company/d9ithub" target="_blank" aria-label="Linkedin link">
+                        <img src="/assets/d9_images/linkedin.png" alt="img" width="100%" height="auto">
+                     </a>
+                  </div>
+                  <div class="footer-box text-center top_review">
+                     <a class="client_review" href="https://www.google.com/maps/place/D9ithub+Software+Solutions+Pvt+Ltd/@23.0220291,72.5348394,17z/data=!3m1!4b1!4m6!3m5!1s0x395c2988041721e1:0x89a4e253244ed3e2!8m2!3d23.0220242!4d72.5374143!16s%2Fg%2F11g6j8fbqy?entry=ttu" target="_blank" aria-label="google review">
+                        <img src="/assets/d9_images/Google-Review-Logo.png" alt="img" width="100%" height="auto">
+                     </a>
+                  </div>
+                  <div class="footer-box text-center top_review">
+                     <a class="client_review" href="https://www.upwork.com/agencies/893775696471093248/" aria-label="upwork link" target="_blank">
+                        <img src="/assets/d9_images/upwork.png" alt="img" width="100%" height="auto">
+                     </a>
+                  </div>
+                  <div class="footer-box text-center top_review">
+                     <a class="client_review" href="https://clutch.co/profile/d9ithub-software-solutions-private#highlights" target="_blank" aria-label="clutch link">
+                        <img src="/assets/d9_images/clutch.png" alt="img" width="100%" height="auto">
+                     </a>
                   </div>
                </div>
             </div>
@@ -17,30 +37,11 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-4 col-md-12 footer-widget footer-about">
-                     <!-- <h3 class="widget-title">About D9ithub</h3>
-                     <p>D9ithub is a global web development, mobile development and software solution provider in Ahmedabad, India. D9ithub having a art of off source development center in india which provides a high quality and reasonable cost with effective solution for their worldwide clients.</p> -->
-                    <img src="/assets/d9_images/d9ithublogo_white.png" alt="img" width="100%" height="auto" class="footer_logo">
-                     <h3 class="widget-title">Follow Us</h3>
-                     <div class="footer-social">
-                        <ul>
-                           <li>
-                              <a href="https://www.facebook.com/d9ithub18/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                           </li>
-                           <li>
-                              <a href="https://in.linkedin.com/company/d9ithub" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                           </li>
-                           <li>
-                              <a href="https://www.upwork.com/agencies/893775696471093248/" target="_blank">
-                                 <div>
-                                    <img src="/assets/d9_images/upwork.svg" alt="icon">
-                                 </div>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
+                     <img src="/assets/d9_images/d9ithublogo_white.png" alt="img" width="100%" height="auto" class="footer_logo">
+                     <p>D9ithub is a global web development, mobile development and software solution provider in Ahmedabad, India. D9ithub having a art of off source development center in india which provides a high quality and reasonable cost with effective solution for their worldwide clients.</p>
                   </div>
                   <!-- About us end-->
-                  <div class="col-lg-2 col-md-12 footer-widget">
+                  <div class="col-lg-3 col-md-12 footer-widget">
                      <h3 class="widget-title">Quick Links</h3>
                      <ul class="list-dash">
                         <li @click="setRouteActive('aboutus')"><router-link to="/aboutus">About Us</router-link></li>
@@ -52,7 +53,7 @@
                         <!-- <li @click="setRouteActive('career')"><router-link to="/career">Career</router-link></li> -->
                      </ul>
                   </div>
-                  <div class="col-lg-6 col-md-12W footer-widget">
+                  <div class="col-lg-5 col-md-12 footer-widget">
                      <div class="footer-top footer_contactus" style="position: relative;top: 0;">
                         <div class="footer-box">
                            <i class="icon icon-location-pin"></i>

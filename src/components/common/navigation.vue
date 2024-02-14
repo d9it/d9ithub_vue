@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0" >                     
+        <nav class="navbar navbar-expand-lg sticky-top p-0" >                     
             <div class="container p-0">
                 <router-link class="navbar-brand text-center" @click.native="setRouteActive('home')"  to="/">
                     <img src="/assets/d9_images/d9ithublogo.png" alt="img" width="100%" height="auto" class="fixed_header">
@@ -21,302 +21,148 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="d-flex align-items-center">
+                        <router-link class="navbar-brand text-center p-4" @click.native="setRouteActive('home')"  to="/">
+                            <img src="/assets/d9_images/d9ithublogo.png" alt="img" width="100%" height="auto" class="fixed_header">
+                        </router-link>
+                        <button class="navbar-toggler custom-toggler ml-auto mr-3 px-3" type="button" data-toggle="collapse"  data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="text-white"><i class="fas fa-times"></i></span>
+                        </button>
+                    </div>
+
                     <ul class="navbar-nav ml-auto" id="navbarTab">
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'home'}" @click="setRouteActive('home')">
+                        <li :class="{'nav-item':true, 'active':this.$store.state.activeRoute == 'home'}" @click="setRouteActive('home')">
                             <router-link to="/" class="nav-link">Home</router-link>
                         </li>
-                        <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'aboutus'}" @click="setRouteActive('aboutus')">
-                            <router-link to="/aboutus" class="nav-link">About Us</router-link>
-                        </li> -->
                         <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'aboutus'}" >
-                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" >About Us</a>
+                            <a href="/aboutus" class="nav-link dropdown-toggle" >About Us</a>
                             <ul class="dropdown-menu" >
-                                <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/aboutus">About D9ithub</router-link></li>
-                                <li @click="setRouteActive('aboutus')"><router-link class="dropdown-item" to="/ourteam">Our Team</router-link></li>
+                                <li @click="setRouteActive('aboutus')">
+                                    <router-link class="dropdown-item" to="/aboutus">About D9ithub</router-link>
+                                </li>
+                                <li @click="setRouteActive('aboutus')">
+                                    <router-link class="dropdown-item" to="/ourteam">Our Team</router-link>
+                                </li>
+                                <!-- <li @click="setRouteActive('aboutus')">
+                                    <router-link class="dropdown-item" to="/career">Career</router-link>
+                                </li> -->
                             </ul> 
                         </li>
-                        <li :class="{'nav-item d-block hide-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">  <!-- @click="setRouteActive('ourService')" -->
-                            <router-link to="" class="nav-link dropdown-toggle" v-scroll-to="'#ourService'">Our Services</router-link>
-                        </li>
-                        <!-- show at small screen -->
-                        <li :class="{'nav-item d-none show-at-small-screen': true, 'active': this.$store.state.activeRoute == 'ourService'}" @click="collapseDropdown">
-                            <router-link to="" class="nav-link dropdown-toggle" v-scroll-to="'#ourService'">Our Services</router-link>
-                            <div :class="{'dropdrown_content_large': true, 'expand': collapsed}">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-6">
-                                            <h5>Development Services</h5>
-                                            <ul>
-                                                <li>
-                                                    <router-link to="/ourService/webDevelopment" class="nav-link"><i class="fas fa-cogs"></i> Web Development</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/mobileDevelopment" class="nav-link"><i class="fas fa-mobile-alt"></i> Mobile Development</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/cmsAndEcomDevelopment" class="nav-link"><i class="fab fa-opencart"></i> CMS & Ecommerce Development</router-link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4 col-sm-6">
-                                            <h5>Designing & Other Services</h5>
-                                            <ul>
-                                                <li>
-                                                    <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-palette"></i> Graphics Design</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/enterpriseSolutions" class="nav-link"><i class="far fa-lightbulb"></i> Enterprise Solutions</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-globe-africa"></i> Website Design</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/hireDedicatedResources" class="nav-link"><i class="fas fa-users"></i> Hire Dedicated Resources</router-link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4 col-sm-6">
-                                            <h5>Marketing Services</h5>
-                                            <ul>
-                                                <li>
-                                                    <router-link to="/ourService/searchEngineOptimization" class="nav-link"><i class="fas fa-search-location"></i> Search Engine Optimization</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/digitalMarketing" class="nav-link"><i class="fas fa-bullhorn"></i> Digital Marketing</router-link>
-                                                </li>
-                                                <li>
-                                                    <router-link to="/ourService/socialMediaMarketing" class="nav-link"><i class="fas fa-desktop"></i> Social Media Marketing</router-link>
-                                                </li>
-                                            </ul>
-                                        </div>
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourService'}" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
+                            <router-link to="/ourService" class="nav-link dropdown-toggle">Our Services</router-link>
+                            <!-- show at large screen -->
+                            <div class="dropdrown_content_large expand" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
+                                <div class="dropdown_slider_content row m-0">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <router-link to="/ourService/webDevelopment" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/webservices.png" alt="img">
+                                            <p>Web Development</p>
+                                        </router-link>
+                                        <router-link to="/ourService/mobileDevelopment" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/mobileservices.png" alt="img">
+                                            <p>Mobile Development</p>
+                                        </router-link>
+                                        <router-link to="/ourService/cmsAndEcomDevelopment" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/ecommerceservices.png" alt="img">
+                                            <p>CMS & Ecommerce Development</p>
+                                        </router-link>
+                                        <router-link to="/ourService/graphicsAndWebDesign" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/graphicservices.png" alt="img">
+                                            <p>Graphics & Website Design</p>
+                                        </router-link>
+                                        <router-link to="/ourService/enterpriseSolutions" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/enterprice_solution.png" alt="img">
+                                            <p>Enterprise Solutions</p>
+                                        </router-link>
                                     </div>
-                                    <div class="pt-3" style="border-top: 2px solid rgba(128, 128, 128, 0.216);">
-                                        <div class="we-deal-with w-100 d-flex align-items-start justify-content-between flex-wrap">
-                                            <h4>We Deal With Services</h4>
-                                            <div @click="setRouteActive('ourService')">
-                                                <router-link to="/ourService" class="under mt-1">View All</router-link>
-                                            </div>
-                                        </div>
-                                        <div class="dropdown_slider">
-                                            <div class="dropdown_slider_content">
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/webservices.png" alt="img">
-                                                    </div>
-                                                    <p>Web Development</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/mobileservices.png" alt="img">
-                                                    </div>
-                                                    <p>Mobile Development</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/ecommerceservices.png" alt="img">
-                                                    </div>
-                                                    <p>CMS & Ecomm.</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/graphicservices.png" alt="img">
-                                                    </div>
-                                                    <p>Grapics & Web Design</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/enterprice_solution.png" alt="img">
-                                                    </div>
-                                                    <p>Enterprise Solution</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/seo_optimization.png" alt="img">
-                                                    </div>
-                                                    <p>SEO</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/digital_marketing.png" alt="img">
-                                                    </div>
-                                                    <p>Digital Marketing</p>
-                                                </div>
-                                                <div class="dropdown_slider_item">
-                                                    <div>
-                                                        <img src="/assets/d9_images/social_media.png" alt="img">
-                                                    </div>
-                                                    <p>Social Media Marketing</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <router-link to="/ourService/hireDedicatedResources" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/hireservices.png" alt="img">
+                                            <p>Hire Dedicated Resources</p>
+                                        </router-link>
+                                        <router-link to="/ourService/searchEngineOptimization" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/seo_optimization.png" alt="img">
+                                            <p>Search Engine Optimization</p>
+                                        </router-link>
+                                        <router-link to="/ourService/digitalMarketing" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/digital_marketing.png" alt="img">
+                                            <p>Digital Marketing</p>
+                                        </router-link>
+                                        <router-link to="/ourService/socialMediaMarketing" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/social_media.png" alt="img">
+                                            <p>Social Media Marketing</p>
+                                        </router-link>
                                     </div>
                                 </div>
                             </div> 
                         </li>
-                        <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" >
-                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" >Portfolio</a>
-                            <ul class="dropdown-menu" >
-                                <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" @click="setRouteActive('portfolio')">
-                                    <router-link class="dropdown-item dropdown-toggle" to="/php">Web Development</router-link>
-                                    <ul class="dropdown-menu" >
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/php">PHP</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/laravel">Laravel</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/vue">Vue</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/wordpress">Wordpress</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/ecommerce">Ecommerce</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/mobile">Mobile app</router-link></li>
-                                    </ul>
-                                </li>
-                                <li :class="{'nav-item':true, 'dropdown':true, 'active': this.$store.state.activeRoute == 'portfolio'}" @click="setRouteActive('portfolio')">
-                                    <router-link class="dropdown-item dropdown-toggle" to="/webdesign">Graphics & Wesite Design</router-link>
-                                    <ul class="dropdown-menu" >
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/webdesign">Web Design</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/psd">PSD</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/logo">Logo</router-link></li>
-                                        <li @click="setRouteActive('portfolio')"><router-link class="dropdown-item" to="/responsive">Responsive</router-link></li>
-                                    </ul>
-                                </li>
-                            </ul> 
+                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'portfolio'}" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
+                            <router-link to="" class="nav-link dropdown-toggle">Portfolio</router-link>
+                            <!-- show at large screen -->
+                            <div class="dropdrown_content_large expand" @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
+                                <div class="dropdown_slider_content row m-0">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <h6 class="mb-3 px-2"><strong>Web Development</strong></h6>
+                                        <router-link to="/php" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/php_blue.png" alt="img">
+                                            <p>PHP</p>
+                                        </router-link>
+                                        <router-link to="/laravel" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/laravel_blue.png" alt="img">
+                                            <p>Laravel</p>
+                                        </router-link>
+                                        <router-link to="/vue" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/vue_blue.png" alt="img">
+                                            <p>Vue</p>
+                                        </router-link>
+                                        <router-link to="/wordpress" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/wordpress_blue.png" alt="img">
+                                            <p>Wordpress</p>
+                                        </router-link>
+                                        <router-link to="/ecommerce" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/ecommerceservices.png" alt="img">
+                                            <p>Ecommerce</p>
+                                        </router-link>
+                                        <router-link to="/mobile" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/mobileapp_blue.png" alt="img">
+                                            <p>Mobile app</p>
+                                        </router-link>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <h6 class="mb-3 px-2"><strong>Graphics & Wesite Design</strong></h6>
+                                        <router-link to="/webdesign" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/webdesign_blue.png" alt="img">
+                                            <p>Web Design</p>
+                                        </router-link>
+                                        <router-link to="/psd" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/psd_blue.png" alt="img">
+                                            <p>PSD</p>
+                                        </router-link>
+                                        <router-link to="/logo" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/logo_blue.png" alt="img">
+                                            <p>Logo</p>
+                                        </router-link>
+                                        <router-link to="/responsive" class="dropdown_slider_item">
+                                            <img src="/assets/d9_images/responsive_blue.png" alt="img">
+                                            <p>Responsive</p>
+                                        </router-link>
+                                    </div>
+                                </div>
+                            </div> 
                         </li>
-                        <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'ourTeam'}" @click="setRouteActive('ourTeam')">
-                            <router-link to="/ourteam" class="nav-link">Our Team</router-link>
-                        </li> -->
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'testimonial'}" @click="setRouteActive('testimonial')">
+                        <li :class="{'nav-item':true, 'active': this.$store.state.activeRoute == 'testimonial'}" @click="setRouteActive('testimonial')">
                             <router-link to="/testimonial" class="nav-link">Testimonial</router-link>
                         </li>
-                        <!-- <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'career'}" @click="setRouteActive('career')">
-                            <router-link to="/career" class="nav-link">Career</router-link>
-                        </li> -->
-                        <li :class="{'nav-item': true, 'active': this.$store.state.activeRoute == 'contactus'}" @click="setRouteActive('contactus')">
+                        <li :class="{'nav-item':true, 'active': this.$store.state.activeRoute == 'testimonial'}" @click="setRouteActive('testimonial')">
+                            <router-link to="/blog" class="nav-link">Blog</router-link>
+                        </li>
+                        <li :class="{'nav-item':true, 'active': this.$store.state.activeRoute == 'contactus'}" @click="setRouteActive('contactus')">
                             <router-link to="/contactus" class="nav-link">Contact Us</router-link>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- show at large screen -->
-            <div :class="{'dropdrown_content_large': true, 'expand': expand}"  @mouseenter="exapndDropdown" @mouseleave="closeDropdown">
-                <div class="container px-0">
-                    <div class="row">
-                        <div class="col-7 py-4" style="border-right: 3px solid rgba(128, 128, 128, 0.216);">
-                            <div class="row">
-                                <div class="col-4">
-                                    <h5>Development Services</h5>
-                                    <ul>
-                                        <li>
-                                            <router-link to="/ourService/webDevelopment" class="nav-link"><i class="fas fa-cogs"></i> Web Development</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/mobileDevelopment" class="nav-link"><i class="fas fa-mobile-alt"></i> Mobile Development</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/cmsAndEcomDevelopment" class="nav-link"><i class="fab fa-opencart"></i> CMS & Ecommerce Development</router-link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-4">
-                                    <h5>Designing & Other Services</h5>
-                                    <ul>
-                                        <li>
-                                            <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-palette"></i> Graphics Design</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/enterpriseSolutions" class="nav-link"><i class="far fa-lightbulb"></i> Enterprise Solutions</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/graphicsAndWebDesign" class="nav-link"><i class="fas fa-globe-africa"></i> Website Design</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/hireDedicatedResources" class="nav-link"><i class="fas fa-users"></i> Hire Dedicated Resources</router-link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-4">
-                                    <h5>Marketing Services</h5>
-                                    <ul>
-                                        <li>
-                                            <router-link to="/ourService/searchEngineOptimization" class="nav-link"><i class="fas fa-search-location"></i> Search Engine Optimization</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/digitalMarketing" class="nav-link"><i class="fas fa-bullhorn"></i> Digital Marketing</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/ourService/socialMediaMarketing" class="nav-link"><i class="fas fa-desktop"></i> Social Media Marketing</router-link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-5 py-4 pl-4">
-                            <div class="w-100 d-flex align-items-start justify-content-between">
-                                <h4>We Deal With Services</h4>
-                                <div @click="setRouteActive('ourService')">
-                                    <router-link to="/ourService" class="under mt-1">View All</router-link>
-                                </div>
-                            </div>
-                            <div class="dropdown_slider">
-                                <div class="dropdown_slider_content">
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/webservices.png" alt="img">
-                                        </div>
-                                        <p>Web Development</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/mobileservices.png" alt="img">
-                                        </div>
-                                        <p>Mobile Development</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/ecommerceservices.png" alt="img">
-                                        </div>
-                                        <p>CMS & Ecomm.</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/graphicservices.png" alt="img">
-                                        </div>
-                                        <p>Grapics & Web Design</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/enterprice_solution.png" alt="img">
-                                        </div>
-                                        <p>Enterprise Solution</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/seo_optimization.png" alt="img">
-                                        </div>
-                                        <p>SEO</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/digital_marketing.png" alt="img">
-                                        </div>
-                                        <p>Digital Marketing</p>
-                                    </div>
-                                    <div class="dropdown_slider_item">
-                                        <div>
-                                            <img src="/assets/d9_images/social_media.png" alt="img">
-                                        </div>
-                                        <p>Social Media Marketing</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-start">  
-                                <button class="slider-aerrows" @click.prevent="scrollLeftSide">
-                                    <i class="fas fa-angle-left"></i>
-                                </button>
-                                <button class="slider-aerrows" @click.prevent="scrollRightSide">
-                                    <i class="fas fa-angle-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
+            
         </nav>
     </div>
 </template>

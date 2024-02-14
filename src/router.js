@@ -8,6 +8,8 @@ import ourTeam from "./components/ourTeam"
 import testimonial from "./components/testimonial"
 import contactus from "./components/contactUs"
 import career from "./components/CareerComponent"
+import blog from "./components/blogComponent"
+import blogdetail from "./components/blogDetailComponent"
 // all services pages
 import webDevelopment from "./components/services/webDevelopment"
 import mobileDevelopment from "./components/services/mobileDevelopment"
@@ -118,6 +120,16 @@ export default new Router({
       path: "/career",
       name: "career",
       component: career,
+    },
+    {
+      path: "/blog",
+      name: "blog",
+      component: blog,
+    },
+    {
+      path: "/blogdetail",
+      name: "blogdetail",
+      component: blogdetail,
     },
     {
       path: "*",
