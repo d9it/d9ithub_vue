@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<!-- end Breadcume area -->
-		<div class="container">
+		<div class="container my-5">
 			<div class="web_dev_service pb-5">
 				<div class="row align-items-center">
 					<div class="col-md-6 col-12">
@@ -23,12 +23,12 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-12 text-center pt-4"  data-aos="zoom-in" data-aos-duration="1200">
-						<img src="/assets/d9_images/why_d9.png" alt="" title="" class="img-fluid">
+						<img src="/assets/d9_images/webp/enterprice_sol.webp" alt="" title="" class="img-fluid">
 					</div>
 				</div>
 			</div>
 		</div>
-        <div class="review_services py-4">
+        <div class="review_services py-4 mb-4">
             <div class="container">
 				<div class="row">
                     <div class="col-md-4 text-center review_service_item">
@@ -47,50 +47,173 @@
 			</div>
 		</div>
         <div class="container">
-            <div class="service_inner_pages_card py-4 mb-5">
+            <div class="service_inner_pages_card py-5 mb-5">
 				<div class="row position-relative">
-                    <div class="col-md-5 mt-4">
+                    <div class="col-md-8 text-center m-auto">
                         <div class="services_left_side">
 							<h2>Our Detailed Enterprise Solutions Process</h2>
                             <p class="mb-0">These systems play a crucial role in helping organizations manage and optimize their day-to-day operations, make informed decisions, and achieve their business goals.</p>
                         </div>
                     </div>
-                    <div class="col-md-7 mt-4">
-                        <div class="service_inner_pages_card_item">
-                            <h5>01</h5>
-                            <hr>
-                            <h3>Scalability</h3>
-                            <p class="mb-0">Enterprise solutions are designed to scale as the organization grows, accommodating increased data, users, and functionalities.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>02</h5>
-                            <hr>
-                            <h3>Integration</h3>
-                            <p class="mb-0">They often integrate with existing systems and applications within the organization to ensure seamless data flow and communication between different departments.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>03</h5>
-                            <hr>
-                            <h3>Comprehensive Functionality</h3>
-                            <p class="mb-0">Enterprise solutions typically offer a wide range of features and functionalities to support various business processes such as finance, human resources, supply chain management, customer relationship management (CRM), and more.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>04</h5>
-                            <hr>
-                            <h3>Customization</h3>
-                            <p class="mb-0">These solutions can be customized to meet the specific needs and workflows of a particular organization, allowing for flexibility in adapting to unique business requirements.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>05</h5>
-                            <hr>
-                            <h3>Security</h3>
-                            <p class="mb-0">Enterprise solutions prioritize data security and often include robust security features to protect sensitive information.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>06</h5>
-                            <hr>
-                            <h3>Collaboration and Communication</h3>
-                            <p class="mb-0">Many enterprise solutions include tools for collaboration and communication to enhance teamwork and information sharing within the organization.</p>
+                    <div class="col-md-12">
+                        <div class="container py-2 mt-5 mb-4">
+                            <!-- timeline item 1 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm"></div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <!-- timeline item 1 event content -->
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-left" data-aos-duration="1500">
+                                        <h5>01</h5>
+                                        <hr>
+                                        <h3>Scalability</h3>
+                                        <p class="mb-0">Enterprise solutions are designed to scale as the organization grows, accommodating increased data, users, and functionalities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 2 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-right" data-aos-duration="1500">
+                                        <h5>02</h5>
+                                        <hr>
+                                        <h3>Integration</h3>
+                                        <p class="mb-0">They often integrate with existing systems and applications within the organization to ensure seamless data flow and communication between different departments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm"></div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 3 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm"></div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-left" data-aos-duration="1500">
+                                        <h5>03</h5>
+                                        <hr>
+                                        <h3>Comprehensive Functionality</h3>
+                                        <p class="mb-0">Enterprise solutions typically offer a wide range of features and functionalities to support various business processes such as finance, human resources, supply chain management, customer relationship management (CRM), and more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 4 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-right" data-aos-duration="1500">
+                                        <h5>04</h5>
+                                        <hr>
+                                        <h3>Customization</h3>
+                                        <p class="mb-0">These solutions can be customized to meet the specific needs and workflows of a particular organization, allowing for flexibility in adapting to unique business requirements.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm"></div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 5 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm"></div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-left" data-aos-duration="1500">
+                                        <h5>05</h5>
+                                        <hr>
+                                        <h3>Security</h3>
+                                        <p class="mb-0">Enterprise solutions prioritize data security and often include robust security features to protect sensitive information.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 6 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-right" data-aos-duration="1500">
+                                        <h5>06</h5>
+                                        <hr>
+                                        <h3>Collaboration and Communication</h3>
+                                        <p class="mb-0">Many enterprise solutions include tools for collaboration and communication to enhance teamwork and information sharing within the organization.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm"></div>
+                            </div>
+                            <!--/row-->
                         </div>
                     </div>
 				</div>

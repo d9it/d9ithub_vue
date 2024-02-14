@@ -17,7 +17,7 @@
 				<div class="row">
 					<div class="col-md-1 col-lg-1"></div>
 					<div class="col-md-5 col-sm-6 col-12"  data-aos="zoom-in" data-aos-duration="1200">
-						<img src="/assets/d9_images/who_we_are.png" alt="" title="">
+						<img src="/assets/d9_images/who_we_are.webp" alt="" title="">
 					</div>
 					<div class="col-md-5 col-sm-6 col-12">
 						<div class="right_about_slide home_abouttext pt-5">
@@ -26,10 +26,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row my-5">
 					<div class="col-md-1 col-lg-1"></div>
 					<div class="col-md-5 col-sm-6 col-12">
-						<div class="right_about_slide home_abouttext pt-5">
+						<div class="right_about_slide home_abouttext py-5">
 							<h3 class="devider-bottom" data-aos="fade-right" data-aos-duration="1000">What We Do?</h3>
 							<p class="mt-3" data-aos="fade-right" data-aos-duration="1500">We love creating easy to use, effective and beautiful websites and specialize in responsive web design, HTML5 & Mobile applications. D9ithub has expertise on the forefront of new and progressive technologies. We have a great and loyal client base, some of which we have been working with for over 3 years! We don’t really advertise and most of our work is from referrals or repeat business.</p>
 						</div>
@@ -38,7 +38,7 @@
 						<img src="/assets/d9_images/what_we_do.png" alt="" title="">
 					</div>
 				</div>
-				<div class="row">
+				<div class="row mb-5">
 					<div class="col-md-1 col-lg-1"></div>
 					<div class="col-md-5 col-sm-6 col-12"  data-aos="zoom-in" data-aos-duration="1200">
 						<img src="/assets/d9_images/why_d9.png" alt="" title="">

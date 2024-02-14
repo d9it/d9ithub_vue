@@ -37,9 +37,36 @@
 				</div>
 			</div>
 		</div>
-		<div class="our_team text-center">
+		<div class="our_team text-center founder_bg" style="background: #fff;">
 			<div class="container">
-				<h2 data-aos="zoom-in" data-aos-duration="1300">OUR STRENGTH</h2>
+				<h2 data-aos="zoom-in" data-aos-duration="1300">Our Champions</h2>
+				<div class="row d-inline">
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/amitsolanki.webp" alt="img" width="100%" height="auto">
+							<div class="detail_bg">
+								<h3>Amit Solanki</h3>
+								<p class="mb-2">Sr. Laravel & AWS Developer</p>
+								<p>( Team Leader )</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/sandeep_singh.webp" alt="img" width="100%" height="auto">
+							<div class="detail_bg">
+								<h3>Sandeep Singh</h3>
+								<p class="mb-2">Full Stack & DevOps Developer</p>
+								<p>( Project Manager )</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="our_team text-center" style="background: #eef4fc;">
+			<div class="container">
+				<h2 data-aos="zoom-in" data-aos-duration="1300">Our Team</h2>
 				<div class="row">
 					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
 						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
@@ -52,28 +79,19 @@
 					</div>
 					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
 						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
-							<img src="/assets/d9_images/webp/amitsolanki.webp" alt="img" width="100%" height="auto">
-							<div class="detail_bg">
-								<h3>Amit Solanki</h3>
-								<p>Sr. Laravel & AWS Developer</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
-						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
-							<img src="/assets/d9_images/webp/sandeep_singh.webp" alt="img" width="100%" height="auto">
-							<div class="detail_bg">
-								<h3>Sandeep Singh</h3>
-								<p>Full Stack & DevOps Developer</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
-						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
 							<img src="/assets/d9_images/webp/tulsi_vanod.webp" alt="img" width="100%" height="auto">
 							<div class="detail_bg">
 								<h3>Tulsi Vanol</h3>
 								<p>Java & Mobile App Developer</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/Asadgovani.webp" alt="img" width="100%" height="auto">
+							<div class="detail_bg">
+								<h3>Asad Govani</h3>
+								<p>Mobile App & Golang Developer</p>
 							</div>
 						</div>
 					</div>
@@ -91,7 +109,7 @@
 							<img src="/assets/d9_images/webp/hardik_chaniyara.webp" alt="img" width="100%" height="auto">
 							<div class="detail_bg">
 								<h3>Hardik Chaniyara</h3>
-								<p>React Js Developer</p>
+								<p>MERN Stack Developer</p>
 							</div>
 						</div>
 					</div>
@@ -119,6 +137,15 @@
 							<div class="detail_bg">
 								<h3>Maulik Dobariya</h3>
 								<p>Laravel & API Expert</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-3 col-sm-6 col-12 team_detail">
+						<div class="inside_team" data-aos="flip-right" data-aos-duration="1500">
+							<img src="/assets/d9_images/webp/prashant_prajapati.webp" alt="img" width="100%" height="auto">
+							<div class="detail_bg">
+								<h3>Prashant Prajapati</h3>
+								<p>MEAN Stack Developer</p>
 							</div>
 						</div>
 					</div>

@@ -15,8 +15,8 @@
 		<div class="service_content">
 			<div class="container">
 				<div class="contact-wrapper row">
-					<div class="col-md-6">
-						<img src="/assets/d9_images/webp/contactus.webp" alt="img" width="100%" height="auto" style="max-width:100%">
+					<div class="col-md-6 mb-5 text-center">
+						<img src="/assets/d9_images/why_d9.png" alt="img" height="auto" style="max-width:80%">
 					</div>
 					<div class="contact-box col-md-6 form-box">
 						<form class="contact-form" >

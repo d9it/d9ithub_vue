@@ -6,30 +6,30 @@
 					<p class="text_sub text-center" data-aos="zoom-in" data-aos-duration="1000">Contact Us</p>
 				</div>
 				<div class="contact-wrapper row">
-					<div class="col-md-6">
-						<img src="/assets/d9_images/webp/contactus.webp" alt="img" width="100%" height="auto" style="max-width:100%">
+					<div class="col-md-6 mb-5 text-center">
+						<img src="/assets/d9_images/why_d9.png" alt="img" height="auto" style="max-width:80%">
 					</div>
 					<div class="contact-box col-md-6 form-box">
 						<form class="contact-form" >
 							<div class="row">
 								<div class="col-lg-12">
-									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1000">
+									<div class="form-group" data-aos="zoom-in" data-aos-duration="1000">
 										<input class="form-control" id="name" name="name" placeholder="Your Name" type="text" required="">
 									</div>
 								</div>
 								<!-- Col end-->
 								<div class="col-lg-12">
-									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1200">
+									<div class="form-group" data-aos="zoom-in" data-aos-duration="1200">
 										<input class="form-control " id="Email" name="Email" placeholder="Email" type="text" required="">
 									</div>
 								</div>
 								<div class="col-lg-12">
-									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1400">
+									<div class="form-group" data-aos="zoom-in" data-aos-duration="1400">
 										<input class="form-control" id="Phone" name="Phone" placeholder="Phone Number" type="text" required="">
 									</div>
 								</div>
 								<div class="col-lg-12">
-									<div class="form-group" data-aos="zoom-out-left" data-aos-duration="1600">
+									<div class="form-group" data-aos="zoom-in" data-aos-duration="1600">
 										<textarea class="form-control form-message required-field" id="message" placeholder="Comments" rows="5"></textarea>
 									</div>
 								</div>

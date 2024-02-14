@@ -12,23 +12,23 @@
 			</div>
 		</div>
 		<!-- end Breadcume area -->
-		<div class="container">
+		<div class="container my-5">
 			<div class="web_dev_service pb-5">
 				<div class="row align-items-center">
+                    <div class="col-md-6 col-12 text-center pt-4"  data-aos="zoom-in" data-aos-duration="1200">
+						<img src="/assets/d9_images/webp/hire_developer.webp" alt="" title="" class="img-fluid">
+					</div>
 					<div class="col-md-6 col-12">
 						<div class="pt-5">
-							<h3 data-aos="fade-right" data-aos-duration="1000">Hire Dedicated Resources</h3>
-							<p class="mt-3" data-aos="fade-right" data-aos-duration="1500">"Hire Dedicated Resources" refers to the practice of hiring professionals or teams to work exclusively on a particular project or tasks for a specified duration. This model is commonly used in the context of software development, web development, digital marketing, and other IT-related projects. The dedicated resources, such as developers, designers, or marketers, are exclusively allocated to your project and work as an extension of your in-house team.</p>
+							<h3 data-aos="fade-left" data-aos-duration="1000">Hire Dedicated Resources</h3>
+							<p class="mt-3" data-aos="fade-left" data-aos-duration="1500">"Hire Dedicated Resources" refers to the practice of hiring professionals or teams to work exclusively on a particular project or tasks for a specified duration. This model is commonly used in the context of software development, web development, digital marketing, and other IT-related projects. The dedicated resources, such as developers, designers, or marketers, are exclusively allocated to your project and work as an extension of your in-house team.</p>
                             <router-link to="/contactus" class="btn btn_link mt-2" type="submit">Let's Connect</router-link>
 						</div>
-					</div>
-					<div class="col-md-6 col-12 text-center pt-4"  data-aos="zoom-in" data-aos-duration="1200">
-						<img src="/assets/d9_images/who_we_are.png" alt="" title="" class="img-fluid">
 					</div>
 				</div>
 			</div>
 		</div>
-        <div class="review_services py-4">
+        <div class="review_services py-4 mb-4">
             <div class="container">
 				<div class="row">
                     <div class="col-md-4 text-center review_service_item">
@@ -47,38 +47,120 @@
 			</div>
 		</div>
         <div class="container">
-            <div class="service_inner_pages_card py-4 mb-5">
+            <div class="service_inner_pages_card py-5 mb-5">
 				<div class="row position-relative">
-                    <div class="col-md-5 mt-4">
+                    <div class="col-md-8 text-center m-auto">
                         <div class="services_left_side">
 							<h2>Hire Dedicated Resource Process</h2>
                             <p class="mb-0">These systems play a crucial role in helping organizations manage and optimize their day-to-day operations, make informed decisions, and achieve their business goals.</p>
                         </div>
                     </div>
-                    <div class="col-md-7 mt-4">
-                        <div class="service_inner_pages_card_item">
-                            <h5>01</h5>
-                            <hr>
-                            <h3>Exclusivity & Flexibility</h3>
-                            <p class="mb-0">The hired professionals work exclusively on your project, allowing for a high level of focus and commitment and you have the flexibility to scale the team up or down based on project requirements. This can be particularly useful for dynamic projects with changing needs.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>02</h5>
-                            <hr>
-                            <h3>Control</h3>
-                            <p class="mb-0">You have more control over the selection process and can choose resources with specific skills and expertise that align with your project requirements.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>03</h5>
-                            <hr>
-                            <h3>Communication</h3>
-                            <p class="mb-0">As the dedicated resources work closely with your team, communication tends to be more seamless, fostering collaboration and understanding.</p>
-                        </div>
-                        <div class="service_inner_pages_card_item">
-                            <h5>04</h5>
-                            <hr>
-                            <h3>Time Zone Advantage</h3>
-                            <p class="mb-0">Depending on the outsourcing location, you might benefit from a time zone advantage. For example, you could have a team working on your project while you sleep, leading to faster turnaround times.</p>
+                    <div class="col-md-12">
+                        <div class="container py-2 mt-5 mb-4">
+                            <!-- timeline item 1 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm"></div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <!-- timeline item 1 event content -->
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-left" data-aos-duration="1500">
+                                        <h5>01</h5>
+                                        <hr>
+                                        <h3>Exclusivity & Flexibility</h3>
+                                        <p class="mb-0">The hired professionals work exclusively on your project, allowing for a high level of focus and commitment and you have the flexibility to scale the team up or down based on project requirements. This can be particularly useful for dynamic projects with changing needs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 2 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-right" data-aos-duration="1500">
+                                        <h5>02</h5>
+                                        <hr>
+                                        <h3>Control</h3>
+                                        <p class="mb-0">You have more control over the selection process and can choose resources with specific skills and expertise that align with your project requirements.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm"></div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 3 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm"></div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-left" data-aos-duration="1500">
+                                        <h5>03</h5>
+                                        <hr>
+                                        <h3>Communication</h3>
+                                        <p class="mb-0">As the dedicated resources work closely with your team, communication tends to be more seamless, fostering collaboration and understanding.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <!-- timeline item 4 -->
+                            <div class="row no-gutters">
+                                <div class="col-sm py-2">
+                                    <div class="service_inner_pages_card_item" data-aos="fade-right" data-aos-duration="1500">
+                                        <h5>04</h5>
+                                        <hr>
+                                        <h3>Time Zone Advantage</h3>
+                                        <p class="mb-0">Depending on the outsourcing location, you might benefit from a time zone advantage. For example, you could have a team working on your project while you sleep, leading to faster turnaround times.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                    <h5 class="m-2">
+                                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                                    </h5>
+                                    <div class="row h-50">
+                                        <div class="col border-right">&nbsp;</div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm"></div>
+                            </div>
                         </div>
                     </div>
 				</div>

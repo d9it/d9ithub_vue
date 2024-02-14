@@ -2,7 +2,7 @@
 	<!-- start slider area -->
 	<div>
 		<div class="home_mainslider">
-			<div id="homecarouselslider" class="carousel slide" data-ride="carousel">
+			<div id="services" class="carousel slide" data-ride="carousel">
 				<div class="container">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -24,7 +24,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/webp/web_development.webp" alt="img" width="100%" height="auto">
+									<img src="/assets/d9_images/webp/web_dev.webp" alt="img" width="100%" height="auto">
 								</div>
 							</div> 
 						</div>
@@ -47,7 +47,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/webp/ecommerce_cms.webp" alt="img" width="100%" height="auto">
+									<img src="/assets/d9_images/webp/ecommerce_icon.webp" alt="img" width="100%" height="auto">
 								</div>
 							</div> 
 						</div>
@@ -70,7 +70,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/graphics.png" alt="" title="">
+									<img src="/assets/d9_images/webp/graphics.webp" alt="" title="">
 								</div>
 							</div> 
 						</div>
@@ -93,7 +93,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/mobile_app.png" alt="" title="">
+									<img src="/assets/d9_images/webp/mobile_app.webp" alt="" title="">
 								</div>
 							</div> 
 						</div>
@@ -116,7 +116,7 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/hire_developers.png" alt="" title="">
+									<img src="/assets/d9_images/webp/hire_developers.png" alt="" title="">
 								</div>
 							</div> 
 						</div>
@@ -139,16 +139,16 @@
 									</div>
 								</div>
 								<div class="col-md-6 homeslider_img" data-aos="fade-left" data-aos-duration="1000">
-									<img src="/assets/d9_images/webp/enterprise_solition.webp" alt="" title="">
+									<img src="/assets/d9_images/webp/enterprice.webp" alt="" title="">
 								</div>
 							</div> 
 						</div>
 					</div>
 				</div>
-				<a class="carousel-control-prev" href="#homecarouselslider" data-slide="prev">
+				<a class="carousel-control-prev" href="#services" aria-label="carousel slider" data-slide="prev">
 					<i class="fas fa-long-arrow-alt-left"></i>
 				</a>
-				<a class="carousel-control-next" href="#homecarouselslider" data-slide="next">
+				<a class="carousel-control-next" href="#services" aria-label="carousel slider" data-slide="next">
 					<i class="fas fa-long-arrow-alt-right"></i>
 				</a>
 			</div>

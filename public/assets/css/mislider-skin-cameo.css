@@ -8,7 +8,7 @@
         height: 80px;
         background-color: #134d98;
     }
-        .mis-slider li a {
+        .mis-slider li div {
             text-decoration: none;
             color: #134d98 !important;
             font-size: 20px;
